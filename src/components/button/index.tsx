@@ -1,16 +1,30 @@
 /** @jsx jsx */
-import {jsx, Button as ThemeUiButton} from 'theme-ui'
-import * as React from 'react'
-import * as styles from './index.styles'
+import { jsx, Button as ThemeUiButton } from 'theme-ui';
+import * as React from 'react';
+import * as styles from './index.styles';
 
 export type ButtonProps = {
-  variant: string,
-  children: React.ReactNode,
-  onClick: () => {}
-}
+  variant?: string;
+  onClick?: () => void;
+  children: React.ReactNode;
+};
 
-const Button: React.FC<ButtonProps> = ({variant, children, onClick}) => {
-  return <ThemeUiButton sx={styles.buttonCss} variant={variant} onClick={onClick}>{children}</ThemeUiButton>
-}
+export const Button: React.FC<ButtonProps> = ({
+  variant = 'primary',
+  onClick = () => {},
+  children,
+  ...props
+}) => {
+  return (
+    <ThemeUiButton
+      sx={styles.buttonCss}
+      variant={variant}
+      onClick={onClick}
+      {...props}
+    >
+      {children}
+    </ThemeUiButton>
+  );
+};
 
 export default Button;
