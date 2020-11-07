@@ -31,7 +31,8 @@ const addFonts = () => {
       const link = document.createElement('link');
       link.id = key;
       link.rel = 'stylesheet';
-      (link.href = fonts[key]), document.head.appendChild(link);
+      link.href = fonts[key];
+      document.head.appendChild(link);
     }
   });
 };
