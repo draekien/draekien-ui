@@ -1,0 +1,15 @@
+export const zIndices = {
+  lowest: 0,
+  lower: 100,
+  low: 200,
+  middle: 300,
+  high: 400,
+  higher: 500,
+  highest: 600,
+  pagination: 1,
+  topMenu: 200,
+  dropdown: 300,
+  drawer: 400,
+  modal: 500,
+  toast: 600,
+};

@@ -1,0 +1,147 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": ["prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "ignorePatterns": ["lib/**"],
+  "plugins": ["@typescript-eslint", "react"],
+  "rules": {
+    "constructor-super": "error",
+    "for-direction": "error",
+    "getter-return": "error",
+    "no-async-promise-executor": "error",
+    "no-case-declarations": "error",
+    "no-class-assign": "error",
+    "no-compare-neg-zero": "error",
+    "no-cond-assign": "error",
+    "no-const-assign": "error",
+    "no-constant-condition": "error",
+    "no-control-regex": "error",
+    "no-debugger": "error",
+    "no-delete-var": "error",
+    "no-dupe-args": "error",
+    "no-dupe-class-members": "error",
+    "no-duplicate-case": "error",
+    "no-empty": "error",
+    "no-empty-character-class": "error",
+    "no-empty-pattern": "error",
+    "no-ex-assign": "error",
+    "no-extra-boolean-cast": "error",
+    "no-extra-semi": "off",
+    "no-fallthrough": "error",
+    "no-func-assign": "error",
+    "no-global-assign": "error",
+    "no-inner-declarations": "error",
+    "no-invalid-regexp": "error",
+    "no-irregular-whitespace": "off",
+    "no-misleading-character-class": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-new-symbol": "error",
+    "no-obj-calls": "error",
+    "no-octal": "error",
+    "no-prototype-builtins": "error",
+    "no-redeclare": "error",
+    "no-regex-spaces": "error",
+    "no-self-assign": "error",
+    "no-shadow-restricted-names": "error",
+    "no-sparse-arrays": "error",
+    "no-this-before-super": "error",
+    "no-undef": "error",
+    "no-unexpected-multiline": "error",
+    "no-unreachable": "error",
+    "no-unsafe-finally": "error",
+    "no-unsafe-negation": "error",
+    "no-unused-labels": "error",
+    "no-useless-catch": "error",
+    "no-useless-escape": "error",
+    "no-with": "error",
+    "require-atomic-updates": "error",
+    "require-yield": "error",
+    "use-isnan": "error",
+    "valid-typeof": "error",
+    "arrow-parens": ["off", "as-needed"],
+    "camelcase": "error",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never",
+        "imports": "always-multiline",
+        "objects": "always-multiline"
+      }
+    ],
+    "func-style": ["error", "expression"],
+    "prefer-const": "error",
+    "eol-last": "off",
+    "eqeqeq": ["error", "smart"],
+    "id-match": "error",
+    "linebreak-style": "off",
+    "max-len": "off",
+    "new-parens": "off",
+    "newline-per-chained-call": "off",
+    "no-eval": "error",
+    "no-multiple-empty-lines": "off",
+    "no-trailing-spaces": "error",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "no-var": "error",
+    "quote-props": "off",
+    "space-before-function-paren": "off",
+    "space-in-parens": ["off", "never"],
+    "spaced-comment": "error",
+    "react/jsx-closing-tag-location": "error",
+    "react/jsx-curly-newline": "error",
+    "react/jsx-curly-spacing": "error",
+    "react/jsx-key": "error",
+    "react/no-string-refs": "error",
+    "react/self-closing-comp": "error",
+    "react/jsx-wrap-multilines": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "semi",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
+        }
+      }
+    ],
+    "@typescript-eslint/prefer-namespace-keyword": "off",
+    "@typescript-eslint/quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "@typescript-eslint/semi": ["error", "always"],
+    "@typescript-eslint/type-annotation-spacing": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  }
+}
