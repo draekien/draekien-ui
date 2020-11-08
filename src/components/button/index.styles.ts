@@ -8,6 +8,9 @@ export type ButtonCssProps = {
   disabled?: boolean;
   fullWidth?: boolean;
   active?: boolean;
+  isCircle?: boolean;
+  icon?: boolean;
+  children?: boolean;
 };
 
 const getColors = (variant: ButtonVariant) => {
@@ -91,6 +94,10 @@ export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
     css.display = 'flex';
   }
 
+  if (props.icon && !props.isCircle) {
+    css.px = props.size === 'lg' ? '0.75rem' : '0.5rem';
+  }
+
   if (!props.disabled) {
     const colors = getColors(props.variant);
     css.backgroundColor = colors.background;
@@ -113,11 +120,96 @@ export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
     }
   }
 
+  if (props.isCircle) {
+    const circleSize = props.size === 'sm' ? '2rem' : '2.5rem';
+    css.borderRadius = '50%';
+    css.height = circleSize;
+    css.width = circleSize;
+    css.p = 0;
+    css.border = 'none';
+    css.boxShadow = 'small';
+    css.color = 'text-white';
+    css.backgroundColor = 'primary';
+  }
+
   if (props.disabled) {
     css.backgroundColor = 'muted';
     css.borderColor = 'muted';
     css.color = 'text-white';
     css.cursor = 'not-allowed';
+  }
+
+  return css;
+};
+
+export const linkButtonCss = (active: boolean): SxStyleProp => {
+  const css: any = {
+    cursor: 'pointer',
+    variant: 'text.subtitle',
+    transition: 'all 300ms',
+    alignItems: 'center',
+    display: 'inline-flex',
+    justifyContent: 'center',
+    backgroundColor: 'transparent',
+    border: 0,
+    color: 'primary',
+    height: 'auto',
+    width: 'auto',
+    padding: 0,
+    ':hover': {
+      span: {
+        transition: 'all 300ms',
+        color: 'primary-hover',
+        textDecoration: 'underline',
+      },
+    },
+    ':active': {
+      span: {
+        transition: 'all 300ms',
+        color: 'primary-active',
+        textDecoration: 'underline',
+      },
+    },
+    ':disabled': {
+      cursor: 'not-allowed',
+      span: {
+        transition: 'all 300ms',
+        color: 'muted',
+        textDecoration: 'none',
+      },
+    },
+  };
+
+  if (active) {
+    css.span = {
+      transition: 'all 300ms',
+      color: 'primary-active',
+      textDecoration: 'underline',
+    };
+  }
+
+  return css;
+};
+
+export const iconWrapperCss = (
+  position: 'left' | 'right',
+  hasText: boolean
+): SxStyleProp => {
+  const css: any = {
+    display: 'inline-flex',
+    textDecoration: 'none',
+  };
+
+  if (hasText) {
+    if (position === 'left') {
+      css.marginRight = 'xxs';
+    } else if (position === 'right') {
+      css.marginLeft = 'xxs';
+    }
+  } else {
+    css['i'] = {
+      fontSize: '1.5rem',
+    };
   }
 
   return css;

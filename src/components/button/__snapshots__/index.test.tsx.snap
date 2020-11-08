@@ -4,8 +4,11 @@ exports[`Button component matches snapshot 1`] = `
 <div>
   <button
     class="css-e43ayl-Button"
+    type="button"
   >
-    test
+    <span>
+      test
+    </span>
   </button>
 </div>
 `;
