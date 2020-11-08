@@ -19,3 +19,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+**/node_modules/*
+**/__snapshots__/*
+**/storybook-static/*
+**/build/*
+**/coverage/*
+**/*.ico
+**/*.png
+.!(storybook)
