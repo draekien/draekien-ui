@@ -23,7 +23,7 @@ const getColors = (variant: ButtonVariant) => {
       hoverBorder: 'secondary-hover',
       hoverColor: 'text-white',
       activeBackground: 'secondary-active',
-      activeBorder: 'secondary-border',
+      activeBorder: 'secondary-active',
       activeColor: 'text-white',
     };
   }
@@ -64,7 +64,7 @@ const getColors = (variant: ButtonVariant) => {
     hoverBorder: 'primary-hover',
     hoverColor: 'text-white',
     activeBackground: 'primary-active',
-    activeBorder: 'primary-border',
+    activeBorder: 'primary-active',
     activeColor: 'text-white',
   };
 };
@@ -203,7 +203,8 @@ export const iconWrapperCss = (
   if (hasText) {
     if (position === 'left') {
       css.marginRight = 'xxs';
-    } else if (position === 'right') {
+    }
+    if (position === 'right') {
       css.marginLeft = 'xxs';
     }
   } else {

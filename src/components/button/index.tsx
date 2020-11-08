@@ -36,7 +36,7 @@ export interface ButtonProps
   showChildrenWhenLoading?: boolean;
   /** onClick event handler */
   onClick?: (e: React.SyntheticEvent<HTMLElement, MouseEvent>) => any;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {

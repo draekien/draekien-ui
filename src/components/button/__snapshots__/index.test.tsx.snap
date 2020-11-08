@@ -1,9 +1,307 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button component matches snapshot 1`] = `
+exports[`Button component should match snapshot 1`] = `
 <div>
   <button
-    class="css-e43ayl-Button"
+    class="css-306fsn"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when active 1`] = `
+<div>
+  <button
+    class="css-mvp1fu"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when disabled 1`] = `
+<div>
+  <button
+    class="css-dex1bk"
+    disabled=""
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when full width 1`] = `
+<div>
+  <button
+    class="css-rc8xc8"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when href prop is defined 1`] = `
+<div>
+  <a
+    class="css-ytumd6"
+    href="https://www.google.com.au"
+  >
+    <button
+      class="css-7pi2p8"
+      type="button"
+    >
+      <span>
+        test
+      </span>
+    </button>
+  </a>
+</div>
+`;
+
+exports[`Button component should match snapshot when href prop is defined and isActive 1`] = `
+<div>
+  <a
+    class="css-ytumd6"
+    href="https://www.google.com.au"
+  >
+    <button
+      class="css-10nxlpn"
+      type="button"
+    >
+      <span>
+        test
+      </span>
+    </button>
+  </a>
+</div>
+`;
+
+exports[`Button component should match snapshot when icon is not string 1`] = `
+<div>
+  <button
+    class="css-w4hiwd"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when icon is provided 1`] = `
+<div>
+  <button
+    class="css-w4hiwd"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when icon is provided 2`] = `
+<div>
+  <button
+    class="css-rtk1t1"
+    type="button"
+  >
+    <span
+      class="css-1ar16h4"
+    >
+      <i
+        class="material-icons css-eyhhi6"
+      >
+        accessibility
+      </i>
+    </span>
+    <span />
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when icon is provided and renderPosition left 1`] = `
+<div>
+  <button
+    class="css-w4hiwd"
+    type="button"
+  >
+    <span
+      class="css-s8uffb"
+    >
+      <i
+        class="material-icons css-rweyqf"
+      >
+        accessibility
+      </i>
+    </span>
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when icon is provided and renderPosition right 1`] = `
+<div>
+  <button
+    class="css-w4hiwd"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+    <span
+      class="css-15ou4n0"
+    >
+      <i
+        class="material-icons css-rweyqf"
+      >
+        accessibility
+      </i>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when isCircle and size is sm 1`] = `
+<div>
+  <button
+    class="css-1dj4xt4"
+    type="button"
+  >
+    <span>
+      CJ
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when isCircle is true 1`] = `
+<div>
+  <button
+    class="css-rtk1t1"
+    type="button"
+  >
+    <span />
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when isIcon and size is large 1`] = `
+<div>
+  <button
+    class="css-184xz9p"
+    type="button"
+  >
+    <span />
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when loading 1`] = `
+<div>
+  <button
+    class="css-dex1bk"
+    disabled=""
+    type="button"
+  >
+    <span />
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when loading and showChildrenWhenLoading 1`] = `
+<div>
+  <button
+    class="css-dex1bk"
+    disabled=""
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when openLinkInNewTab is true 1`] = `
+<div>
+  <a
+    class="css-ytumd6"
+    href="https://www.google.com.au"
+    target="_blank"
+  >
+    <button
+      class="css-7pi2p8"
+      type="button"
+    >
+      <span>
+        test
+      </span>
+    </button>
+  </a>
+</div>
+`;
+
+exports[`Button component should match snapshot when size is sm 1`] = `
+<div>
+  <button
+    class="css-x0126x"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when variant is outline 1`] = `
+<div>
+  <button
+    class="css-fn1icq"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when variant is secondary 1`] = `
+<div>
+  <button
+    class="css-yudhwh"
+    type="button"
+  >
+    <span>
+      test
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when variant is text 1`] = `
+<div>
+  <button
+    class="css-yudhwh"
     type="button"
   >
     <span>
