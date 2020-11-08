@@ -1,0 +1,7 @@
+paths:
+  - src
+paths-ignore:
+  - node_modules
+  - storybook-static
+  - '**/*.test.tsx'
+  - '**/__snapshots__'
