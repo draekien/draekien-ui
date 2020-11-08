@@ -20,6 +20,5 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Required to retrieve git history
-      - run: npm ci
-      - run: npm run build-storybook
-      - run: npm run chromatic -- --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+      - run: npm ci      
+      - run: npm run chromatic -- --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --exit-zero-on-changes --auto-accept-changes
