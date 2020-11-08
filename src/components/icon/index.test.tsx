@@ -11,6 +11,12 @@ describe('Icon component', () => {
 
     expect(component.container).toMatchSnapshot();
   });
+
+  test('outlined icon matches snapshot', () => {
+    const component = render(<Icon name="accessibility" variant="outlined" />);
+
+    expect(component.container).toMatchSnapshot();
+  });
 });
 
 describe('iconCss function', () => {
