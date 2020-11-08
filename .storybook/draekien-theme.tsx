@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, useColorMode } from 'theme-ui';
 import * as React from 'react';
