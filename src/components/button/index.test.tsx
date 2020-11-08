@@ -3,6 +3,7 @@
 import { fireEvent, getByText, render } from '@testing-library/react';
 import { jsx } from 'theme-ui';
 import Button from '.';
+import Icon from '../icon';
 import {
   buttonCss,
   linkButtonCss,
@@ -75,6 +76,16 @@ describe('Button component', () => {
     expect(component.container).toMatchSnapshot();
   });
 
+  test('should match snapshot when href prop is defined and isActive', () => {
+    const component = render(
+      <Button href="https://www.google.com.au" isActive={true}>
+        test
+      </Button>
+    );
+
+    expect(component.container).toMatchSnapshot();
+  });
+
   test('should call onClick when clicked', (done) => {
     const fn = jest.fn(() => done());
     const component = render(<Button onClick={fn}>test</Button>);
@@ -83,6 +94,72 @@ describe('Button component', () => {
       getByText(component.container, 'test'),
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
+  });
+
+  test('should match snapshot when size is sm', () => {
+    const component = render(<Button size="sm">test</Button>);
+
+    expect(component.container).toMatchSnapshot();
+  });
+
+  test('should match snapshot when openLinkInNewTab is true', () => {
+    const component = render(
+      <Button href="https://www.google.com.au" openLinkInNewTab={true}>
+        test
+      </Button>
+    );
+
+    expect(component.container).toMatchSnapshot();
+  });
+
+  test('should match snapshot when disabled', () => {
+    const component = render(<Button disabled={true}>test</Button>);
+
+    expect(component.container).toMatchSnapshot();
+  });
+
+  test('should match snapshot when full width', () => {
+    const component = render(<Button fullWidth={true}>test</Button>);
+
+    expect(component.container).toMatchSnapshot();
+  });
+
+  test('should match snapshot when active', () => {
+    const component = render(<Button isActive={true}>test</Button>);
+
+    expect(component.container).toMatchSnapshot();
+  });
+
+  test('should match snapshot when loading', () => {
+    const component = render(<Button isLoading={true}>test</Button>);
+
+    expect(component.container).toMatchSnapshot();
+  });
+
+  test('should match snapshot when loading and showChildrenWhenLoading', () => {
+    const component = render(
+      <Button isLoading={true} showChildrenWhenLoading={true}>
+        test
+      </Button>
+    );
+
+    expect(component.container).toMatchSnapshot();
+  });
+
+  test('should match snapshot when icon is provided', () => {
+    const component = render(
+      <Button icon="accessibility" iconPosition="left" isCircle={true} />
+    );
+
+    expect(component.container).toMatchSnapshot();
+  });
+
+  test('should match snapshot when icon is not string', () => {
+    const component = render(
+      <Button icon={<Icon name="accessibility" />}>test</Button>
+    );
+
+    expect(component.container).toMatchSnapshot();
   });
 });
 
