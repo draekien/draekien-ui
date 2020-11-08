@@ -4,7 +4,7 @@ import { shadows } from './shadows';
 import { space } from './spaces';
 import { styles } from './styles';
 import { transitions } from './transitions';
-import { text } from './typography';
+import { fontSizes, fontWeights, lineHeights, text } from './typography';
 import { zIndices } from './zindices';
 
 export type ThemeType = Partial<{
@@ -25,6 +25,9 @@ export const DraekienTheme = () => {
     useCustomProperties: false,
     useBorderBox: true,
     colors,
+    fontSizes,
+    fontWeights,
+    lineHeights,
     radii,
     shadows,
     space,

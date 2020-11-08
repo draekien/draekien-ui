@@ -1,48 +1,81 @@
+export const fontWeights = {
+  body: 400,
+  medium: 600,
+  heading: 600,
+  bold: 800,
+};
+
+export const fontSizes = {
+  hero: '1.5rem',
+  feature: '1.25rem',
+  title: '1rem',
+  subtitle: '0.875rem',
+  surtitle: '0.75rem',
+  eyebrow: '0.6875rem',
+  medium: '0.875rem',
+  body: '0.875rem',
+  small: '0.75rem',
+  caption: '0.625rem',
+};
+
+export const lineHeights = {
+  hero: '1.875rem',
+  feature: '1.625rem',
+  title: '1.25rem',
+  subtitle: '1.125rem',
+  surtitle: '1rem',
+  eyebrow: '0.75rem',
+  medium: '1.125rem',
+  body: '1.125rem',
+  small: '1rem',
+  caption: '0.75rem',
+};
+
 export const text = {
   hero: {
-    fontSize: '1.5rem',
-    fontWeight: '600',
-    lineHeight: '1.875rem',
+    fontSize: 'hero',
+    fontWeight: 'heading',
+    lineHeight: 'hero',
   },
   feature: {
-    fontSize: '1.25rem',
-    fontWeight: '600',
-    lineHeight: '1.625rem',
+    fontSize: 'feature',
+    fontWeight: 'heading',
+    lineHeight: 'feature',
   },
   title: {
-    fontSize: '1rem',
-    fontWeight: '600',
-    lineHeight: '1.25rem',
+    fontSize: 'title',
+    fontWeight: 'heading',
+    lineHeight: 'title',
   },
   subtitle: {
-    fontSize: '0.875rem',
-    fontWeight: '600',
-    lineHeight: '1.125rem',
+    fontSize: 'subtitle',
+    fontWeight: 'heading',
+    lineHeight: 'subtitle',
   },
   surtitle: {
-    fontSize: '0.75rem',
-    fontWeight: '600',
-    lineHeight: '1rem',
+    fontSize: 'surtitle',
+    fontWeight: 'heading',
+    lineHeight: 'surtitle',
   },
   eyebrow: {
-    fontSize: '0.6875rem',
-    fontWeight: '700',
-    lineHeight: '0.75rem',
+    fontSize: 'eyebrow',
+    fontWeight: 'bold',
+    lineHeight: 'eyebrow',
     letterSpacing: '0.0375rem',
     textTransform: 'uppercase',
   },
   medium: {
-    fontSize: '0.875rem',
-    fontWeight: '400',
-    lineHeight: '1.125rem',
+    fontSize: 'medium',
+    fontWeight: 'body',
+    lineHeight: 'medium',
   },
   small: {
-    fontSize: '0.75rem',
-    fontWeight: '400',
-    lineHeight: '1rem',
+    fontSize: 'small',
+    fontWeight: 'body',
+    lineHeight: 'small',
   },
   caption: {
-    fontSize: '0.625rem',
-    lineHeight: '0.75rem',
+    fontSize: 'caption',
+    lineHeight: 'caption',
   },
 };
