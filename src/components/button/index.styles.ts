@@ -203,7 +203,8 @@ export const iconWrapperCss = (
   if (hasText) {
     if (position === 'left') {
       css.marginRight = 'xxs';
-    } else if (position === 'right') {
+    }
+    if (position === 'right') {
       css.marginLeft = 'xxs';
     }
   } else {

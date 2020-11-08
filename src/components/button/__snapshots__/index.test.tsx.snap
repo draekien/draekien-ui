@@ -179,10 +179,34 @@ exports[`Button component should match snapshot when icon is provided and render
 </div>
 `;
 
+exports[`Button component should match snapshot when isCircle and size is sm 1`] = `
+<div>
+  <button
+    class="css-1dj4xt4"
+    type="button"
+  >
+    <span>
+      CJ
+    </span>
+  </button>
+</div>
+`;
+
 exports[`Button component should match snapshot when isCircle is true 1`] = `
 <div>
   <button
     class="css-rtk1t1"
+    type="button"
+  >
+    <span />
+  </button>
+</div>
+`;
+
+exports[`Button component should match snapshot when isIcon and size is large 1`] = `
+<div>
+  <button
+    class="css-184xz9p"
     type="button"
   >
     <span />
