@@ -13,6 +13,7 @@ export const colors = {
   success: '#2e9852',
   warning: '#ea8818',
   error: '#e00027',
+  overlay: 'rgba(42, 55, 63, 0.5)',
   modes: {
     dark: {
       text: '#F7F7FD',

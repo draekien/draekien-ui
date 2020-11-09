@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component should match snapshot when bars 1`] = `
+<div>
+  <div
+    class="css-1etmbmm"
+  >
+    <div
+      class="css-12n5ctp"
+    />
+    <div
+      class="css-12n5ctp"
+    />
+    <div
+      class="css-12n5ctp"
+    />
+  </div>
+</div>
+`;
+
+exports[`Spinner component should match snapshot when default 1`] = `
+<div>
+  <svg
+    class="css-lko7vq"
+    fill="none"
+    height="48"
+    role="img"
+    stroke="currentcolor"
+    stroke-width="4"
+    viewBox="0 0 32 32"
+    width="48"
+  >
+    <title>
+      Loading...
+    </title>
+    <circle
+      cx="16"
+      cy="16"
+      opacity="0.125"
+      r="12"
+    />
+    <circle
+      class="css-wpcq6n"
+      cx="16"
+      cy="16"
+      r="12"
+      stroke-dasharray="75.39822368615503"
+      stroke-dashoffset="56.548667764616276"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Spinner component should match snapshot when dots 1`] = `
+<div>
+  <div
+    class="css-1etmbmm"
+  >
+    <div
+      class="css-pvbwo7"
+    />
+    <div
+      class="css-pvbwo7"
+    />
+    <div
+      class="css-pvbwo7"
+    />
+  </div>
+</div>
+`;
+
+exports[`Spinner component should match snapshot when full size and not circle 1`] = `
+<div>
+  <div
+    class="css-nnj5d8"
+  >
+    <div
+      class="css-1etmbmm"
+    >
+      <div
+        class="css-12n5ctp"
+      />
+      <div
+        class="css-12n5ctp"
+      />
+      <div
+        class="css-12n5ctp"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner component should match snapshot with custom prop values 1`] = `
+<div>
+  <div
+    class="css-nnj5d8"
+  >
+    <svg
+      class="css-1prn31h"
+      fill="none"
+      height="48"
+      role="img"
+      stroke="currentcolor"
+      stroke-width="4"
+      viewBox="0 0 32 32"
+      width="48"
+    >
+      <title>
+        Loading...
+      </title>
+      <circle
+        cx="16"
+        cy="16"
+        opacity="0.125"
+        r="12"
+      />
+      <circle
+        class="css-wpcq6n"
+        cx="16"
+        cy="16"
+        r="12"
+        stroke-dasharray="75.39822368615503"
+        stroke-dashoffset="56.548667764616276"
+      />
+    </svg>
+  </div>
+</div>
+`;

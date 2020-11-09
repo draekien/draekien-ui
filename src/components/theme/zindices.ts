@@ -12,4 +12,5 @@ export const zIndices = {
   drawer: 400,
   modal: 500,
   toast: 600,
+  overlay: 600,
 };
