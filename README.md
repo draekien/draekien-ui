@@ -1,46 +1,109 @@
-# Getting Started with Create React App
+# Draekien-UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Draekien-UI](#draekien-ui)
+  - [Introduction](#introduction)
+  - [Storybook](#storybook)
+  - [Getting Started](#getting-started)
+  - [Available Scripts](#available-scripts)
+    - [`npm start`](#npm-start)
+    - [`npm run start-storybook`](#npm-run-start-storybook)
+    - [`npm test`](#npm-test)
+    - [`npm run test-update`](#npm-run-test-update)
+    - [`npm run test-watch`](#npm-run-test-watch)
+    - [`npm build`](#npm-build)
+    - [`npm run build-storybook`](#npm-run-build-storybook)
+    - [`npm run build-all`](#npm-run-build-all)
+    - [`npm release`](#npm-release)
+    - [`npm run release-chromatic`](#npm-run-release-chromatic)
+    - [`npm run lint`](#npm-run-lint)
+
+## Introduction
+
+This is just a personal project to create a UI library based on Theme-UI and to learn about CI/CD and eventually deploying to NPM.
+
+## Storybook
+
+This project deploys a storybook to Chromatic. Click [here](https://master--5fa749d1d2751d0021b71033.chromatic.com) to view the latest.
+
+> The above link will take you away from Github
+
+## Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/draekien/draekien-ui.git cd draekien-ui
+```
+
+Install dependencies
+
+```bash
+npm i
+```
+
+Checkout a new feature branch
+
+```bash
+# replace <YOUR_BRANCH_NAME> with the name of the branch you want to checkout
+git checkout -b feature/<YOUR_BRANCH_NAME>
+```
+
+typey typey, then commit your changes and push your branch to remote
+
+```bash
+# replace <YOUR_BRANCH_NAME> with the name of the branch you want to checkout
+git push --set-upstream origin feature/<YOUR_BRANCH_NAME>
+```
+
+make a PR to merge your changes into `master` and wait for a review.
+
+```bash
+# if you have the Github CLI
+gh pr create --web
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Starts the storybook locally
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `npm run start-storybook`
+
+Starts the storybook locally with static file support
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run tests with coverage
 
-### `npm run build`
+### `npm run test-update`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run tests and update snapshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run test-watch`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run tests in watch mode (usefull for testing during development)
 
-### `npm run eject`
+### `npm build`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Runs linter and tests, then builds typescript
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run build-storybook`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Builds the storybook
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `npm run build-all`
 
-## Learn More
+Runs the build and build-storybook scripts concurrently
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `npm release`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Runs semantic release (Not set up yet)
+
+### `npm run release-chromatic`
+
+Releases storybook to chromatic
+
+### `npm run lint`
+
+Runs the linter
