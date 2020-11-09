@@ -71,8 +71,11 @@ const getColors = (variant: ButtonVariant) => {
 
 export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
   const css: any = {
+    height: '2rem',
     py: 'xs',
     px: props.size || 'md',
+    border: '0.0625rem solid',
+    borderRadius: 'md',
     cursor: 'pointer',
     variant: 'text.subtitle',
     textAlign: 'center',
@@ -82,7 +85,6 @@ export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
     display: 'inline-flex',
     justifyContent: 'center',
     textDecoration: 'none',
-    border: '0.0625rem solid',
   };
 
   if (props.variant === 'text') {
@@ -92,6 +94,10 @@ export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
   if (props.fullWidth) {
     css.width = '100%';
     css.display = 'flex';
+  }
+
+  if (props.size === 'lg') {
+    css.height = '2.5rem';
   }
 
   if (props.icon && !props.isCircle) {

@@ -12,13 +12,13 @@ describe('Spinner component', () => {
   });
 
   test('should match snapshot when bars', () => {
-    const { container } = render(<Spinner variant="bars" />);
+    const { container } = render(<Spinner variant="bars" size="large" />);
 
     expect(container).toMatchSnapshot();
   });
 
   test('should match snapshot when dots', () => {
-    const { container } = render(<Spinner variant="dots" />);
+    const { container } = render(<Spinner variant="dots" size="large" />);
 
     expect(container).toMatchSnapshot();
   });

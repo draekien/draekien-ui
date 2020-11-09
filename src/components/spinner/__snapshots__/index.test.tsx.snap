@@ -6,13 +6,13 @@ exports[`Spinner component should match snapshot when bars 1`] = `
     class="css-1etmbmm"
   >
     <div
-      class="css-12n5ctp"
+      class="css-6618cs"
     />
     <div
-      class="css-12n5ctp"
+      class="css-6618cs"
     />
     <div
-      class="css-12n5ctp"
+      class="css-6618cs"
     />
   </div>
 </div>
@@ -57,13 +57,13 @@ exports[`Spinner component should match snapshot when dots 1`] = `
     class="css-1etmbmm"
   >
     <div
-      class="css-pvbwo7"
+      class="css-le8skg"
     />
     <div
-      class="css-pvbwo7"
+      class="css-le8skg"
     />
     <div
-      class="css-pvbwo7"
+      class="css-le8skg"
     />
   </div>
 </div>

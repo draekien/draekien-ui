@@ -4,6 +4,7 @@ import { jsx, Button as ThemeUiButton } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import Icon from '../icon';
+import Spinner from '../spinner';
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -72,6 +73,13 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
     }
   };
 
+  const renderSpacedSpinner = () =>
+    isLoading && (
+      <span sx={styles.iconWrapperCss('right', !!showChildrenWhenLoading)}>
+        <Spinner size="small" />
+      </span>
+    );
+
   const ButtonContent = () => {
     const shouldRenderChildren =
       !isLoading || (showChildrenWhenLoading && isLoading);
@@ -81,6 +89,7 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
         {renderSpacedIcon('left')}
         <span>{shouldRenderChildren && children}</span>
         {renderSpacedIcon('right')}
+        {renderSpacedSpinner()}
       </React.Fragment>
     );
   };

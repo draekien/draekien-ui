@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buttonCss function contains disabled css when disabled 1`] = `
+Object {
+  "alignItems": "center",
+  "backgroundColor": "muted",
+  "border": "0.0625rem solid",
+  "borderColor": "muted",
+  "borderRadius": "md",
+  "color": "text-white",
+  "cursor": "not-allowed",
+  "display": "inline-flex",
+  "height": "2rem",
+  "justifyContent": "center",
+  "px": "md",
+  "py": "xs",
+  "textAlign": "center",
+  "textDecoration": "none",
+  "textTransform": "none",
+  "transition": "all 300ms",
+  "variant": "text.subtitle",
+}
+`;
+
+exports[`buttonCss function returns expected css when active 1`] = `
+Object {
+  ":active": Object {
+    "backgroundColor": "primary-active",
+    "borderColor": "primary-active",
+    "color": "text-white",
+  },
+  ":hover": Object {
+    "backgroundColor": "primary-hover",
+    "borderColor": "primary-hover",
+    "color": "text-white",
+  },
+  "alignItems": "center",
+  "backgroundColor": "primary-active",
+  "border": "0.0625rem solid",
+  "borderColor": "primary-active",
+  "borderRadius": "md",
+  "color": "text-white",
+  "cursor": "pointer",
+  "display": "inline-flex",
+  "height": "2rem",
+  "justifyContent": "center",
+  "px": "md",
+  "py": "xs",
+  "textAlign": "center",
+  "textDecoration": "none",
+  "textTransform": "none",
+  "transition": "all 300ms",
+  "variant": "text.subtitle",
+}
+`;
+
+exports[`buttonCss function returns expected css when fullwidth 1`] = `
+Object {
+  ":active": Object {
+    "backgroundColor": "primary-active",
+    "borderColor": "primary-active",
+    "color": "text-white",
+  },
+  ":hover": Object {
+    "backgroundColor": "primary-hover",
+    "borderColor": "primary-hover",
+    "color": "text-white",
+  },
+  "alignItems": "center",
+  "backgroundColor": "primary-active",
+  "border": "0.0625rem solid",
+  "borderColor": "primary-active",
+  "borderRadius": "md",
+  "color": "text-white",
+  "cursor": "pointer",
+  "display": "flex",
+  "height": "2rem",
+  "justifyContent": "center",
+  "px": "md",
+  "py": "xs",
+  "textAlign": "center",
+  "textDecoration": "none",
+  "textTransform": "none",
+  "transition": "all 300ms",
+  "variant": "text.subtitle",
+  "width": "100%",
+}
+`;
+
+exports[`buttonCss function returns expected css when variant is text 1`] = `
+Object {
+  ":active": Object {
+    "backgroundColor": "transparent",
+    "borderColor": "transparent",
+    "color": "primary-active",
+  },
+  ":hover": Object {
+    "backgroundColor": "transparent",
+    "borderColor": "transparent",
+    "color": "primary-hover",
+  },
+  "alignItems": "center",
+  "backgroundColor": "transparent",
+  "border": "0.0625rem solid",
+  "borderColor": "transparent",
+  "borderRadius": "md",
+  "color": "primary",
+  "cursor": "pointer",
+  "display": "flex",
+  "height": "2rem",
+  "justifyContent": "center",
+  "p": 0,
+  "px": "md",
+  "py": "xs",
+  "textAlign": "center",
+  "textDecoration": "none",
+  "textTransform": "none",
+  "transition": "all 300ms",
+  "variant": "text.subtitle",
+  "width": "100%",
+}
+`;
+
+exports[`buttonCss function returns primary colors when variant is primary 1`] = `
+Object {
+  ":active": Object {
+    "backgroundColor": "primary-active",
+    "borderColor": "primary-active",
+    "color": "text-white",
+  },
+  ":hover": Object {
+    "backgroundColor": "primary-hover",
+    "borderColor": "primary-hover",
+    "color": "text-white",
+  },
+  "alignItems": "center",
+  "backgroundColor": "primary",
+  "border": "0.0625rem solid",
+  "borderColor": "primary",
+  "borderRadius": "md",
+  "color": "text-white",
+  "cursor": "pointer",
+  "display": "inline-flex",
+  "height": "2rem",
+  "justifyContent": "center",
+  "px": "md",
+  "py": "xs",
+  "textAlign": "center",
+  "textDecoration": "none",
+  "textTransform": "none",
+  "transition": "all 300ms",
+  "variant": "text.subtitle",
+}
+`;
+
+exports[`buttonCss function returns secondary css when variant is secondary 1`] = `
+Object {
+  ":active": Object {
+    "backgroundColor": "secondary-active",
+    "borderColor": "secondary-active",
+    "color": "text-white",
+  },
+  ":hover": Object {
+    "backgroundColor": "secondary-hover",
+    "borderColor": "secondary-hover",
+    "color": "text-white",
+  },
+  "alignItems": "center",
+  "backgroundColor": "secondary",
+  "border": "0.0625rem solid",
+  "borderColor": "secondary",
+  "borderRadius": "md",
+  "color": "text-white",
+  "cursor": "pointer",
+  "display": "inline-flex",
+  "height": "2rem",
+  "justifyContent": "center",
+  "px": "md",
+  "py": "xs",
+  "textAlign": "center",
+  "textDecoration": "none",
+  "textTransform": "none",
+  "transition": "all 300ms",
+  "variant": "text.subtitle",
+}
+`;
+
+exports[`iconWrapperCss function returns expected css when has text and position left 1`] = `
+Object {
+  "display": "inline-flex",
+  "marginRight": "xxs",
+  "textDecoration": "none",
+}
+`;
+
+exports[`iconWrapperCss function returns expected css when has text and position left 2`] = `
+Object {
+  "display": "inline-flex",
+  "i": Object {
+    "fontSize": "1.5rem",
+  },
+  "textDecoration": "none",
+}
+`;
+
+exports[`iconWrapperCss function returns expected css when has text and position right 1`] = `
+Object {
+  "display": "inline-flex",
+  "marginLeft": "xxs",
+  "textDecoration": "none",
+}
+`;
+
+exports[`iconWrapperCss function returns expected css when no text 1`] = `
+Object {
+  "display": "inline-flex",
+  "i": Object {
+    "fontSize": "1.5rem",
+  },
+  "textDecoration": "none",
+}
+`;
+
+exports[`linkButtonCss function returns expected css when active 1`] = `
+Object {
+  ":active": Object {
+    "span": Object {
+      "color": "primary-active",
+      "textDecoration": "underline",
+      "transition": "all 300ms",
+    },
+  },
+  ":disabled": Object {
+    "cursor": "not-allowed",
+    "span": Object {
+      "color": "muted",
+      "textDecoration": "none",
+      "transition": "all 300ms",
+    },
+  },
+  ":hover": Object {
+    "span": Object {
+      "color": "primary-hover",
+      "textDecoration": "underline",
+      "transition": "all 300ms",
+    },
+  },
+  "alignItems": "center",
+  "backgroundColor": "transparent",
+  "border": 0,
+  "color": "primary",
+  "cursor": "pointer",
+  "display": "inline-flex",
+  "height": "auto",
+  "justifyContent": "center",
+  "padding": 0,
+  "span": Object {
+    "color": "primary-active",
+    "textDecoration": "underline",
+    "transition": "all 300ms",
+  },
+  "transition": "all 300ms",
+  "variant": "text.subtitle",
+  "width": "auto",
+}
+`;
+
+exports[`linkButtonCss function returns expected css when not active 1`] = `
+Object {
+  ":active": Object {
+    "span": Object {
+      "color": "primary-active",
+      "textDecoration": "underline",
+      "transition": "all 300ms",
+    },
+  },
+  ":disabled": Object {
+    "cursor": "not-allowed",
+    "span": Object {
+      "color": "muted",
+      "textDecoration": "none",
+      "transition": "all 300ms",
+    },
+  },
+  ":hover": Object {
+    "span": Object {
+      "color": "primary-hover",
+      "textDecoration": "underline",
+      "transition": "all 300ms",
+    },
+  },
+  "alignItems": "center",
+  "backgroundColor": "transparent",
+  "border": 0,
+  "color": "primary",
+  "cursor": "pointer",
+  "display": "inline-flex",
+  "height": "auto",
+  "justifyContent": "center",
+  "padding": 0,
+  "transition": "all 300ms",
+  "variant": "text.subtitle",
+  "width": "auto",
+}
+`;
