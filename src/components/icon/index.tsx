@@ -40,12 +40,12 @@ const getIconClassName = (variant?: IconVariant) => {
 };
 
 export const Icon: React.FC<IconProps> = (props: IconProps) => {
-  const { name, color, size = 'medium', variant, ...rest } = props;
+  const { name, color, size = 'medium', variant, className, ...rest } = props;
 
   return (
     <i
       sx={styles.iconCss({ size, color })}
-      className={getIconClassName(variant)}
+      className={`${getIconClassName(variant)} ${className || ''}`}
       {...rest}
     >
       {name}

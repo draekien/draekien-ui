@@ -123,7 +123,6 @@ export const Toast: React.FC<ToastProps> = (props) => {
             color={iconColorMap[color]}
             name={iconMap[color]}
             size="medium"
-            className="material-icons"
           />
           <div sx={styles.toastTitleCss({ alertType: color })}>{title}</div>
           <div sx={styles.toastMessageCss}>{message}</div>
@@ -133,7 +132,6 @@ export const Toast: React.FC<ToastProps> = (props) => {
             name="close"
             onClick={handleClose}
             size="small"
-            className="material-icons"
           />
         </div>
       )}

@@ -125,7 +125,7 @@ exports[`Button component should match snapshot when icon is provided 2`] = `
       class="css-1ar16h4"
     >
       <i
-        class="material-icons css-eyhhi6"
+        class="material-icons  css-eyhhi6"
       >
         accessibility
       </i>
@@ -145,7 +145,7 @@ exports[`Button component should match snapshot when icon is provided and render
       class="css-s8uffb"
     >
       <i
-        class="material-icons css-rweyqf"
+        class="material-icons  css-rweyqf"
       >
         accessibility
       </i>
@@ -170,7 +170,7 @@ exports[`Button component should match snapshot when icon is provided and render
       class="css-15ou4n0"
     >
       <i
-        class="material-icons css-rweyqf"
+        class="material-icons  css-rweyqf"
       >
         accessibility
       </i>
