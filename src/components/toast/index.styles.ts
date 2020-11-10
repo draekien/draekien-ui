@@ -20,8 +20,11 @@ const slideRight = keyframes`
 }`;
 
 export type ToastCssProps = {
+  /** type of alert */
   alertType: ValidationColor;
+  /** is the alert clickable */
   clickable?: boolean;
+  /** which direction to slide in from */
   position?: 'left' | 'right' | 'none';
 };
 
@@ -89,11 +92,13 @@ export const toastTitleCss = (props: ToastCssProps): SxStyleProp => ({
   color: props.alertType,
   minHeight: '2rem',
   p: '1rem 2.5rem 0 3.5rem',
+  variant: 'text.surtitle',
 });
 
 export const toastMessageCss: SxStyleProp = {
   minHeight: '2rem',
-  p: '0 2.5rem 3.5rem 1rem',
+  p: '0 2.5rem 1rem 3.5rem',
+  variant: 'text.small',
 };
 
 export const toastCloseIconCss: SxStyleProp = {

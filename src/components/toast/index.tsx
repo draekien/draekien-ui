@@ -1,22 +1,41 @@
-/** @jsxRuntime classic @jsx jsx */
+/**
+ * @jsxRuntime classic
+ * @jsx jsx
+ * */
 import { jsx } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import Icon from '../icon';
-import Text from '../text';
 import { Transition } from 'react-transition-group';
 
 export type ValidationColor = 'information' | 'success' | 'warning' | 'error';
 
 export interface ToastProps extends React.HTMLAttributes<HTMLDivElement> {
+  /** Is the notification open
+   * @default true
+   */
   isOpen?: boolean;
+  /** content of toast */
   message?: string;
+  /** title of toast */
   title?: string;
+  /** time in seconds before notification is closed. Set 0 to not close automatically
+   * @default 6.5
+   */
   duration?: number;
+  /** notification style
+   * @default 'success'
+   */
   color?: ValidationColor;
+  /** which direction to slide in from
+   * @default 'right'
+   */
   openFrom?: 'left' | 'right' | 'none';
+  /** callback function to execute once the notification closes */
   onClose?: (e: React.SyntheticEvent<HTMLDivElement, Event> | undefined) => any;
+  /** callback function to execute when notification is clicked */
   onClick?: (e: React.SyntheticEvent) => any;
+  /** unique key */
   key?: string;
 }
 
@@ -36,7 +55,7 @@ export const Toast: React.FC<ToastProps> = (props) => {
     onClose,
     onClick,
     duration = 6.5,
-    openFrom,
+    openFrom = 'right',
     ...rest
   } = props;
   const [openState, setOpenState] = React.useState(isOpen);
@@ -96,23 +115,17 @@ export const Toast: React.FC<ToastProps> = (props) => {
             color={color}
             name={iconMap[color]}
             size="medium"
-            variant="filled"
+            className="material-icons"
           />
-          <Text
-            sx={styles.toastTitleCss({ alertType: color })}
-            variant="surtitle"
-          >
-            {title}
-          </Text>
-          <Text sx={styles.toastMessageCss} variant="small">
-            {message}
-          </Text>
+          <div sx={styles.toastTitleCss({ alertType: color })}>{title}</div>
+          <div sx={styles.toastMessageCss}>{message}</div>
           <Icon
             sx={styles.toastCloseIconCss}
             color="text"
             name="close"
             onClick={handleClose}
             size="small"
+            className="material-icons"
           />
         </div>
       )}
