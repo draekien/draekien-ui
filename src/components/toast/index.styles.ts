@@ -99,6 +99,7 @@ export const toastMessageCss: SxStyleProp = {
   minHeight: '2rem',
   p: '0 2.5rem 1rem 3.5rem',
   variant: 'text.small',
+  color: 'text-dark',
 };
 
 export const toastCloseIconCss: SxStyleProp = {

@@ -121,7 +121,7 @@ export const Toast: React.FC<ToastProps> = (props) => {
           <div sx={styles.toastMessageCss}>{message}</div>
           <Icon
             sx={styles.toastCloseIconCss}
-            color="text"
+            color="text-dark"
             name="close"
             onClick={handleClose}
             size="small"
