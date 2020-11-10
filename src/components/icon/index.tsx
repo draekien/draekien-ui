@@ -9,7 +9,7 @@ export type IconSize = 'small' | 'medium' | 'large';
 export type IconVariant =
   | 'filled'
   | 'outlined'
-  | 'rounded'
+  | 'round'
   | 'two-tone'
   | 'sharp';
 export interface IconProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -27,20 +27,20 @@ export interface IconProps extends React.HTMLAttributes<HTMLDivElement> {
   color?: keyof typeof colors;
 }
 
+const getIconClassName = (variant?: IconVariant) => {
+  switch (variant) {
+    case 'outlined':
+    case 'round':
+    case 'sharp':
+    case 'two-tone':
+      return `material-icons-${variant}`;
+    default:
+      return 'material-icons';
+  }
+};
+
 export const Icon: React.FC<IconProps> = (props: IconProps) => {
   const { name, color, size = 'medium', variant, ...rest } = props;
-
-  const getIconClassName = (variant?: IconVariant) => {
-    switch (variant) {
-      case 'outlined':
-      case 'rounded':
-      case 'sharp':
-      case 'two-tone':
-        return `material-icons-${variant}`;
-      default:
-        return 'material-icons';
-    }
-  };
 
   return (
     <i
