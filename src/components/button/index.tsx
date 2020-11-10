@@ -76,7 +76,7 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
   const renderSpacedSpinner = () =>
     isLoading && (
       <span sx={styles.iconWrapperCss('right', !!showChildrenWhenLoading)}>
-        <Spinner size="small" />
+        <Spinner size="small" color="b-100" />
       </span>
     );
 

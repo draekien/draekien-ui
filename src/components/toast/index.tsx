@@ -7,6 +7,7 @@ import * as React from 'react';
 import * as styles from './index.styles';
 import Icon from '../icon';
 import { Transition } from 'react-transition-group';
+import { colors } from '../theme/colors';
 
 export type ValidationColor = 'information' | 'success' | 'warning' | 'error';
 
@@ -44,6 +45,13 @@ export const iconMap: { [key in ValidationColor]: string } = {
   success: 'check_circle',
   warning: 'warning',
   error: 'error',
+};
+
+export const iconColorMap: { [key in ValidationColor]: keyof typeof colors } = {
+  information: 'information-400',
+  success: 'success-400',
+  warning: 'warning-400',
+  error: 'error-400',
 };
 
 export const Toast: React.FC<ToastProps> = (props) => {
@@ -112,7 +120,7 @@ export const Toast: React.FC<ToastProps> = (props) => {
         >
           <Icon
             sx={styles.toastIconCss}
-            color={color}
+            color={iconColorMap[color]}
             name={iconMap[color]}
             size="medium"
             className="material-icons"

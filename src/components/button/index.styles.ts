@@ -18,13 +18,13 @@ const getColors = (variant: ButtonVariant) => {
     return {
       background: 'secondary',
       border: 'secondary',
-      color: 'text-white',
+      color: 'white',
       hoverBackground: 'secondary-hover',
       hoverBorder: 'secondary-hover',
-      hoverColor: 'text-white',
+      hoverColor: 'white',
       activeBackground: 'secondary-active',
       activeBorder: 'secondary-active',
-      activeColor: 'text-white',
+      activeColor: 'white',
     };
   }
 
@@ -59,13 +59,13 @@ const getColors = (variant: ButtonVariant) => {
   return {
     background: 'primary',
     border: 'primary',
-    color: 'text-white',
+    color: 'white',
     hoverBackground: 'primary-hover',
     hoverBorder: 'primary-hover',
-    hoverColor: 'text-white',
+    hoverColor: 'white',
     activeBackground: 'primary-active',
     activeBorder: 'primary-active',
-    activeColor: 'text-white',
+    activeColor: 'white',
   };
 };
 
@@ -134,14 +134,14 @@ export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
     css.p = 0;
     css.border = 'none';
     css.boxShadow = 'small';
-    css.color = 'text-white';
+    css.color = 'white';
     css.backgroundColor = 'primary';
   }
 
   if (props.disabled) {
     css.backgroundColor = 'muted';
     css.borderColor = 'muted';
-    css.color = 'text-white';
+    css.color = 'white';
     css.cursor = 'not-allowed';
   }
 

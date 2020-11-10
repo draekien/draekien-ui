@@ -39,7 +39,7 @@ export const toastContainerCss = (props: ToastContainerProps): SxStyleProp => ({
 
 export const toastWrapperCss = (props: ToastCssProps): SxStyleProp => {
   const css: any = {
-    backgroundColor: `${props.alertType}-light`,
+    backgroundColor: `${props.alertType}-000`,
     borderRadius: 'md',
     boxShadow: 'md',
     margin: '0 2rem',
@@ -89,7 +89,7 @@ export const toastIconCss: SxStyleProp = {
 };
 
 export const toastTitleCss = (props: ToastCssProps): SxStyleProp => ({
-  color: props.alertType,
+  color: `${props.alertType}-400`,
   minHeight: '2rem',
   p: '1rem 2.5rem 0 3.5rem',
   variant: 'text.surtitle',
