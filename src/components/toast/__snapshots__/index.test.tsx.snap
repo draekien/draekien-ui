@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-1bxon4s"
+    style="height: 0px;"
+  >
+    <i
+      class="material-icons css-nzykkd"
+    >
+      check_circle
+    </i>
+    <div
+      class="css-1x3j7gq"
+    >
+      test
+    </div>
+    <div
+      class="css-1jhfx10"
+    >
+      test
+    </div>
+    <i
+      class="material-icons css-cm2otq"
+    >
+      close
+    </i>
+  </div>
+</div>
+`;
+
+exports[`Toast component should match snapshot when information 1`] = `
+<div>
+  <div
+    class="css-u81dku"
+    style="height: 0px;"
+  >
+    <i
+      class="material-icons css-vndn1s"
+    >
+      info
+    </i>
+    <div
+      class="css-otaqm1"
+    >
+      test
+    </div>
+    <div
+      class="css-1jhfx10"
+    >
+      test
+    </div>
+    <i
+      class="material-icons css-cm2otq"
+    >
+      close
+    </i>
+  </div>
+</div>
+`;
