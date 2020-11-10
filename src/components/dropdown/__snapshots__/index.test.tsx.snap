@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component caretCss should match snapshot 1`] = `
+Object {
+  "borderLeft": "4px solid transparent",
+  "borderRight": "4px solid transparent",
+  "borderTop": "4px solid",
+  "display": "inline-block",
+  "height": 0,
+  "marginLeft": "0.5rem",
+  "verticalAlign": "middle",
+  "width": 0,
+}
+`;
+
+exports[`Dropdown component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-8xolk2"
+  >
+    <div
+      style="display: inline-block;"
+    >
+      <div
+        class="css-1s1r74k"
+      >
+        <button
+          class="css-1tezc6"
+          type="button"
+        >
+          <span>
+            dropdown
+          </span>
+          <span
+            class="css-15ou4n0"
+          >
+            <i
+              class="material-icons  css-rweyqf"
+            >
+              expand_more
+            </i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown component should match snapshot when hasSelection is true and position is top right 1`] = `
+<div>
+  <div
+    class="css-8xolk2"
+  >
+    <div
+      style="display: inline-block;"
+    >
+      <div
+        class="css-1v364b4"
+      >
+        <button
+          class="css-1tezc6"
+          type="button"
+        >
+          <span>
+            dropdown
+          </span>
+          <span
+            class="css-15ou4n0"
+          >
+            <i
+              class="material-icons  css-rweyqf"
+            >
+              expand_more
+            </i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown component should match snapshot when isOpen is true 1`] = `
+<div>
+  <div
+    class="css-8xolk2"
+  >
+    <div
+      style="display: inline-block;"
+    >
+      <div
+        class="css-1s1r74k"
+      >
+        <button
+          class="css-1mithov"
+          type="button"
+        >
+          <span>
+            dropdown
+          </span>
+          <span
+            class="css-15ou4n0"
+          >
+            <i
+              class="material-icons  css-rweyqf"
+            >
+              expand_less
+            </i>
+          </span>
+        </button>
+        <div
+          class="css-ig3k6c"
+        >
+          <div>
+            Item 
+            1
+          </div>
+          <div>
+            Item 
+            2
+          </div>
+          <div>
+            Item 
+            3
+          </div>
+          <div>
+            Item 
+            4
+          </div>
+          <div>
+            Item 
+            5
+          </div>
+          <div>
+            Item 
+            6
+          </div>
+          <div>
+            Item 
+            7
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown component should match snapshot when maxHeight is set 1`] = `
+<div>
+  <div
+    class="css-8xolk2"
+  >
+    <div
+      style="display: inline-block;"
+    >
+      <div
+        class="css-1s1r74k"
+      >
+        <button
+          class="css-1tezc6"
+          type="button"
+        >
+          <span>
+            dropdown
+          </span>
+          <span
+            class="css-15ou4n0"
+          >
+            <i
+              class="material-icons  css-rweyqf"
+            >
+              expand_more
+            </i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown component should match snapshot when variant is primary and position is bottom right 1`] = `
+<div>
+  <div
+    class="css-8xolk2"
+  >
+    <div
+      style="display: inline-block;"
+    >
+      <div
+        class="css-1s1r74k"
+      >
+        <button
+          class="css-1kloskf"
+          type="button"
+        >
+          <span>
+            dropdown
+          </span>
+          <span
+            class="css-15ou4n0"
+          >
+            <i
+              class="material-icons  css-rweyqf"
+            >
+              expand_more
+            </i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
