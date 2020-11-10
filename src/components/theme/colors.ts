@@ -10,9 +10,13 @@ export const colors = {
   'secondary-active': '#b52268',
   muted: '#C4C4C4',
   information: '#066899',
+  'information-light': '#e3f6ff',
   success: '#2e9852',
+  'success-light': '#e0f6e7',
   warning: '#ea8818',
+  'warning-light': '#fcecda',
   error: '#e00027',
+  'error-light': '#ffdbe2',
   overlay: 'rgba(42, 55, 63, 0.5)',
   modes: {
     dark: {
