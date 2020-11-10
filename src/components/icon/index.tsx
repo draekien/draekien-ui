@@ -30,14 +30,22 @@ export interface IconProps extends React.HTMLAttributes<HTMLDivElement> {
 export const Icon: React.FC<IconProps> = (props: IconProps) => {
   const { name, color, size = 'medium', variant, ...rest } = props;
 
+  const getIconClassName = (variant?: IconVariant) => {
+    switch (variant) {
+      case 'outlined':
+      case 'rounded':
+      case 'sharp':
+      case 'two-tone':
+        return `material-icons-${variant}`;
+      default:
+        return 'material-icons';
+    }
+  };
+
   return (
     <i
       sx={styles.iconCss({ size, color })}
-      className={
-        variant && variant !== 'filled'
-          ? `material-icons-${variant}`
-          : 'material-icons'
-      }
+      className={getIconClassName(variant)}
       {...rest}
     >
       {name}
