@@ -1,12 +1,18 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 import Icon, { IconProps } from '.';
+import { colors } from '../theme/colors';
 
 export default {
   title: 'Components/Icon',
   component: Icon,
   argTypes: {
-    color: { control: 'color' },
+    color: {
+      control: {
+        type: 'select',
+        options: Object.keys(colors),
+      },
+    },
   },
 } as Meta;
 
