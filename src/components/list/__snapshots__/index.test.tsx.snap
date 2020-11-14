@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-uliqdc"
+  >
+    <ul
+      class="css-rsnfp2"
+    >
+      <li
+        class="css-50zunu"
+      >
+        <div
+          class="css-33lc35"
+        >
+          one
+        </div>
+      </li>
+      <li
+        class="css-50zunu"
+      >
+        <div
+          class="css-33lc35"
+        >
+          two
+        </div>
+      </li>
+      <li
+        class="css-50zunu"
+      >
+        <div
+          class="css-33lc35"
+        >
+          three
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`List component should match snapshot with custom props 1`] = `
+<div>
+  <div
+    class="css-uliqdc"
+  >
+    <div
+      class="css-33lc35"
+    >
+      test
+    </div>
+    <ol
+      class="css-rsnfp2"
+    >
+      <li
+        class="css-1ub0xpm"
+      >
+        <button
+          class="css-1oppd46"
+          type="button"
+        >
+          <span>
+            one
+          </span>
+        </button>
+      </li>
+      <li
+        class="css-50zunu"
+      >
+        <button
+          class="css-1oppd46"
+          type="button"
+        >
+          <span>
+            two
+          </span>
+        </button>
+      </li>
+      <li
+        class="css-50zunu"
+      >
+        <button
+          class="css-1oppd46"
+          type="button"
+        >
+          <span>
+            three
+          </span>
+        </button>
+      </li>
+    </ol>
+  </div>
+</div>
+`;
