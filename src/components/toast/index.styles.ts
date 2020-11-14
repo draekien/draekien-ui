@@ -40,6 +40,8 @@ export const toastContainerCss = (props: ToastContainerProps): SxStyleProp => ({
 export const toastWrapperCss = (props: ToastCssProps): SxStyleProp => {
   const css: any = {
     backgroundColor: `${props.alertType}-000`,
+    borderLeft: '3px solid',
+    borderLeftColor: `${props.alertType}-400`,
     borderRadius: 'md',
     boxShadow: 'md',
     margin: '0 2rem',
