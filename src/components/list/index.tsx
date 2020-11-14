@@ -68,7 +68,11 @@ export const List: React.FC<ListProps> = ({
             )}
             onClick={handleClick(item)}
           >
-            {item.transform ? item.transform(item) : <Text>{item.text}</Text>}
+            {item.transform ? (
+              item.transform(item)
+            ) : (
+              <Text color="text-dark">{item.text}</Text>
+            )}
           </li>
         ))}
       </Box>
