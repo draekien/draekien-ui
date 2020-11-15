@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleSwitch component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-10nf7hq"
+  >
+    <div
+      style="position: relative; display: inline-block; text-align: left; opacity: 1; direction: ltr; border-radius: 10px; transition: opacity 0.25s; user-select: none;"
+    >
+      <div
+        class="react-switch-bg"
+        style="height: 20px; width: 40px; margin: 0px; position: relative; background: rgb(136, 136, 136); border-radius: 10px; cursor: pointer; transition: background 0.25s;"
+      />
+      <div
+        class="react-switch-handle"
+        style="height: 18px; width: 18px; background: rgb(255, 255, 255); display: inline-block; cursor: pointer; border-radius: 50%; position: absolute; transform: translateX(1px); top: 1px; outline: 0; border: 0px; transition: background-color 0.25s, transform 0.25s, box-shadow 0.15s;"
+      />
+      <input
+        id="toggle"
+        role="switch"
+        style="border: 0px; height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px;"
+        type="checkbox"
+      />
+    </div>
+    <label
+      class="css-1s7hzx4"
+      for="toggle"
+    />
+  </div>
+</div>
+`;
+
+exports[`ToggleSwitch component should match snapshot and render children 1`] = `
+<div>
+  <div
+    class="css-10nf7hq"
+  >
+    <label
+      class="css-1s7hzx4"
+      for="toggle"
+    >
+      Test
+    </label>
+    <div
+      style="position: relative; display: inline-block; text-align: left; opacity: 1; direction: ltr; border-radius: 10px; transition: opacity 0.25s; user-select: none;"
+    >
+      <div
+        class="react-switch-bg"
+        style="height: 20px; width: 40px; margin: 0px; position: relative; background: rgb(136, 136, 136); border-radius: 10px; cursor: pointer; transition: background 0.25s;"
+      />
+      <div
+        class="react-switch-handle"
+        style="height: 18px; width: 18px; background: rgb(255, 255, 255); display: inline-block; cursor: pointer; border-radius: 50%; position: absolute; transform: translateX(1px); top: 1px; outline: 0; border: 0px; transition: background-color 0.25s, transform 0.25s, box-shadow 0.15s;"
+      />
+      <input
+        id="toggle"
+        role="switch"
+        style="border: 0px; height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px;"
+        type="checkbox"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ToggleSwitch component should match snapshot when position right 1`] = `
+<div>
+  <div
+    class="css-10nf7hq"
+  >
+    <label
+      class="css-1s7hzx4"
+      for="toggle"
+    />
+    <div
+      style="position: relative; display: inline-block; text-align: left; opacity: 1; direction: ltr; border-radius: 10px; transition: opacity 0.25s; user-select: none;"
+    >
+      <div
+        class="react-switch-bg"
+        style="height: 20px; width: 40px; margin: 0px; position: relative; background: rgb(136, 136, 136); border-radius: 10px; cursor: pointer; transition: background 0.25s;"
+      />
+      <div
+        class="react-switch-handle"
+        style="height: 18px; width: 18px; background: rgb(255, 255, 255); display: inline-block; cursor: pointer; border-radius: 50%; position: absolute; transform: translateX(1px); top: 1px; outline: 0; border: 0px; transition: background-color 0.25s, transform 0.25s, box-shadow 0.15s;"
+      />
+      <input
+        id="toggle"
+        role="switch"
+        style="border: 0px; height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px;"
+        type="checkbox"
+      />
+    </div>
+  </div>
+</div>
+`;
