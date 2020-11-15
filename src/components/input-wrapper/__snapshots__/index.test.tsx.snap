@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputWrapper component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-18cm3mp"
+  >
+    <label
+      class="css-159wv0z"
+      for="test"
+    >
+      <div
+        class="css-33lc35"
+      >
+        test
+      </div>
+    </label>
+    <label
+      class="css-159wv0z"
+      for="test"
+    >
+      <div
+        class="css-33lc35"
+      >
+        test
+      </div>
+    </label>
+  </div>
+</div>
+`;

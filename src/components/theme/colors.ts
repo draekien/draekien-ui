@@ -38,15 +38,19 @@ export const colors = {
   's-600': '#af4175',
   's-700': '#993966',
   's-800': '#833158',
+  information: '#066899', // alias for information-400
   'information-000': '#cde1eb',
   'information-400': '#066899', // default
   'information-800': '#043e5c',
+  success: '#2e9852', // alias for success-400
   'success-000': '#d5eadc',
   'success-400': '#2e9852', // default
   'success-800': '#1c5b31',
+  warning: '#ea8818', // alias for warning-400
   'warning-000': '#fbe7d1',
   'warning-400': '#ea8818', // default
   'warning-800': '#8c520e',
+  error: '#e00027', // alias for error-400
   'error-000': '#f9ccd4',
   'error-400': '#e00027', // default
   'error-800': '#860017',

@@ -8,6 +8,7 @@ import { colors } from '../theme/colors';
 
 export interface ToggleSwitchProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
+  id: string;
   children?: React.ReactNode;
   togglePosition?: 'left' | 'right';
   onToggle?: (
@@ -69,3 +70,5 @@ export const ToggleSwitch: React.FC<ToggleSwitchProps> = (props) => {
     </Flex>
   );
 };
+
+export default ToggleSwitch;

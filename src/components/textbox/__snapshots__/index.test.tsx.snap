@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textbox component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-18cm3mp"
+  >
+    <label
+      class="css-159wv0z"
+      for="test"
+    >
+      <div
+        class="css-33lc35"
+      >
+        test
+      </div>
+    </label>
+    <div
+      class="css-1mngvxn"
+    >
+      <input
+        class="css-iz9x5f"
+        id="test"
+        value=""
+      />
+      <span
+        class="css-1fkmtnz"
+      >
+        <i
+          class="material-icons  css-eyhhi6"
+        >
+          info
+        </i>
+      </span>
+    </div>
+    <label
+      class="css-159wv0z"
+      for="test"
+    >
+      <div
+        class="css-33lc35"
+      >
+        test
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Textbox component should match snapshot when active and fullwidth 1`] = `
+<div>
+  <div
+    class="css-yw2ope"
+  >
+    <label
+      class="css-159wv0z"
+      for="test"
+    >
+      <div
+        class="css-33lc35"
+      >
+        test
+      </div>
+    </label>
+    <div
+      class="css-1mngvxn"
+    >
+      <input
+        class="css-vp778u"
+        id="test"
+        value=""
+      />
+      <span
+        class="css-1fkmtnz"
+      >
+        <i
+          class="material-icons  css-eyhhi6"
+        >
+          info
+        </i>
+      </span>
+    </div>
+    <label
+      class="css-159wv0z"
+      for="test"
+    >
+      <div
+        class="css-33lc35"
+      >
+        test
+      </div>
+    </label>
+  </div>
+</div>
+`;
