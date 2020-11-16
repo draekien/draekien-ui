@@ -20,7 +20,7 @@ export const textareaCss = (props: TextAreaProps): SxStyleProp => {
     padding: '0.6875rem 0.5rem',
     color: 'text-dark',
     border: '1px solid',
-    borderColor: 'b-200',
+    borderColor: 'b-100',
     borderRadius: 'md',
     fontFamily: 'Montserrat, sans-serif',
     variant: 'text.medium',
@@ -36,7 +36,7 @@ export const textareaCss = (props: TextAreaProps): SxStyleProp => {
       borderColor: 'p-300',
     },
     ':not(:disabled):not(:focus):hover': {
-      borderColor: 'b-400',
+      borderColor: 'b-200',
     },
     '::placeholder': {
       color: 'b-000',

@@ -19,7 +19,7 @@ exports[`TextArea component should match snapshot 1`] = `
         </div>
       </label>
       <textarea
-        class="css-xqyt01"
+        class="css-1lrzing"
         id="area"
         placeholder="placeholder"
         rows="1"

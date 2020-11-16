@@ -25,7 +25,7 @@ export const inputCss = (props: InputCssProps): SxStyleProp => {
     p: '0 1rem 0 0.5rem',
     color: 'b-600',
     border: '1px solid',
-    borderColor: 'b-000',
+    borderColor: 'b-100',
     borderRadius: 'md',
     fontFamily: 'Montserrat, sans-serif',
     variant: 'text.medium',
@@ -47,10 +47,10 @@ export const inputCss = (props: InputCssProps): SxStyleProp => {
       },
     },
     ':not(:disabled):not(:focus):hover': {
-      borderColor: 'p-400',
+      borderColor: 'b-200',
       '+ i, + span, + div > i': {
         transition: 'all 300ms',
-        color: 'p-300',
+        color: 'p-400',
       },
     },
     '::placeholder': {
