@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-18cm3mp"
+  >
+    <div
+      class="css-18cm3mp"
+    >
+      <label
+        class="css-159wv0z"
+        for="area"
+      >
+        <div
+          class="css-33lc35"
+        >
+          textarea
+        </div>
+      </label>
+      <textarea
+        class="css-xqyt01"
+        id="area"
+        placeholder="placeholder"
+        rows="1"
+        style="height: 6.5rem; min-height: 6.5rem; max-height: 6.5rem; overflow-x: hidden; word-wrap: break-word;"
+      />
+      <label
+        class="css-159wv0z"
+        for="area"
+      >
+        <div
+          class="css-33lc35"
+        >
+          tooltip
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+`;

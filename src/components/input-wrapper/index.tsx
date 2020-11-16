@@ -8,7 +8,7 @@ import { colors } from '../theme/colors';
 
 export interface InputChildrenProps {
   id: string;
-  label: string;
+  label?: string;
   tooltip?: string;
   fullWidth?: boolean;
   variant?: 'error' | 'warning' | 'success';
