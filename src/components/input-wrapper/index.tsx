@@ -7,14 +7,20 @@ import Text from '../text';
 import { colors } from '../theme/colors';
 
 export interface InputChildrenProps {
+  /** id of the input */
   id: string;
+  /** label text */
   label?: string;
+  /** tooltip, help or error message located beneath input */
   tooltip?: string;
+  /** should this component take up the whole width of the parent container */
   fullWidth?: boolean;
+  /** color to render the input */
   variant?: 'error' | 'warning' | 'success';
 }
 
 export interface InputWrapperProps extends InputChildrenProps {
+  /** children to render inside the wrapper */
   children?: React.ReactNode;
 }
 
