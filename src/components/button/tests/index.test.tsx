@@ -2,8 +2,8 @@
 /** @jsx jsx */
 import { fireEvent, getByText, render } from '@testing-library/react';
 import { jsx } from 'theme-ui';
-import Button from '.';
-import Icon from '../icon';
+import Button from '..';
+import Icon from '../../icon';
 
 describe('Button component', () => {
   test('should match snapshot', () => {

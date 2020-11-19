@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { fireEvent, getByText, render } from '@testing-library/react';
 import { jsx } from 'theme-ui';
-import Toast from '.';
+import Toast from '..';
 
 describe('Toast component', () => {
   test('should match snapshot', () => {

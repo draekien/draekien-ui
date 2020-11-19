@@ -3,7 +3,7 @@ import {
   linkButtonCss,
   iconWrapperCss,
   ButtonCssProps,
-} from './index.styles';
+} from '../index.styles';
 
 describe('buttonCss function', () => {
   test('returns primary colors when variant is primary', () => {

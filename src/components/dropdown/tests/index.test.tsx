@@ -2,8 +2,8 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { render } from '@testing-library/react';
-import Dropdown from '.';
-import { caretCss } from './index.styles';
+import Dropdown from '..';
+import { caretCss } from '../index.styles';
 
 describe('Dropdown component', () => {
   test('should match snapshot', () => {

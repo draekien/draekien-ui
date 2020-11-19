@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { render } from '@testing-library/react';
-import InputWrapper from '.';
+import InputWrapper from '..';
 
 describe('InputWrapper component', () => {
   test('should match snapshot', () => {

@@ -1,4 +1,8 @@
-import { spinnerBarCss, spinnerCircleCss, spinnerDotCss } from './index.styles';
+import {
+  spinnerBarCss,
+  spinnerCircleCss,
+  spinnerDotCss,
+} from '../index.styles';
 
 describe('Spinner Bar Css', () => {
   test('should match snapshot', () => {

@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { render } from '@testing-library/react';
-import { TextArea } from '.';
+import { TextArea } from '..';
 
 describe('TextArea component', () => {
   test('should match snapshot', () => {

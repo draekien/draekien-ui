@@ -2,9 +2,9 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { act, render } from '@testing-library/react';
-import { ToastProvider } from './provider';
-import { ToastContextProps } from './context';
-import { ToastConsumer } from './consumer';
+import { ToastProvider } from '../provider';
+import { ToastContextProps } from '../context';
+import { ToastConsumer } from '../consumer';
 
 const toasts = [
   { message: 'Toast 1 Message', title: 'Toast 1 Title', key: '1', duration: 0 },

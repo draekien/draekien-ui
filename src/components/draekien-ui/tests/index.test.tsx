@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { render } from '@testing-library/react';
-import DraekienUi from '.';
+import DraekienUi from '..';
 
 describe('DraekienUi component', () => {
   test('should match snapshot', () => {

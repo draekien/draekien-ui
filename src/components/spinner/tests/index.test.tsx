@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { render } from '@testing-library/react';
 import { jsx } from 'theme-ui';
-import Spinner from '.';
+import Spinner from '..';
 
 describe('Spinner component', () => {
   test('should match snapshot when default', () => {

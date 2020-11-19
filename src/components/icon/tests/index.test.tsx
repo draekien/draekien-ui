@@ -2,8 +2,8 @@
 /** @jsx jsx */
 import { render } from '@testing-library/react';
 import { jsx } from 'theme-ui';
-import Icon from '.';
-import { iconCss } from './index.styles';
+import Icon from '..';
+import { iconCss } from '../index.styles';
 
 describe('Icon component', () => {
   test('default icon matches snapshot', () => {

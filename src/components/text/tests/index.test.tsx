@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { render } from '@testing-library/react';
 import { jsx } from 'theme-ui';
-import Text from '.';
+import Text from '..';
 
 describe('Text component', () => {
   test('should match snapshot with default props', () => {

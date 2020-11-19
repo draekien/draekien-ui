@@ -2,8 +2,8 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { render } from '@testing-library/react';
-import { ToastProvider } from './provider';
-import { ToastContainer } from './container';
+import { ToastProvider } from '../provider';
+import { ToastContainer } from '../container';
 
 const toasts = [
   { message: 'Toast 1 Message', title: 'Toast 1 Title', key: '1', duration: 0 },

@@ -6,6 +6,7 @@ import { styles } from './styles';
 import { transitions } from './transitions';
 import { fontSizes, fontWeights, lineHeights, text } from './typography';
 import { zIndices } from './zindices';
+import { breakpoints } from './breakpoints';
 
 export type ThemeType = Partial<{
   colors:
@@ -35,5 +36,6 @@ export const DraekienTheme = () => {
     text,
     transitions,
     zIndices,
+    breakpoints,
   };
 };

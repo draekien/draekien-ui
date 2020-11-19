@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { render } from '@testing-library/react';
-import Textbox from '.';
+import Textbox from '..';
 
 describe('Textbox component', () => {
   test('should match snapshot', () => {
