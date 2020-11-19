@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastContainer component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-xuneqf"
+    id="draekien_ui_toast_container"
+  >
+    <div
+      class="css-1vixhij"
+      style="height: 0px;"
+    >
+      <i
+        class="material-icons css-dx8f9f"
+      >
+        check_circle
+      </i>
+      <div
+        class="css-18u318"
+      >
+        Toast 1 Title
+      </div>
+      <div
+        class="css-1jhfx10"
+      >
+        Toast 1 Message
+      </div>
+      <i
+        class="material-icons css-cm2otq"
+      >
+        close
+      </i>
+    </div>
+    <div
+      class="css-1vixhij"
+      style="height: 0px;"
+    >
+      <i
+        class="material-icons css-dx8f9f"
+      >
+        check_circle
+      </i>
+      <div
+        class="css-18u318"
+      >
+        Toast 2 Title
+      </div>
+      <div
+        class="css-1jhfx10"
+      >
+        Toast 2 Message
+      </div>
+      <i
+        class="material-icons css-cm2otq"
+      >
+        close
+      </i>
+    </div>
+  </div>
+</div>
+`;

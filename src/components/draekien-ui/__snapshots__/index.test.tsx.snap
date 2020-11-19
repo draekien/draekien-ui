@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DraekienUi component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-p3n47d"
+    id="draekien_ui_toast_container"
+  />
+  Test
+</div>
+`;
+
+exports[`DraekienUi component should match snapshot when offset is set 1`] = `
+<div>
+  <div
+    class="css-17f8062"
+    id="draekien_ui_toast_container"
+  />
+  Test
+</div>
+`;
+
+exports[`DraekienUi component should match snapshot when toast context is not used 1`] = `
+<div>
+  Test
+</div>
+`;

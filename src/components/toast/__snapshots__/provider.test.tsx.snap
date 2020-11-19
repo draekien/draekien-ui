@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastProvider should match snapshot 1`] = `
+<div>
+  <div
+    id="test_container"
+  />
+</div>
+`;
