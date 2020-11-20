@@ -41,4 +41,10 @@ describe('Checkbox component', () => {
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
   });
+
+  test('should be disabled when disabled prop is true', () => {
+    const component = render(<Checkbox id="checkbox" disabled />);
+
+    expect(component.container.querySelector('input')).toBeDisabled();
+  });
 });
