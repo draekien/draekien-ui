@@ -1,7 +1,4 @@
-/**
- * @jsxRuntime classic
- * @jsx jsx
- */
+/** @jsx jsx */
 import { jsx } from 'theme-ui';
 import React from 'react';
 import Toast, { ToastProps } from '.';

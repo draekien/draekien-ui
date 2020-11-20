@@ -1,7 +1,4 @@
-/**
- * @jsxRuntime classic
- * @jsx jsx
- */
+/** @jsx jsx */
 import { Flex, jsx, Spinner as ThemeUiSpinner } from 'theme-ui';
 import React from 'react';
 import { colors } from '../theme/colors';

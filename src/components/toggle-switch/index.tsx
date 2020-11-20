@@ -1,4 +1,3 @@
-/** @jsxRuntime classic */
 /** @jsx jsx */
 import { Flex, jsx, Label } from 'theme-ui';
 import Switch from 'react-switch';

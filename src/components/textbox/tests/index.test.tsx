@@ -1,4 +1,3 @@
-/** @jsxRumtime classic */
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { render } from '@testing-library/react';

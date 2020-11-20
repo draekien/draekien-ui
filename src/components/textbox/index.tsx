@@ -1,4 +1,3 @@
-/** @jsxRuntime classic */
 /** @jsx jsx */
 import { Box, Input, jsx } from 'theme-ui';
 import * as React from 'react';

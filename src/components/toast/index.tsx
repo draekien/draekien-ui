@@ -1,7 +1,4 @@
-/**
- * @jsxRuntime classic
- * @jsx jsx
- * */
+/** @jsx jsx */
 import { jsx } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';

@@ -1,7 +1,6 @@
-/** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { render } from '@testing-library/react';
+import { fireEvent, getByText, render } from '@testing-library/react';
 import { ToggleSwitch } from '..';
 
 describe('ToggleSwitch component', () => {
@@ -27,5 +26,20 @@ describe('ToggleSwitch component', () => {
     );
 
     expect(container).toMatchSnapshot();
+  });
+
+  test('should call callback fn when toggled', (done) => {
+    const fn = jest.fn(() => done());
+
+    const component = render(
+      <ToggleSwitch id="toggle" togglePosition="right" onToggle={fn}>
+        Test
+      </ToggleSwitch>
+    );
+
+    fireEvent(
+      getByText(component.container, 'Test'),
+      new MouseEvent('click', { bubbles: true, cancelable: true })
+    );
   });
 });

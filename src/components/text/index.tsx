@@ -1,4 +1,3 @@
-/** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Text as ThemeUiText } from 'theme-ui';
 import React from 'react';

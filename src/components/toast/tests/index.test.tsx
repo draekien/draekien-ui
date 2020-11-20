@@ -1,4 +1,3 @@
-/** @jsxRuntime classic */
 /** @jsx jsx */
 import { fireEvent, getByText, render } from '@testing-library/react';
 import { jsx } from 'theme-ui';

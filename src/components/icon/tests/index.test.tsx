@@ -1,4 +1,3 @@
-/** @jsxRuntime classic */
 /** @jsx jsx */
 import { render } from '@testing-library/react';
 import { jsx } from 'theme-ui';
