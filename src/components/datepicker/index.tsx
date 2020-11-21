@@ -9,14 +9,52 @@ import Text from '../text';
 export type WeekStartDay = 'Sunday' | 'Monday';
 
 export type DatePickerProps = {
+  /**
+   * An array of dates to pre-select on the datepicker.
+   * You must manually validate these dates to be within minDate, maxDate, and maxSelections constraints
+   *
+   * If mode is range, the first two dates are selected (and those between are highlighted)
+   * If mode is multi, all dates are selected
+   * If mode is single, only the first date is selected
+   *
+   * All dates will be stripped of their time
+   * @default []
+   */
   selectedDates?: Date[];
+  /** Minimum selectable date. All dates before this date are disabled */
   minDate?: Date;
+  /** Maximum selectable date. All dates after this date are disabled */
   maxDate?: Date;
+  /** Initial month when the calendar is rendered for the first time */
   initialMonth?: Date;
+  /**
+   * Callback handler fro when a date is selected or unselected
+   * @param selectedDates array of all the selected dates.
+   * In range mode, the first value will be the start date and the second value the end date
+   * @param selectedDate the day the user has selected or unselected
+   */
   onChange?: (selectedDates: Date[], selectedDate: Date) => void;
+  /**
+   * Callback handler for when the user moves between months
+   * @param activeMonth the active month on the calendar
+   */
   onChangeMonth?: (activeMonth: Date) => void;
+  /**
+   * The mode to run the date picker in
+   * range: a start and end date can be selected, with all dates between highlighted
+   * multi: a number of dates can be selected up to and including the maxSelections number
+   * single: only one date can be selected
+   */
   mode?: 'range' | 'multi' | 'single';
+  /**
+   * Maximum number of selectable dates in multi mode. All unselected dates are disabled when maxSelections is reached
+   * @default 10
+   */
   maxSelections?: number;
+  /**
+   * What day the week starts on (Sunday or Monday)
+   * @default 'Sunday'
+   */
   weekStartDay?: WeekStartDay;
 };
 
