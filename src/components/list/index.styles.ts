@@ -17,7 +17,7 @@ export const listItemCss = (
   disabled: boolean,
   focused: boolean
 ): SxStyleProp => {
-  const css = {
+  const css: any = {
     backgroundColor: 'b-000',
     color: disabled ? 'b-200' : 'b-400',
     cursor: disabled ? 'not-allowed' : 'pointer',

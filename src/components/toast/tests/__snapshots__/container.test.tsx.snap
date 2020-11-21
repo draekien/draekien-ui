@@ -11,7 +11,7 @@ exports[`ToastContainer component should match snapshot 1`] = `
       style="height: 0px;"
     >
       <i
-        class="material-icons css-dx8f9f"
+        class="material-icons css-1mkw5fx-Icon"
       >
         check_circle
       </i>
@@ -26,7 +26,7 @@ exports[`ToastContainer component should match snapshot 1`] = `
         Toast 1 Message
       </div>
       <i
-        class="material-icons css-cm2otq"
+        class="material-icons css-1w1snbv-Icon"
       >
         close
       </i>
@@ -36,7 +36,7 @@ exports[`ToastContainer component should match snapshot 1`] = `
       style="height: 0px;"
     >
       <i
-        class="material-icons css-dx8f9f"
+        class="material-icons css-1mkw5fx-Icon"
       >
         check_circle
       </i>
@@ -51,7 +51,7 @@ exports[`ToastContainer component should match snapshot 1`] = `
         Toast 2 Message
       </div>
       <i
-        class="material-icons css-cm2otq"
+        class="material-icons css-1w1snbv-Icon"
       >
         close
       </i>

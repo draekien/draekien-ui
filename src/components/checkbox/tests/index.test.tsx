@@ -23,7 +23,7 @@ describe('Checkbox component', () => {
     );
 
     fireEvent(
-      getByText(component.container, 'test'),
+      getByText(component.container as HTMLElement, 'test'),
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
   });
@@ -37,7 +37,7 @@ describe('Checkbox component', () => {
     );
 
     fireEvent(
-      getByText(component.container, 'test'),
+      getByText(component.container as HTMLElement, 'test'),
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
   });

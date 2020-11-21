@@ -38,7 +38,7 @@ describe('ToggleSwitch component', () => {
     );
 
     fireEvent(
-      getByText(component.container, 'Test'),
+      getByText(component.container as HTMLElement, 'Test'),
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
   });

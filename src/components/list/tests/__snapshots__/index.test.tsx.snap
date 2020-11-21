@@ -3,16 +3,16 @@
 exports[`List component should match snapshot 1`] = `
 <div>
   <div
-    class="css-uliqdc"
+    class="css-zkr0k6-List"
   >
     <ul
-      class="css-rsnfp2"
+      class="css-1roqklx-List"
     >
       <li
         class="css-50zunu"
       >
         <div
-          class="css-1w3h17w"
+          class="css-eydsp4-Text"
         >
           one
         </div>
@@ -21,7 +21,7 @@ exports[`List component should match snapshot 1`] = `
         class="css-50zunu"
       >
         <div
-          class="css-1w3h17w"
+          class="css-eydsp4-Text"
         >
           two
         </div>
@@ -30,7 +30,7 @@ exports[`List component should match snapshot 1`] = `
         class="css-50zunu"
       >
         <div
-          class="css-1w3h17w"
+          class="css-eydsp4-Text"
         >
           three
         </div>
@@ -43,21 +43,21 @@ exports[`List component should match snapshot 1`] = `
 exports[`List component should match snapshot with custom props 1`] = `
 <div>
   <div
-    class="css-uliqdc"
+    class="css-zkr0k6-List"
   >
     <div
-      class="css-33lc35"
+      class="css-3vy6se-Text"
     >
       test
     </div>
     <ol
-      class="css-rsnfp2"
+      class="css-1roqklx-List"
     >
       <li
         class="css-1ub0xpm"
       >
         <button
-          class="css-1oppd46"
+          class="css-c3dhtb-Button"
           type="button"
         >
           <span>
@@ -69,7 +69,7 @@ exports[`List component should match snapshot with custom props 1`] = `
         class="css-50zunu"
       >
         <button
-          class="css-1oppd46"
+          class="css-c3dhtb-Button"
           type="button"
         >
           <span>
@@ -81,7 +81,7 @@ exports[`List component should match snapshot with custom props 1`] = `
         class="css-50zunu"
       >
         <button
-          class="css-1oppd46"
+          class="css-c3dhtb-Button"
           type="button"
         >
           <span>

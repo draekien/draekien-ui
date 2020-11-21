@@ -100,7 +100,7 @@ describe('Button component', () => {
     const component = render(<Button onClick={fn}>test</Button>);
 
     fireEvent(
-      getByText(component.container, 'test'),
+      getByText(component.container as HTMLElement, 'test'),
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
   });

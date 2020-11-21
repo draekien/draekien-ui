@@ -3,7 +3,7 @@
 exports[`Text component should match snapshot with custom props 1`] = `
 <div>
   <div
-    class="css-93s6qb"
+    class="css-1b29sq2-Text"
   >
     Test
   </div>
@@ -13,7 +13,7 @@ exports[`Text component should match snapshot with custom props 1`] = `
 exports[`Text component should match snapshot with default props 1`] = `
 <div>
   <div
-    class="css-33lc35"
+    class="css-3vy6se-Text"
   >
     test
   </div>

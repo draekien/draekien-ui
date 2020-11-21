@@ -23,7 +23,7 @@ describe('Toast component', () => {
     const { container } = render(<Toast onClick={fn} title="test" />);
 
     fireEvent(
-      getByText(container, 'test'),
+      getByText(container as HTMLElement, 'test'),
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
   });
@@ -33,7 +33,7 @@ describe('Toast component', () => {
     const { container } = render(<Toast onClose={fn} title="test" />);
 
     fireEvent(
-      getByText(container, 'close'),
+      getByText(container as HTMLElement, 'close'),
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
   });

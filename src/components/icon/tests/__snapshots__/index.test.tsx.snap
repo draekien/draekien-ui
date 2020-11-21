@@ -3,7 +3,7 @@
 exports[`Icon component default icon matches snapshot 1`] = `
 <div>
   <i
-    class="material-icons  css-eyhhi6"
+    class="material-icons  css-96rp51-Icon"
   >
     accessibility
   </i>
@@ -13,7 +13,7 @@ exports[`Icon component default icon matches snapshot 1`] = `
 exports[`Icon component outlined icon matches snapshot 1`] = `
 <div>
   <i
-    class="material-icons-outlined  css-eyhhi6"
+    class="material-icons-outlined  css-96rp51-Icon"
   >
     accessibility
   </i>

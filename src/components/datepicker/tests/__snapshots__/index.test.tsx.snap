@@ -3,20 +3,20 @@
 exports[`DatePicker component should match snapshot 1`] = `
 <div>
   <div
-    class="css-1v61bdz"
+    class="css-1ffeio2-DatePicker"
   >
     <div
-      class="css-12kdkdf"
+      class="css-1irkkch-DatePicker"
     >
       <button
-        class="css-1tezc6"
+        class="css-r4utam-Button"
         type="button"
       >
         <span
           class="css-1ar16h4"
         >
           <i
-            class="material-icons  css-rweyqf"
+            class="material-icons  css-1ike9wb-Icon"
           >
             chevron_left
           </i>
@@ -24,12 +24,12 @@ exports[`DatePicker component should match snapshot 1`] = `
         <span />
       </button>
       <span
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         November 2020
       </span>
       <button
-        class="css-1tezc6"
+        class="css-r4utam-Button"
         type="button"
       >
         <span />
@@ -37,7 +37,7 @@ exports[`DatePicker component should match snapshot 1`] = `
           class="css-1ar16h4"
         >
           <i
-            class="material-icons  css-rweyqf"
+            class="material-icons  css-1ike9wb-Icon"
           >
             chevron_right
           </i>
@@ -45,46 +45,46 @@ exports[`DatePicker component should match snapshot 1`] = `
       </button>
     </div>
     <div
-      class="css-7qlm80"
+      class="css-o64vi5-DatePicker"
     >
       <span
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         S
       </span>
       <span
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         M
       </span>
       <span
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         T
       </span>
       <span
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         W
       </span>
       <span
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         T
       </span>
       <span
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         F
       </span>
       <span
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         S
       </span>
     </div>
     <div
-      class="css-1x25863"
+      class="css-1t85os0-DatePicker"
     >
       <span
         class="css-dl9uni-Day"

@@ -16,16 +16,16 @@ Object {
 exports[`Dropdown component should match snapshot 1`] = `
 <div>
   <div
-    class="css-8xolk2"
+    class="css-54kz1u-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1s1r74k"
+        class="css-1t9wcl0-Dropdown"
       >
         <button
-          class="css-1tezc6"
+          class="css-r4utam-Button"
           type="button"
         >
           <span>
@@ -35,7 +35,7 @@ exports[`Dropdown component should match snapshot 1`] = `
             class="css-15ou4n0"
           >
             <i
-              class="material-icons  css-rweyqf"
+              class="material-icons  css-1ike9wb-Icon"
             >
               expand_more
             </i>
@@ -50,16 +50,16 @@ exports[`Dropdown component should match snapshot 1`] = `
 exports[`Dropdown component should match snapshot when hasSelection is true and position is top right 1`] = `
 <div>
   <div
-    class="css-8xolk2"
+    class="css-54kz1u-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1v364b4"
+        class="css-ustnei-Dropdown"
       >
         <button
-          class="css-1tezc6"
+          class="css-r4utam-Button"
           type="button"
         >
           <span>
@@ -69,7 +69,7 @@ exports[`Dropdown component should match snapshot when hasSelection is true and 
             class="css-15ou4n0"
           >
             <i
-              class="material-icons  css-rweyqf"
+              class="material-icons  css-1ike9wb-Icon"
             >
               expand_more
             </i>
@@ -84,16 +84,16 @@ exports[`Dropdown component should match snapshot when hasSelection is true and 
 exports[`Dropdown component should match snapshot when isOpen is true 1`] = `
 <div>
   <div
-    class="css-8xolk2"
+    class="css-54kz1u-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1s1r74k"
+        class="css-1t9wcl0-Dropdown"
       >
         <button
-          class="css-1mithov"
+          class="css-bjik70-Button"
           type="button"
         >
           <span>
@@ -103,14 +103,14 @@ exports[`Dropdown component should match snapshot when isOpen is true 1`] = `
             class="css-15ou4n0"
           >
             <i
-              class="material-icons  css-rweyqf"
+              class="material-icons  css-1ike9wb-Icon"
             >
               expand_less
             </i>
           </span>
         </button>
         <div
-          class="css-ig3k6c"
+          class="css-vrrfns-Dropdown"
         >
           <div>
             Item 
@@ -150,16 +150,16 @@ exports[`Dropdown component should match snapshot when isOpen is true 1`] = `
 exports[`Dropdown component should match snapshot when maxHeight is set 1`] = `
 <div>
   <div
-    class="css-8xolk2"
+    class="css-54kz1u-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1s1r74k"
+        class="css-1t9wcl0-Dropdown"
       >
         <button
-          class="css-1tezc6"
+          class="css-r4utam-Button"
           type="button"
         >
           <span>
@@ -169,7 +169,7 @@ exports[`Dropdown component should match snapshot when maxHeight is set 1`] = `
             class="css-15ou4n0"
           >
             <i
-              class="material-icons  css-rweyqf"
+              class="material-icons  css-1ike9wb-Icon"
             >
               expand_more
             </i>
@@ -184,16 +184,16 @@ exports[`Dropdown component should match snapshot when maxHeight is set 1`] = `
 exports[`Dropdown component should match snapshot when variant is primary and position is bottom right 1`] = `
 <div>
   <div
-    class="css-8xolk2"
+    class="css-54kz1u-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1s1r74k"
+        class="css-1t9wcl0-Dropdown"
       >
         <button
-          class="css-1kloskf"
+          class="css-1xxmigb-Button"
           type="button"
         >
           <span>
@@ -203,7 +203,7 @@ exports[`Dropdown component should match snapshot when variant is primary and po
             class="css-15ou4n0"
           >
             <i
-              class="material-icons  css-rweyqf"
+              class="material-icons  css-1ike9wb-Icon"
             >
               expand_more
             </i>

@@ -3,7 +3,7 @@
 exports[`Spinner component should match snapshot when bars 1`] = `
 <div>
   <div
-    class="css-1etmbmm"
+    class="css-rwn62h-Spinner"
   >
     <div
       class="css-6618cs"
@@ -21,7 +21,7 @@ exports[`Spinner component should match snapshot when bars 1`] = `
 exports[`Spinner component should match snapshot when default 1`] = `
 <div>
   <svg
-    class="css-lko7vq"
+    class="css-1nj7dvp-Spinner"
     fill="none"
     height="48"
     role="img"
@@ -54,7 +54,7 @@ exports[`Spinner component should match snapshot when default 1`] = `
 exports[`Spinner component should match snapshot when dots 1`] = `
 <div>
   <div
-    class="css-1etmbmm"
+    class="css-rwn62h-Spinner"
   >
     <div
       class="css-le8skg"
@@ -72,10 +72,10 @@ exports[`Spinner component should match snapshot when dots 1`] = `
 exports[`Spinner component should match snapshot when full size and not circle 1`] = `
 <div>
   <div
-    class="css-nnj5d8"
+    class="css-1rt62m3-Spinner"
   >
     <div
-      class="css-1etmbmm"
+      class="css-rwn62h-Spinner"
     >
       <div
         class="css-12n5ctp"
@@ -94,10 +94,10 @@ exports[`Spinner component should match snapshot when full size and not circle 1
 exports[`Spinner component should match snapshot with custom prop values 1`] = `
 <div>
   <div
-    class="css-nnj5d8"
+    class="css-1rt62m3-Spinner"
   >
     <svg
-      class="css-1prn31h"
+      class="css-1ojhecn-Spinner"
       fill="none"
       height="48"
       role="img"

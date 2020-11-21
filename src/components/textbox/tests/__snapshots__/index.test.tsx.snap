@@ -3,14 +3,14 @@
 exports[`Textbox component should match snapshot 1`] = `
 <div>
   <div
-    class="css-18cm3mp"
+    class="css-hfz0wm-InputWrapper"
   >
     <label
-      class="css-159wv0z"
+      class="css-7ojqvb-InputWrapper"
       for="test"
     >
       <div
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         test
       </div>
@@ -27,18 +27,18 @@ exports[`Textbox component should match snapshot 1`] = `
         class="css-1fkmtnz"
       >
         <i
-          class="material-icons  css-eyhhi6"
+          class="material-icons  css-96rp51-Icon"
         >
           info
         </i>
       </span>
     </div>
     <label
-      class="css-159wv0z"
+      class="css-7ojqvb-InputWrapper"
       for="test"
     >
       <div
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         test
       </div>
@@ -50,14 +50,14 @@ exports[`Textbox component should match snapshot 1`] = `
 exports[`Textbox component should match snapshot when active and fullwidth 1`] = `
 <div>
   <div
-    class="css-yw2ope"
+    class="css-14kpdgk-InputWrapper"
   >
     <label
-      class="css-159wv0z"
+      class="css-7ojqvb-InputWrapper"
       for="test"
     >
       <div
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         test
       </div>
@@ -74,18 +74,18 @@ exports[`Textbox component should match snapshot when active and fullwidth 1`] =
         class="css-1fkmtnz"
       >
         <i
-          class="material-icons  css-eyhhi6"
+          class="material-icons  css-96rp51-Icon"
         >
           info
         </i>
       </span>
     </div>
     <label
-      class="css-159wv0z"
+      class="css-7ojqvb-InputWrapper"
       for="test"
     >
       <div
-        class="css-33lc35"
+        class="css-3vy6se-Text"
       >
         test
       </div>

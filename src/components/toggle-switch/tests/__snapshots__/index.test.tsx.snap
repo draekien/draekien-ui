@@ -3,7 +3,7 @@
 exports[`ToggleSwitch component should match snapshot 1`] = `
 <div>
   <div
-    class="css-10nf7hq"
+    class="css-1adqeri-ToggleSwitch"
   >
     <div
       style="position: relative; display: inline-block; text-align: left; opacity: 1; direction: ltr; border-radius: 10px; transition: opacity 0.25s; user-select: none;"
@@ -24,7 +24,7 @@ exports[`ToggleSwitch component should match snapshot 1`] = `
       />
     </div>
     <label
-      class="css-1s7hzx4"
+      class="css-1adg6km-ToggleSwitch"
       for="toggle"
     />
   </div>
@@ -34,10 +34,10 @@ exports[`ToggleSwitch component should match snapshot 1`] = `
 exports[`ToggleSwitch component should match snapshot and render children 1`] = `
 <div>
   <div
-    class="css-10nf7hq"
+    class="css-1adqeri-ToggleSwitch"
   >
     <label
-      class="css-1s7hzx4"
+      class="css-1adg6km-ToggleSwitch"
       for="toggle"
     >
       Test
@@ -67,10 +67,10 @@ exports[`ToggleSwitch component should match snapshot and render children 1`] = 
 exports[`ToggleSwitch component should match snapshot when position right 1`] = `
 <div>
   <div
-    class="css-10nf7hq"
+    class="css-1adqeri-ToggleSwitch"
   >
     <label
-      class="css-1s7hzx4"
+      class="css-1adg6km-ToggleSwitch"
       for="toggle"
     />
     <div
