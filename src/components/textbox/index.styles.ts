@@ -27,6 +27,7 @@ export const inputCss = (props: InputCssProps): SxStyleProp => {
     border: '1px solid',
     borderColor: 'b-100',
     borderRadius: 'md',
+    backgroundColor: 'white',
     fontFamily: 'Montserrat, sans-serif',
     variant: 'text.medium',
     width: '100%',

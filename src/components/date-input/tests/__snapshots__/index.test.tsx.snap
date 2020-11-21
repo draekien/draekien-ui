@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateInput component should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="css-6q34h3-DateInput"
+    >
+      <div
+        class="css-hfz0wm-InputWrapper"
+      >
+        <div
+          class="css-1mngvxn"
+        >
+          <input
+            class="css-1u99oui"
+            id="datepicker"
+            placeholder="DD / MM / YYYY"
+            value="21 / 11 / 2020"
+          />
+          <div
+            class="css-1xauu8w-TextboxTail"
+          >
+            <i
+              class="material-icons  css-9vbooj-Icon"
+            >
+              date_range
+            </i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

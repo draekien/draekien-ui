@@ -77,7 +77,7 @@ export const datePickerDayCss = (props: DatePickerDayCssProps): SxStyleProp => {
     css.backgroundColor = 'b-200';
     css.color = 'b-300';
   } else {
-    css.backgroundColor = 'b-000';
+    css.backgroundColor = 'p-000';
     css.color = props.isAnotherMonth ? 'b-300' : 'b-600';
   }
 

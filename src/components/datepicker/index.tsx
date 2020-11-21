@@ -213,7 +213,12 @@ export const DatePicker: React.FC<DatePickerProps> = ({
           iconPosition="left"
           variant="text"
         />
-        <Text as="span" sx={styles.datePickerLabelCss} variant="subtitle">
+        <Text
+          as="span"
+          sx={styles.datePickerLabelCss}
+          variant="subtitle"
+          color="text-dark"
+        >
           {utils.getMonthLabel(activeMonth)}
         </Text>
         <Button
@@ -230,6 +235,7 @@ export const DatePicker: React.FC<DatePickerProps> = ({
             key={day.longLabel}
             sx={styles.datePickerWeekdayCss}
             variant="surtitle"
+            color="text-dark"
           >
             {day.shortLabel}
           </Text>

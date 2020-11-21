@@ -24,7 +24,7 @@ exports[`DatePicker component should match snapshot 1`] = `
         <span />
       </button>
       <span
-        class="css-3vy6se-Text"
+        class="css-eydsp4-Text"
       >
         November 2020
       </span>
@@ -48,37 +48,37 @@ exports[`DatePicker component should match snapshot 1`] = `
       class="css-o64vi5-DatePicker"
     >
       <span
-        class="css-3vy6se-Text"
+        class="css-eydsp4-Text"
       >
         S
       </span>
       <span
-        class="css-3vy6se-Text"
+        class="css-eydsp4-Text"
       >
         M
       </span>
       <span
-        class="css-3vy6se-Text"
+        class="css-eydsp4-Text"
       >
         T
       </span>
       <span
-        class="css-3vy6se-Text"
+        class="css-eydsp4-Text"
       >
         W
       </span>
       <span
-        class="css-3vy6se-Text"
+        class="css-eydsp4-Text"
       >
         T
       </span>
       <span
-        class="css-3vy6se-Text"
+        class="css-eydsp4-Text"
       >
         F
       </span>
       <span
-        class="css-3vy6se-Text"
+        class="css-eydsp4-Text"
       >
         S
       </span>
@@ -87,177 +87,177 @@ exports[`DatePicker component should match snapshot 1`] = `
       class="css-1t85os0-DatePicker"
     >
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         1
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         2
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         3
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         4
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         5
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         6
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         7
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         8
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         9
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         10
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         11
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         12
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         13
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         14
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         15
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         16
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         17
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         18
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         19
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         20
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         21
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         22
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         23
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         24
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         25
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         26
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         27
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         28
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         29
       </span>
       <span
-        class="css-dl9uni-Day"
+        class="css-2hjx6u-Day"
       >
         30
       </span>
       <span
-        class="css-1wsgwng-Day"
+        class="css-7r7jbe-Day"
       >
         1
       </span>
       <span
-        class="css-1wsgwng-Day"
+        class="css-7r7jbe-Day"
       >
         2
       </span>
       <span
-        class="css-1wsgwng-Day"
+        class="css-7r7jbe-Day"
       >
         3
       </span>
       <span
-        class="css-1wsgwng-Day"
+        class="css-7r7jbe-Day"
       >
         4
       </span>
       <span
-        class="css-1wsgwng-Day"
+        class="css-7r7jbe-Day"
       >
         5
       </span>
