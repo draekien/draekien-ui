@@ -93,6 +93,8 @@
       "prettier --write",
       "git add"
     ],
-    "*": "jest --bail --findRelatedTests"
+    "*": "jest --bail --findRelatedTests",
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
