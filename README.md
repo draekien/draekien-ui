@@ -1,21 +1,22 @@
 # Draekien-UI
 
-- [Draekien-UI](#draekien-ui)
-  - [Introduction](#introduction)
-  - [Storybook](#storybook)
-  - [Getting Started](#getting-started)
-  - [Available Scripts](#available-scripts)
-    - [`npm start`](#npm-start)
-    - [`npm run start-storybook`](#npm-run-start-storybook)
-    - [`npm test`](#npm-test)
-    - [`npm run test-update`](#npm-run-test-update)
-    - [`npm run test-watch`](#npm-run-test-watch)
-    - [`npm build`](#npm-build)
-    - [`npm run build-storybook`](#npm-run-build-storybook)
-    - [`npm run build-all`](#npm-run-build-all)
-    - [`npm release`](#npm-release)
-    - [`npm run release-chromatic`](#npm-run-release-chromatic)
-    - [`npm run lint`](#npm-run-lint)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+- [Introduction](#introduction)
+- [Storybook](#storybook)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+  - [`npm start`](#npm-start)
+  - [`npm run start-storybook`](#npm-run-start-storybook)
+  - [`npm test`](#npm-test)
+  - [`npm run test-update`](#npm-run-test-update)
+  - [`npm run test-watch`](#npm-run-test-watch)
+  - [`npm build`](#npm-build)
+  - [`npm run build-storybook`](#npm-run-build-storybook)
+  - [`npm run build-all`](#npm-run-build-all)
+  - [`npm release`](#npm-release)
+  - [`npm run release-chromatic`](#npm-run-release-chromatic)
+  - [`npm run lint`](#npm-run-lint)
 
 ## Introduction
 
