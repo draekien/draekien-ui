@@ -130,18 +130,6 @@ describe('DatePicker util', () => {
     expect(day).toEqual(expectedDay);
   });
 
-  test('getDaysOfMonth should match snapshot when week start day is Monday', () => {
-    const days = utils.getDaysOfMonth(new Date(2020, 0, 12), 'Monday');
-
-    expect(days).toMatchSnapshot();
-  });
-
-  test('getDaysOfMonth should match snapshot when week start day is Sunday', () => {
-    const days = utils.getDaysOfMonth(new Date(2020, 0, 12), 'Sunday');
-
-    expect(days).toMatchSnapshot();
-  });
-
   test('isSelected should return true if date is within selected dates', () => {
     const isSelected = utils.isSelected(new Date(2020, 1, 1), dates);
 
