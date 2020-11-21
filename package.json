@@ -78,21 +78,5 @@
     "semantic-release": "^17.2.4",
     "ts-jest": "^26.4.3",
     "typescript": "^4.0.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,tsx,js}": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.{ts,tsx,js,json}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*": "jest --bail --findRelatedTests"
   }
 }
