@@ -2,6 +2,7 @@ import { ThemeProvider, ThemeProviderProps } from './components/theme';
 
 export * from './components/button';
 export * from './components/checkbox';
+export * from './components/date-input';
 export * from './components/datepicker';
 export * from './components/draekien-ui';
 export * from './components/dropdown';
