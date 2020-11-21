@@ -26,3 +26,4 @@ yarn-error.log*
 
 storybook-static
 .storybook/dist
+build-storybook.log
