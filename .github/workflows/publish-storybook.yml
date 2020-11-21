@@ -21,4 +21,4 @@ jobs:
         with:
           fetch-depth: 0 # Required to retrieve git history
       - run: npm ci
-      - run: npm run release-chromatic -- --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --exit-zero-on-changes --auto-accept-changes
+      - run: DISABLE_NEW_JSX_TRANSFORM=true npm run release-chromatic -- --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --exit-zero-on-changes --auto-accept-changes
