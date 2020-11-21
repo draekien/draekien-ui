@@ -83,7 +83,18 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged --config lint-staged.config.js"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{ts,tsx,js,json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*": "jest --bail --findRelatedTests"
   }
 }
