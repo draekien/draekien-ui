@@ -1,7 +1,14 @@
 {
   "name": "draekien-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/draekien/draekien-ui"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "array.prototype.find": "^2.1.1",
     "react": "^17.0.1",
