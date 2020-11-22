@@ -30,7 +30,7 @@
     "test": "jest --coverage",
     "test-update": "jest --updateSnapshot",
     "test-watch": "jest --watch",
-    "docs": "jest-coverage-badges",
+    "docs": "jest-coverage-badges --output \"./badges\"",
     "build": "npm run lint && npm run test && tsc --noEmit false",
     "build-storybook": "build-storybook -s ./.storybook/static -c .storybook -o storybook-static --no-dll",
     "build-all": "concurrently \"npm run build\" \" npm run build-storybook\"",
