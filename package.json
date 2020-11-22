@@ -25,6 +25,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "commit": "git-cz",
     "start": "start-storybook -p 6006 -s public --no-dll",
     "start-storybook": "start-storybook -p 6006 -s ./.storybook/static --no-dll",
     "test": "jest --coverage",
