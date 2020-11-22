@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip Styles TooltipArrowCss should match snapshot when direction is auto 1`] = `
+Object {
+  "borderColor": "transparent",
+  "borderStyle": "solid",
+  "height": "0",
+  "position": "absolute",
+  "width": "0",
+}
+`;
+
+exports[`Tooltip Styles TooltipArrowCss should match snapshot when direction is bottom 1`] = `
+Object {
+  "borderBottomColor": "p-500",
+  "borderColor": "transparent",
+  "borderStyle": "solid",
+  "borderWidth": "0 0.25rem 0.25rem",
+  "height": "0",
+  "left": "50%",
+  "marginLeft": "-0.25rem",
+  "position": "absolute",
+  "top": "-0.25rem",
+  "width": "0",
+}
+`;
+
+exports[`Tooltip Styles TooltipArrowCss should match snapshot when direction is left 1`] = `
+Object {
+  "borderColor": "transparent",
+  "borderLeftColor": "p-500",
+  "borderStyle": "solid",
+  "borderWidth": "0.25rem 0 0.25rem 0.25rem",
+  "height": "0",
+  "left": "100%",
+  "marginTop": "-0.25rem",
+  "position": "absolute",
+  "top": "50%",
+  "width": "0",
+}
+`;
+
+exports[`Tooltip Styles TooltipArrowCss should match snapshot when direction is null 1`] = `
+Object {
+  "borderColor": "transparent",
+  "borderStyle": "solid",
+  "height": "0",
+  "position": "absolute",
+  "width": "0",
+}
+`;
+
+exports[`Tooltip Styles TooltipArrowCss should match snapshot when direction is right 1`] = `
+Object {
+  "borderColor": "transparent",
+  "borderRightColor": "p-500",
+  "borderStyle": "solid",
+  "borderWidth": "0.25rem 0.25rem 0.25rem 0",
+  "height": "0",
+  "marginTop": "-0.25rem",
+  "position": "absolute",
+  "right": "100%",
+  "top": "50%",
+  "width": "0",
+}
+`;
+
+exports[`Tooltip Styles TooltipArrowCss should match snapshot when direction is top 1`] = `
+Object {
+  "borderColor": "transparent",
+  "borderStyle": "solid",
+  "borderTopColor": "p-500",
+  "borderWidth": "0.25rem 0.25rem 0",
+  "bottom": "-0.25rem",
+  "height": "0",
+  "left": "50%",
+  "marginLeft": "-0.25rem",
+  "position": "absolute",
+  "width": "0",
+}
+`;
+
+exports[`Tooltip Styles TooltipArrowCss should match snapshot when direction is undefined 1`] = `
+Object {
+  "borderColor": "transparent",
+  "borderStyle": "solid",
+  "height": "0",
+  "position": "absolute",
+  "width": "0",
+}
+`;
+
+exports[`Tooltip Styles TooltipCss should match snapshot when direction is auto 1`] = `
+Object {
+  "backgroundColor": "p-500",
+  "borderRadius": "md",
+  "color": "white",
+  "maxWidth": "20rem",
+  "padding": "0.375rem 0.5rem",
+  "position": "absolute",
+  "textAlign": "center",
+  "variant": "text.small",
+  "visibility": "hidden",
+  "width": "max-content",
+}
+`;
+
+exports[`Tooltip Styles TooltipCss should match snapshot when direction is bottom 1`] = `
+Object {
+  "backgroundColor": "p-500",
+  "borderRadius": "md",
+  "color": "white",
+  "left": "50%",
+  "marginTop": "0.5rem",
+  "maxWidth": "20rem",
+  "padding": "0.375rem 0.5rem",
+  "position": "absolute",
+  "textAlign": "center",
+  "top": "100%",
+  "transform": "translateX(-50%)",
+  "variant": "text.small",
+  "visibility": "visible",
+  "width": "max-content",
+}
+`;
+
+exports[`Tooltip Styles TooltipCss should match snapshot when direction is left 1`] = `
+Object {
+  "backgroundColor": "p-500",
+  "borderRadius": "md",
+  "color": "white",
+  "marginRight": "0.5rem",
+  "maxWidth": "20rem",
+  "padding": "0.375rem 0.5rem",
+  "position": "absolute",
+  "right": "100%",
+  "textAlign": "center",
+  "top": "50%",
+  "transform": "translateY(-50%)",
+  "variant": "text.small",
+  "visibility": "visible",
+  "width": "max-content",
+}
+`;
+
+exports[`Tooltip Styles TooltipCss should match snapshot when direction is null 1`] = `
+Object {
+  "backgroundColor": "p-500",
+  "borderRadius": "md",
+  "color": "white",
+  "maxWidth": "20rem",
+  "padding": "0.375rem 0.5rem",
+  "position": "absolute",
+  "textAlign": "center",
+  "variant": "text.small",
+  "visibility": "hidden",
+  "width": "max-content",
+}
+`;
+
+exports[`Tooltip Styles TooltipCss should match snapshot when direction is right 1`] = `
+Object {
+  "backgroundColor": "p-500",
+  "borderRadius": "md",
+  "color": "white",
+  "left": "100%",
+  "marginLeft": "0.5rem",
+  "maxWidth": "20rem",
+  "padding": "0.375rem 0.5rem",
+  "position": "absolute",
+  "textAlign": "center",
+  "top": "50%",
+  "transform": "translateY(-50%)",
+  "variant": "text.small",
+  "visibility": "visible",
+  "width": "max-content",
+}
+`;
+
+exports[`Tooltip Styles TooltipCss should match snapshot when direction is top 1`] = `
+Object {
+  "backgroundColor": "p-500",
+  "borderRadius": "md",
+  "bottom": "100%",
+  "color": "white",
+  "left": "50%",
+  "marginBottom": "0.5rem",
+  "maxWidth": "20rem",
+  "padding": "0.375rem 0.5rem",
+  "position": "absolute",
+  "textAlign": "center",
+  "transform": "translateX(-50%)",
+  "variant": "text.small",
+  "visibility": "visible",
+  "width": "max-content",
+}
+`;
+
+exports[`Tooltip Styles TooltipCss should match snapshot when direction is undefined 1`] = `
+Object {
+  "backgroundColor": "p-500",
+  "borderRadius": "md",
+  "color": "white",
+  "maxWidth": "20rem",
+  "padding": "0.375rem 0.5rem",
+  "position": "absolute",
+  "textAlign": "center",
+  "variant": "text.small",
+  "visibility": "hidden",
+  "width": "max-content",
+}
+`;
