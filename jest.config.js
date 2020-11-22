@@ -36,7 +36,14 @@ module.exports = {
   // ],
 
   // A list of reporter names that Jest uses when writing coverage reports
-  coverageReporters: ['json', 'json-summary', 'text', 'lcov', 'clover'],
+  coverageReporters: [
+    'json',
+    'json-summary',
+    'text',
+    'lcov',
+    'lcovonly',
+    'clover',
+  ],
 
   // An object that configures minimum threshold enforcement for coverage results
   coverageThreshold: {
