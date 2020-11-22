@@ -21,6 +21,11 @@
   - [Committing changes](#committing-changes)
   - [Structure](#structure)
   - [Examples](#examples)
+    - [**Commit message with description and breaking change in body**](#commit-message-with-description-and-breaking-change-in-body)
+    - [**Commit message with optional `!` to draw attention to breaking change**](#commit-message-with-optional--to-draw-attention-to-breaking-change)
+    - [**Commit message with no body**](#commit-message-with-no-body)
+    - [**Commit message with scope**](#commit-message-with-scope)
+    - [**Commit message for a fix using an (optional) issue number.**](#commit-message-for-a-fix-using-an-optional-issue-number)
 - [Available Scripts](#available-scripts)
   - [`npm start`](#npm-start)
   - [`npm run start-storybook`](#npm-run-start-storybook)
@@ -197,37 +202,37 @@ The commit contains the following structural elements, to communicate intent to 
 
 ### Examples
 
-**Commit message with description and breaking change in body**
+#### **Commit message with description and breaking change in body**
 
-```
+```text
 feat: allow provided config object to extend other configs
 
 BREAKING CHANGE: `extends` key in config file is now used for extending other config files
 ```
 
-**Commit message with optional `!` to draw attention to breaking change**
+#### **Commit message with optional `!` to draw attention to breaking change**
 
-```
+```text
 chore!: drop Node 6 from testing matrix
 
 BREAKING CHANGE: dropping Node 6 which hits end of life in April
 ```
 
-**Commit message with no body**
+#### **Commit message with no body**
 
-```
+```text
 docs: correct spelling of CHANGELOG
 ```
 
-**Commit message with scope**
+#### **Commit message with scope**
 
-```
+```text
 feat(lang): add polish language
 ```
 
-**Commit message for a fix using an (optional) issue number.**
+#### **Commit message for a fix using an (optional) issue number.**
 
-```
+```text
 fix: correct minor typos in code
 
 see the issue for details on the typos fixed
@@ -271,7 +276,7 @@ Runs the build and build-storybook scripts concurrently
 
 ### `npm release`
 
-Runs semantic release (Not set up yet)
+Runs semantic release
 
 ### `npm run release-chromatic`
 
