@@ -2,6 +2,11 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+![Branch Coverage](./coverage/badge-branches.svg)
+![Branch Functions](./coverage/badge-functions.svg)
+![Branch Lines](./coverage/badge-lines.svg)
+![Branch Statements](./coverage/badge-statements.svg)
+
 - [Introduction](#introduction)
 - [Storybook](#storybook)
 - [Getting Started](#getting-started)
