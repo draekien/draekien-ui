@@ -19,6 +19,7 @@ export * from './components/toast/container';
 export * from './components/toast/context';
 export * from './components/toast/provider';
 export * from './components/toggle-switch';
+export * from './components/tooltip';
 
 export { ThemeProvider };
 export type { ThemeProviderProps };
