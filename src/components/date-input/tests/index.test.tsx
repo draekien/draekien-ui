@@ -12,7 +12,7 @@ import DateInput from '..';
 describe('DateInput component', () => {
   test('should match snapshot', () => {
     const { container } = render(
-      <DateInput id="datepicker" selectedDate={new Date()} />
+      <DateInput id="datepicker" selectedDate={new Date('1 Nov 2020')} />
     );
 
     expect(container).toMatchSnapshot();

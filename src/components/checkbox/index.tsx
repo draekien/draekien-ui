@@ -22,7 +22,7 @@ export const Checkbox: React.FC<CheckboxProps> = (props) => {
     disabled,
     onChange,
     label,
-    tooltip,
+    helpText,
     variant,
     ...rest
   } = props;
@@ -40,7 +40,7 @@ export const Checkbox: React.FC<CheckboxProps> = (props) => {
   }, [checked]);
 
   return (
-    <InputWrapper tooltip={tooltip} label={label} id={id} variant={variant}>
+    <InputWrapper helpText={helpText} label={label} id={id} variant={variant}>
       <Flex sx={styles.checkboxWrapperCss}>
         <label sx={styles.checkboxLabelCss(!!children)} htmlFor={id}>
           {children}

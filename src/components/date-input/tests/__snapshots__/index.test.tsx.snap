@@ -16,7 +16,7 @@ exports[`DateInput component should match snapshot 1`] = `
             class="css-1u99oui"
             id="datepicker"
             placeholder="DD / MM / YYYY"
-            value="21 / 11 / 2020"
+            value="01 / 11 / 2020"
           />
           <div
             class="css-1xauu8w-TextboxTail"
