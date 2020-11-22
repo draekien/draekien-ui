@@ -20,7 +20,7 @@ export const Textbox = React.forwardRef(
     const {
       id,
       label,
-      tooltip,
+      helpText,
       value,
       icon,
       fullWidth,
@@ -40,7 +40,7 @@ export const Textbox = React.forwardRef(
       <InputWrapper
         id={id}
         label={label}
-        tooltip={tooltip}
+        helpText={helpText}
         fullWidth={fullWidth}
         variant={variant}
       >

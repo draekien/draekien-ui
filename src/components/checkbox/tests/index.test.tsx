@@ -6,7 +6,7 @@ import Checkbox from '..';
 describe('Checkbox component', () => {
   test('should match snapshot', () => {
     const { container } = render(
-      <Checkbox id="checkbox" label="checkbox" tooltip="tooltip">
+      <Checkbox id="checkbox" label="checkbox" helpText="helpText">
         test checkbox
       </Checkbox>
     );

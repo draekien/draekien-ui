@@ -6,7 +6,7 @@ import Textbox from '..';
 describe('Textbox component', () => {
   test('should match snapshot', () => {
     const { container } = render(
-      <Textbox id="test" label="test" tooltip="test" icon="info" />
+      <Textbox id="test" label="test" helpText="test" icon="info" />
     );
 
     expect(container).toMatchSnapshot();
@@ -17,7 +17,7 @@ describe('Textbox component', () => {
       <Textbox
         id="test"
         label="test"
-        tooltip="test"
+        helpText="test"
         icon="info"
         active
         fullWidth

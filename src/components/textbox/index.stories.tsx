@@ -13,5 +13,5 @@ export const Basic = Template.bind({});
 Basic.args = {
   id: 'Textbox',
   label: "I'm a textbox input",
-  tooltip: 'This is the default textbox input',
+  helpText: 'This is the default textbox input',
 };

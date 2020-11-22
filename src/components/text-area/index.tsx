@@ -30,7 +30,7 @@ export const TextArea: React.FC<TextAreaProps> = (props) => {
     label,
     variant,
     fullWidth,
-    tooltip,
+    helpText,
     height = '6.5rem',
     maxHeight,
     ref = React.createRef<HTMLTextAreaElement>(),
@@ -49,7 +49,7 @@ export const TextArea: React.FC<TextAreaProps> = (props) => {
         id={id}
         label={label}
         variant={variant}
-        tooltip={tooltip}
+        helpText={helpText}
         fullWidth={fullWidth}
       >
         <TextareaAutosize
