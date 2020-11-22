@@ -14,5 +14,5 @@ Basic.args = {
   id: 'datepicker',
   label: 'Date Input',
   value: '03/12/2020',
-  tooltip: 'Type or click on the calendar icon',
+  helpText: 'Type or click on the calendar icon',
 };

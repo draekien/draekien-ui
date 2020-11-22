@@ -6,7 +6,7 @@ import InputWrapper from '..';
 describe('InputWrapper component', () => {
   test('should match snapshot', () => {
     const { container } = render(
-      <InputWrapper id="test" label="test" tooltip="test" />
+      <InputWrapper id="test" label="test" helpText="test" />
     );
 
     expect(container).toMatchSnapshot();

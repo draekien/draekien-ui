@@ -10,8 +10,8 @@ export interface InputChildrenProps {
   id: string;
   /** label text */
   label?: string;
-  /** tooltip, help or error message located beneath input */
-  tooltip?: string;
+  /** helpText, help or error message located beneath input */
+  helpText?: string;
   /** should this component take up the whole width of the parent container */
   fullWidth?: boolean;
   /** color to render the input */
@@ -24,23 +24,23 @@ export interface InputWrapperProps extends InputChildrenProps {
 }
 
 export const InputWrapper: React.FC<InputWrapperProps> = (props) => {
-  const { id, label, tooltip, variant, children } = props;
+  const { id, label, helpText, variant, children } = props;
 
   return (
     <Box sx={styles.inputWrapperCss(props)}>
       {label && (
-        <Label sx={styles.tooltipCss} htmlFor={id}>
+        <Label sx={styles.helpTextCss} htmlFor={id}>
           <Text variant="surtitle">{label}</Text>
         </Label>
       )}
       {children}
-      {tooltip && (
-        <Label sx={styles.tooltipCss} htmlFor={id}>
+      {helpText && (
+        <Label sx={styles.helpTextCss} htmlFor={id}>
           <Text
             variant="caption"
             color={(variant as keyof typeof colors) || 'text'}
           >
-            {tooltip}
+            {helpText}
           </Text>
         </Label>
       )}

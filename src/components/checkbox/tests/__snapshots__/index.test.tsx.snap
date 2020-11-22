@@ -45,7 +45,7 @@ exports[`Checkbox component should match snapshot 1`] = `
       <div
         class="css-3vy6se-Text"
       >
-        tooltip
+        helpText
       </div>
     </label>
   </div>

@@ -13,5 +13,5 @@ export const Basic = Template.bind({});
 Basic.args = {
   id: 'inputWrapper',
   label: 'input',
-  tooltip: 'this is an example tooltip',
+  helpText: 'this is an example helpText',
 };

@@ -9,7 +9,7 @@ export const inputWrapperCss = (props: InputWrapperProps): SxStyleProp => {
   };
 };
 
-export const tooltipCss: SxStyleProp = {
+export const helpTextCss: SxStyleProp = {
   mt: 'xs',
 };
 

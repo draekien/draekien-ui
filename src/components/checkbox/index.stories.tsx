@@ -21,6 +21,6 @@ export const Basic = Template.bind({});
 Basic.args = {
   id: 'checkbox',
   label: "I'm a checkbox input",
-  tooltip: 'this is a tooltip',
+  helpText: 'this is a helpText',
   children: 'checkbox children text',
 };

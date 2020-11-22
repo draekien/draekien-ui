@@ -9,7 +9,7 @@ describe('TextArea component', () => {
       <TextArea
         id="area"
         label="textarea"
-        tooltip="tooltip"
+        helpText="helpText"
         placeholder="placeholder"
       />
     );
@@ -17,7 +17,7 @@ describe('TextArea component', () => {
     expect(container).toMatchSnapshot();
   });
 
-  test('should not render label and tooltip when not provided', () => {
+  test('should not render label and helpText when not provided', () => {
     const { container } = render(<TextArea id="area" />);
 
     expect(container.querySelector('label')).toBe(null);

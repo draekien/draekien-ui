@@ -13,6 +13,6 @@ export const Basic = Template.bind({});
 Basic.args = {
   id: 'textarea',
   label: 'textarea',
-  tooltip: 'a default textarea',
+  helpText: 'a default textarea',
   placeholder: 'placeholder',
 };
