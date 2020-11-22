@@ -133,7 +133,9 @@ Checkout a new feature branch
 git checkout -b feature/<YOUR_BRANCH_NAME>
 ```
 
-typey typey, then commit your changes and push your branch to remote
+typey typey, then commit your changes using `git-cz` or `npm run commit` and push your branch to remote
+
+> Take a look at [Committing changes](#committing-changes) to find out why we use `git-cz`
 
 ```bash
 # replace <YOUR_BRANCH_NAME> with the name of the branch you want to checkout
