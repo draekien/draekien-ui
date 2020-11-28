@@ -9,6 +9,7 @@ export * from './components/dropdown';
 export * from './components/icon';
 export * from './components/input-wrapper';
 export * from './components/list';
+export * from './components/navbar';
 export * from './components/spinner';
 export * from './components/text-area';
 export * from './components/text';
