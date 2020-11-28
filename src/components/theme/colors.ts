@@ -1,5 +1,6 @@
 export const colors = {
   text: '#3B3B3B',
+  'text-white': '#f7f7f7',
   'text-dark': '#3B3B3B', // alias for b-400 for forcing dark text
   background: '#ffffff',
   primary: '#ef802f', // alias for p-400
