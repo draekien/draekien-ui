@@ -61,12 +61,15 @@ To consume DraekienUi, you must import the `DraekienUi` comonent and wrap your c
 
 ```jsx
 // ... other imports
+import { BrowserRouter as Router } from 'react-router-dom';
 import { DraekienUi } from 'draekien-ui';
 
 function Main() {
   return (
     <DraekienUi>
-      <App />
+      <Router>
+        <App />
+      </Router>
     </DraekienUi>
   );
 }
@@ -82,12 +85,15 @@ All it takes to use your own theme is to pass in a theme object to the `Draekien
 
 ```jsx
 // ... other imports
+import { BrowserRouter as Router } from 'react-router-dom';
 import { DraekienUi } from 'draekien-ui';
 
 function Main() {
   return (
     <DraekienUi theme={{ colors: { 'p-400': 'purple' } }}>
-      <App />
+      <Router>
+        <App />
+      </Router>
     </DraekienUi>
   );
 }
