@@ -4,6 +4,7 @@ import * as React from 'react';
 import * as styles from './index.styles';
 import Icon from '../icon';
 import Spinner from '../spinner';
+import { Link } from 'react-router-dom';
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -95,11 +96,41 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
 
   const isDisabledOrLoading = disabled || isLoading;
 
+  const [isAbsoluteUrl, setIsAbsoluteUrl] = React.useState(false);
+
+  React.useEffect(() => {
+    if (href !== undefined) {
+      const isAbsolute =
+        new URL(document.baseURI).origin !==
+        new URL(href, document.baseURI).origin;
+
+      setIsAbsoluteUrl(isAbsolute);
+    }
+  }, [href]);
+
   if (href !== undefined) {
+    if (isAbsoluteUrl) {
+      return (
+        <a
+          sx={{ textDecoration: 'none' }}
+          href={href}
+          target={openLinkInNewTab ? '_blank' : undefined}
+        >
+          <ThemeUiButton
+            sx={styles.linkButtonCss(!!isActive)}
+            type="button"
+            {...rest}
+          >
+            <ButtonContent />
+          </ThemeUiButton>
+        </a>
+      );
+    }
+
     return (
-      <a
+      <Link
         sx={{ textDecoration: 'none' }}
-        href={href}
+        to={href}
         target={openLinkInNewTab ? '_blank' : undefined}
       >
         <ThemeUiButton
@@ -109,7 +140,7 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
         >
           <ButtonContent />
         </ThemeUiButton>
-      </a>
+      </Link>
     );
   }
 

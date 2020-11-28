@@ -14,3 +14,9 @@ export const Basic = Template.bind({});
 Basic.args = {
   children: 'Button',
 };
+
+export const ExternalLink = Template.bind({});
+ExternalLink.args = {
+  children: 'External',
+  href: 'https://www.google.com.au',
+};

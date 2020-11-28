@@ -2,6 +2,7 @@
 /** @jsx jsx */
 import { jsx, useColorMode } from 'theme-ui';
 import * as React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { create } from '@storybook/theming';
 import { Button, ThemeProvider } from '../src';
 
@@ -11,8 +12,10 @@ export const draekienStorybookTheme = create({
 
 export const themeDecorator = (storyFn: any) => (
   <ThemeProvider>
-    {storyFn()}
-    <ThemeButton />
+    <Router>
+      {storyFn()}
+      <ThemeButton />
+    </Router>
   </ThemeProvider>
 );
 
@@ -40,7 +43,12 @@ const ThemeButton = () => {
 
   return (
     <div
-      sx={{ position: 'fixed', right: '2.5rem', top: '2.5rem', zIndex: '300' }}
+      sx={{
+        position: 'fixed',
+        right: '2.5rem',
+        bottom: '2.5rem',
+        zIndex: '300',
+      }}
     >
       <Button variant="primary" onClick={onClick}>
         Change Theme

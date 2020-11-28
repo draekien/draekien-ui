@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { fireEvent, getByText, render } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
 import { jsx } from 'theme-ui';
 import Button from '..';
 import Icon from '../../icon';
@@ -79,7 +80,9 @@ describe('Button component', () => {
 
   test('should match snapshot when href prop is defined', () => {
     const component = render(
-      <Button href="https://www.google.com.au">test</Button>
+      <BrowserRouter>
+        <Button href="https://www.google.com.au">test</Button>
+      </BrowserRouter>
     );
 
     expect(component.container).toMatchSnapshot();
@@ -87,9 +90,11 @@ describe('Button component', () => {
 
   test('should match snapshot when href prop is defined and isActive', () => {
     const component = render(
-      <Button href="https://www.google.com.au" isActive={true}>
-        test
-      </Button>
+      <BrowserRouter>
+        <Button href="https://www.google.com.au" isActive={true}>
+          test
+        </Button>
+      </BrowserRouter>
     );
 
     expect(component.container).toMatchSnapshot();
@@ -113,9 +118,11 @@ describe('Button component', () => {
 
   test('should match snapshot when openLinkInNewTab is true', () => {
     const component = render(
-      <Button href="https://www.google.com.au" openLinkInNewTab={true}>
-        test
-      </Button>
+      <BrowserRouter>
+        <Button href="https://www.google.com.au" openLinkInNewTab={true}>
+          test
+        </Button>
+      </BrowserRouter>
     );
 
     expect(component.container).toMatchSnapshot();
