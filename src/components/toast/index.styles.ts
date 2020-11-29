@@ -1,6 +1,6 @@
 import { SxStyleProp } from 'theme-ui';
 import { keyframes } from '@emotion/core';
-import { ValidationColor } from '.';
+import { ValidationColor } from '../../utils/iconMapper.utils';
 import { ToastContainerProps } from './container';
 
 const slideLeft = keyframes`

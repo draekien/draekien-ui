@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-11xijmt-Banner"
+  >
+    <i
+      class="material-icons css-sypd70-Banner"
+    >
+      info
+    </i>
+    <div
+      class="css-4j6z3q-Banner"
+    >
+      <div
+        class="css-eydsp4-Text"
+      >
+        banner
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Banner component should match snapshot when all props are populated 1`] = `
+<div>
+  <div
+    class="css-wmtu15-Banner"
+  >
+    <i
+      class="material-icons css-jozr6w-Banner"
+    >
+      accessibility
+    </i>
+    <div
+      class="css-4j6z3q-Banner"
+    >
+      <div
+        class="css-eydsp4-Text"
+      >
+        banner
+      </div>
+    </div>
+  </div>
+</div>
+`;
