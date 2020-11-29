@@ -6,12 +6,25 @@ import { colors } from '../theme/colors';
 
 export type CardSize = 'small' | 'medium' | 'large';
 export type CardProps = {
+  /** background color for the card
+   * @default 'p-000'
+   */
   backgroundColor?: keyof typeof colors;
+  /** maximum width of the card
+   * @default 'medium'
+   */
   size?: CardSize;
+  /** should the card take up the full width of the container
+   * @default false
+   */
   fullWidth?: boolean;
+  /** contents of the card header */
   cardHeader?: React.ReactNode;
+  /** contents of the card body */
   children: React.ReactNode;
+  /** contents of the card footer */
   cardFooter?: React.ReactNode;
+  /** event handler for when card is clicked */
   onClick?: (e: React.SyntheticEvent) => void;
 };
 
