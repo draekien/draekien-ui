@@ -5,42 +5,8 @@ on:
     branches: [master]
 
 jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x]
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install dependencies
-        run: npm ci
-      - name: Build and Test
-        run: npm run build --if-present
-
-  publish-storybook:
-    needs: build-and-test
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout with history
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0 # Required to retrieve git history
-      - name: Install dependencies
-        run: npm ci
-      - name: Publish Storybook
-        env:
-          DISABLE_NEW_JSX_TRANSFORM: true
-        run: npm run release-chromatic -- --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --exit-zero-on-changes --auto-accept-changes
   release:
-    needs: [build-and-test, publish-storybook]
+    needs: [build-and-test]
     runs-on: ubuntu-latest
 
     steps:
@@ -59,3 +25,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+
+  publish-storybook:
+    needs: release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout with history
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Required to retrieve git history
+      - name: Install dependencies
+        run: npm ci
+      - name: Publish Storybook
+        env:
+          DISABLE_NEW_JSX_TRANSFORM: true
+        run: npm run release-chromatic -- --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --exit-zero-on-changes --auto-accept-changes
