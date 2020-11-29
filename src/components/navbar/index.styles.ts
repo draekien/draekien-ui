@@ -35,7 +35,8 @@ export const navbarDesktopWrapperCss: SxStyleProp = {
 
 export const navbarMobileMenuChildrenWrapperCss: SxStyleProp = {
   width: '100%',
-  pl: 'sm',
+  height: '100%',
+  px: 'sm',
 };
 
 export const navbarChildrenWrapperCss: SxStyleProp = {

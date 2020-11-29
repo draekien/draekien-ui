@@ -6,6 +6,7 @@ import { colors } from '../theme/colors';
 import Button from '../button';
 import { Link } from 'react-router-dom';
 import { useViewport } from '../../hooks';
+import OutsideClickHandler from 'react-outside-click-handler';
 
 export type NavbarProps = {
   logo?: React.ReactNode;
@@ -32,6 +33,10 @@ export const Navbar: React.FC<NavbarProps> = ({
   const handleMobileMenuClick = (e: React.SyntheticEvent) => {
     setIsOpen(!isOpen);
     onClick && onClick(e);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
   };
 
   const conditionalMobileMenuBtn = () => {
@@ -62,17 +67,22 @@ export const Navbar: React.FC<NavbarProps> = ({
   };
 
   return (
-    <Flex
-      as="nav"
-      sx={styles.navbarWrapperCss({ backgroundColor, isOpen, isMobile })}
+    <OutsideClickHandler
+      onOutsideClick={() => isOpen && handleClose()}
+      display="block"
     >
-      <Flex sx={styles.navbarDesktopWrapperCss}>
-        <Link to="/">{logo}</Link>
-        {conditionalDesktopMenu()}
-        {conditionalMobileMenuBtn()}
+      <Flex
+        as="nav"
+        sx={styles.navbarWrapperCss({ backgroundColor, isOpen, isMobile })}
+      >
+        <Flex sx={styles.navbarDesktopWrapperCss}>
+          <Link to="/">{logo}</Link>
+          {conditionalDesktopMenu()}
+          {conditionalMobileMenuBtn()}
+        </Flex>
+        {conditionalMobileMenu()}
       </Flex>
-      {conditionalMobileMenu()}
-    </Flex>
+    </OutsideClickHandler>
   );
 };
 
