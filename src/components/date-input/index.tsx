@@ -11,14 +11,23 @@ import * as utils from '../../utils/dateinput.utils';
 import * as styles from './index.styles';
 
 export interface DateInputProps extends Omit<TextBoxProps, 'onChange'> {
+  /** event handler to be called when a change event is triggered */
   onChange?: (
     e?: React.ChangeEvent<HTMLInputElement>,
     strVal?: string,
     dateVal?: Date
   ) => void;
+  /** which day of the week do you want as the start date
+   * @default 'Sunday'
+   */
   weekStartDay?: WeekStartDay;
+  /** the month that is initially displayed */
   initialMonth?: Date;
+  /** the date that is initially selected */
   selectedDate?: Date;
+  /** which side of the input should the datepicker align to
+   * @default 'left'
+   */
   datePickerPosition?: 'left' | 'right';
 }
 
