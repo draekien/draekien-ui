@@ -3,6 +3,7 @@ import { ThemeProvider, ThemeProviderProps } from './components/theme';
 export * from './components/badge';
 export * from './components/banner';
 export * from './components/button';
+export * from './components/card';
 export * from './components/checkbox';
 export * from './components/date-input';
 export * from './components/datepicker';
