@@ -17,6 +17,10 @@ export const navbarWrapperCss = (props: NavbarWrapperCssProps): SxStyleProp => {
     transition: 'all 500ms ease-in-out',
     borderBottom: '1px solid',
     borderColor: 'transparent',
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
   };
 
   if (props.isOpen) {
