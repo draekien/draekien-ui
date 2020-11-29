@@ -51,6 +51,8 @@ This project deploys a storybook to Chromatic. Click [here](https://master--5fa7
 
 ## Getting Started
 
+> Check out this example repository that uses Draekien-UI: [draekien-ui-sample](https://github.com/draekien/draekien-ui-sample)
+
 ### Install and Consume
 
 In your react app, run `npm install --save draekien-ui`
@@ -76,6 +78,8 @@ function Main() {
 
 ReactDOM.render(<Main />, document.getElementById('root'));
 ```
+
+> As of v2.0.0 if you want to use the Button component with relative paths, you will need to install react-router-dom using `npm install --save react-router-dom`
 
 ### Custom Themes
 
