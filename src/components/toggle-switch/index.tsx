@@ -7,9 +7,15 @@ import { colors } from '../theme/colors';
 
 export interface ToggleSwitchProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
+  /** id of the input - used to set the htmlFor of the label */
   id: string;
+  /** label contents */
   children?: React.ReactNode;
+  /** which side of the label to render the toggle switch
+   * @default 'left'
+   */
   togglePosition?: 'left' | 'right';
+  /** callback function to be called when switch is toggled */
   onToggle?: (
     checked: boolean,
     id: string,
