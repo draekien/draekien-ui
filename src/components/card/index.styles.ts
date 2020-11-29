@@ -44,13 +44,13 @@ export const cardContainerCss = (props: CardContainerCssProps): SxStyleProp => {
 
   switch (props.size) {
     case 'small':
-      css.maxWidth = '10rem';
+      css.width = '10rem';
       break;
     case 'medium':
-      css.maxWidth = '20rem';
+      css.width = '20rem';
       break;
     case 'large':
-      css.maxWidth = '40rem';
+      css.width = '40rem';
       break;
   }
 

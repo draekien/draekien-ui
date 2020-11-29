@@ -18,7 +18,7 @@ describe('Card component', () => {
 
     const styles = window.getComputedStyle(container.firstChild as Element);
 
-    expect(styles.maxWidth).toBe('10rem');
+    expect(styles.width).toBe('10rem');
   });
 
   test('should have maxWidth 40rem when size is large', () => {
@@ -30,7 +30,7 @@ describe('Card component', () => {
 
     const styles = window.getComputedStyle(container.firstChild as Element);
 
-    expect(styles.maxWidth).toBe('40rem');
+    expect(styles.width).toBe('40rem');
   });
 
   test('should have width 100% when size is large', () => {

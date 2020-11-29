@@ -10,7 +10,7 @@ export type CardProps = {
    * @default 'p-000'
    */
   backgroundColor?: keyof typeof colors;
-  /** maximum width of the card
+  /** width of the card - overridden when fullwidth is true
    * @default 'medium'
    */
   size?: CardSize;
