@@ -4,9 +4,11 @@ export const colors = {
   'text-dark': '#3B3B3B', // alias for b-400 for forcing dark text
   background: '#ffffff',
   primary: '#ef802f', // alias for p-400
+  'primary-light': '#fce6d5',
   'primary-hover': '#f29959',
   'primary-active': '#f5b382',
   secondary: '#DB5192', // alias for s-400
+  'secondary-light': '#f8dce9',
   'secondary-hover': '#e274a8',
   'secondary-active': '#e997be',
   muted: '#d8d8d8', // alias for b-000
@@ -40,18 +42,22 @@ export const colors = {
   's-700': '#993966',
   's-800': '#833158',
   information: '#066899', // alias for information-400
+  'information-light': '#cde1eb',
   'information-000': '#cde1eb',
   'information-400': '#066899', // default
   'information-800': '#043e5c',
   success: '#2e9852', // alias for success-400
+  'success-light': '#d5eadc',
   'success-000': '#d5eadc',
   'success-400': '#2e9852', // default
   'success-800': '#1c5b31',
   warning: '#ea8818', // alias for warning-400
+  'warning-light': '#fbe7d1',
   'warning-000': '#fbe7d1',
   'warning-400': '#ea8818', // default
   'warning-800': '#8c520e',
   error: '#e00027', // alias for error-400
+  'error-light': '#f9ccd4',
   'error-000': '#f9ccd4',
   'error-400': '#e00027', // default
   'error-800': '#860017',
