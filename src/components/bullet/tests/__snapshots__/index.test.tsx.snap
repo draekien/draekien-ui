@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bullet component should match snapshot 1`] = `
+<div>
+  <div
+    class="css-19na3e0-Bullet"
+  >
+    bullet
+  </div>
+</div>
+`;
+
+exports[`Bullet component should match snapshot with defaults 1`] = `
+<div>
+  <div
+    class="css-17bfpm0-Bullet"
+  >
+    bullet
+  </div>
+</div>
+`;
