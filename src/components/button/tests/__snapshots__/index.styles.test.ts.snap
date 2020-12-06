@@ -2,8 +2,12 @@
 
 exports[`buttonCss function contains disabled css when disabled 1`] = `
 Object {
+  ":hover::before": Object {
+    "backgroundImage": "none",
+  },
   "alignItems": "center",
   "backgroundColor": "muted",
+  "backgroundImage": "none",
   "border": "0.0625rem solid",
   "borderColor": "muted",
   "borderRadius": "md",

@@ -29,7 +29,7 @@ exports[`Button component should match snapshot when active 1`] = `
 exports[`Button component should match snapshot when disabled 1`] = `
 <div>
   <button
-    class="css-3fvyds-Button"
+    class="css-1ecp71q-Button"
     disabled=""
     type="button"
   >
@@ -217,7 +217,7 @@ exports[`Button component should match snapshot when isIcon and size is large 1`
 exports[`Button component should match snapshot when loading 1`] = `
 <div>
   <button
-    class="css-3fvyds-Button"
+    class="css-1ecp71q-Button"
     disabled=""
     type="button"
   >
@@ -261,7 +261,7 @@ exports[`Button component should match snapshot when loading 1`] = `
 exports[`Button component should match snapshot when loading and showChildrenWhenLoading 1`] = `
 <div>
   <button
-    class="css-3fvyds-Button"
+    class="css-1ecp71q-Button"
     disabled=""
     type="button"
   >

@@ -1,6 +1,12 @@
 import { SxStyleProp } from 'theme-ui';
+import { alpha } from '@theme-ui/color';
 
-export type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'text';
+export type ButtonVariant =
+  | 'primary'
+  | 'secondary'
+  | 'outline'
+  | 'text'
+  | 'gradient';
 export type ButtonSize = 'sm' | 'md' | 'lg';
 export type ButtonCssProps = {
   variant: ButtonVariant;
@@ -138,11 +144,45 @@ export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
     css.backgroundColor = 'primary';
   }
 
+  if (props.variant === 'gradient') {
+    css.backgroundImage = (t: any) =>
+      `linear-gradient(90deg, ${alpha('primary', 1)(t)}, ${alpha(
+        'secondary',
+        1
+      )(t)})`;
+    css.position = 'relative';
+    css.zIndex = 1;
+    css['::before'] = {
+      position: 'absolute',
+      content: '""',
+      borderRadius: 'md',
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0,
+      backgroundImage: (t: any) =>
+        `linear-gradient(-90deg, ${alpha('primary', 1)(t)}, ${alpha(
+          'secondary',
+          1
+        )(t)})`,
+      transition: 'opacity 0.25s ease-in-out',
+      opacity: 0,
+      zIndex: -1,
+    };
+    css[':hover::before'] = {
+      opacity: 1,
+    };
+  }
+
   if (props.disabled) {
+    css.backgroundImage = 'none';
     css.backgroundColor = 'muted';
     css.borderColor = 'muted';
     css.color = 'white';
     css.cursor = 'not-allowed';
+    css[':hover::before'] = {
+      backgroundImage: 'none',
+    };
   }
 
   return css;
