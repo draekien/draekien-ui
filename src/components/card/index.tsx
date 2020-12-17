@@ -5,11 +5,18 @@ import * as styles from './index.styles';
 import { colors } from '../theme/colors';
 
 export type CardSize = 'small' | 'medium' | 'large';
+export type AccentPosition = 'top' | 'right' | 'bottom' | 'left';
 export type CardProps = {
   /** background color for the card
    * @default 'p-000'
    */
   backgroundColor?: keyof typeof colors;
+  /** position of the accent border */
+  accentPosition?: AccentPosition;
+  /** color of the accent border. Only visible when accentPosition is set.
+   * @default 'p-400'
+   */
+  accentColor?: keyof typeof colors;
   /** width of the card - overridden when fullwidth is true
    * @default 'medium'
    */
@@ -31,6 +38,8 @@ export type CardProps = {
 export const Card: React.FC<CardProps> = (props) => {
   const {
     backgroundColor = 'p-000',
+    accentPosition,
+    accentColor = 'p-400',
     size = 'medium',
     fullWidth = false,
     cardHeader,
@@ -55,6 +64,8 @@ export const Card: React.FC<CardProps> = (props) => {
     <Flex
       sx={styles.cardContainerCss({
         hasClickHandler: !!onClick,
+        accentPosition,
+        accentColor,
         backgroundColor,
         fullWidth,
         size,

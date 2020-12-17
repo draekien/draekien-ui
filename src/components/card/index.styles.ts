@@ -1,9 +1,11 @@
 import { SxStyleProp } from 'theme-ui';
-import { CardSize } from '.';
+import { AccentPosition, CardSize } from '.';
 import { colors } from '../theme/colors';
 
 export type CardContainerCssProps = {
   fullWidth?: boolean;
+  accentPosition?: AccentPosition;
+  accentColor?: keyof typeof colors;
   hasClickHandler: boolean;
   backgroundColor?: keyof typeof colors;
   size?: CardSize;
@@ -56,6 +58,16 @@ export const cardContainerCss = (props: CardContainerCssProps): SxStyleProp => {
 
   if (props.fullWidth) {
     css.width = '100%';
+  }
+
+  if (props.accentPosition === 'left') {
+    css.borderLeft = '5px solid';
+    css.borderLeftColor = props.accentColor;
+  }
+
+  if (props.accentPosition === 'top') {
+    css.borderTop = '5px solid';
+    css.borderTopColor = props.accentColor;
   }
 
   return css;
