@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { fireEvent, render } from '@testing-library/react';
-import Card from '..';
+import Card, { AccentPosition } from '..';
 
 describe('Card component', () => {
   test('should match snapshot', () => {
@@ -62,5 +62,15 @@ describe('Card component', () => {
 
     expect(container.textContent).toContain('header');
     expect(container.textContent).toContain('footer');
+  });
+
+  ['top', 'right', 'bottom', 'left'].forEach((position) => {
+    test(`should render with ${position} accent`, () => {
+      const { container } = render(
+        <Card accentPosition={position as AccentPosition}>content</Card>
+      );
+
+      expect(container).toMatchSnapshot();
+    });
   });
 });

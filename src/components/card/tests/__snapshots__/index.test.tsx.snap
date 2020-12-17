@@ -13,3 +13,59 @@ exports[`Card component should match snapshot 1`] = `
   </div>
 </div>
 `;
+
+exports[`Card component should render with bottom accent 1`] = `
+<div>
+  <div
+    class="css-1nty2if-Card"
+  >
+    <div
+      class="css-1khe26x"
+    >
+      content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card component should render with left accent 1`] = `
+<div>
+  <div
+    class="css-fv127j-Card"
+  >
+    <div
+      class="css-1khe26x"
+    >
+      content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card component should render with right accent 1`] = `
+<div>
+  <div
+    class="css-1nty2if-Card"
+  >
+    <div
+      class="css-1khe26x"
+    >
+      content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card component should render with top accent 1`] = `
+<div>
+  <div
+    class="css-qiyxeb-Card"
+  >
+    <div
+      class="css-1khe26x"
+    >
+      content
+    </div>
+  </div>
+</div>
+`;

@@ -87,3 +87,10 @@ WithHeaderAndFooter.args = {
   cardFooter: <CardFooter />,
   onClick: undefined,
 };
+
+export const WithAccent = Template.bind({});
+WithAccent.args = {
+  children: <CardContent />,
+  onClick: undefined,
+  accentPosition: 'left',
+};
