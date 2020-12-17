@@ -1,5 +1,6 @@
 import { ThemeProvider, ThemeProviderProps } from './components/theme';
 
+export * from './components/avatar';
 export * from './components/badge';
 export * from './components/banner';
 export * from './components/bullet';
@@ -8,6 +9,7 @@ export * from './components/card';
 export * from './components/checkbox';
 export * from './components/date-input';
 export * from './components/datepicker';
+export * from './components/divider';
 export * from './components/draekien-ui';
 export * from './components/dropdown';
 export * from './components/icon';
