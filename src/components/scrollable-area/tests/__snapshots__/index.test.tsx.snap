@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollableArea component should match snapshot 1`] = `
+<div>
+  <div
+    style="position: relative; overflow: hidden; width: 100%; height: 100%;"
+  >
+    <div
+      style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+    >
+      <div
+        style="max-height: 200px;"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid nulla dolor fuga, voluptate autem cupiditate enim quae beatae repellendus velit quisquam quam tempora, commodi dolorum. Eos eaque consequatur doloremque officia.
+      </div>
+    </div>
+    <div
+      style="position: absolute; height: 6px; display: none; right: 2px; bottom: 2px; left: 2px; border-radius: 3px;"
+    >
+      <div
+        style="position: relative; display: block; height: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"
+      />
+    </div>
+    <div
+      style="position: absolute; width: 6px; display: none; right: 2px; bottom: 2px; top: 2px; border-radius: 3px;"
+    >
+      <div
+        style="position: relative; display: block; width: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"
+      />
+    </div>
+  </div>
+</div>
+`;

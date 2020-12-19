@@ -17,6 +17,7 @@ export * from './components/input-wrapper';
 export * from './components/list';
 export * from './components/navbar';
 export * from './components/spinner';
+export * from './components/scrollable-area';
 export * from './components/text-area';
 export * from './components/text';
 export * from './components/textbox';
