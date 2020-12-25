@@ -13,6 +13,7 @@
   - [Install and Consume](#install-and-consume)
   - [Custom Themes](#custom-themes)
   - [Using a component](#using-a-component)
+  - [Manually adding theme fonts](#manually-adding-theme-fonts)
 - [Contributing](#contributing)
   - [Overview](#overview)
   - [Tech Stack](#tech-stack)
@@ -118,6 +119,21 @@ const Element: React.FC = () => {
 };
 
 export default Element;
+```
+
+### Manually adding theme fonts
+
+Add the below two lines into the `head` section of your `index.html`
+
+```html
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+  rel="stylesheet"
+/>
 ```
 
 ## Contributing

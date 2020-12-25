@@ -44,7 +44,14 @@ export const ThemeProvider = ({ theme, children }: ThemeProviderProps) => {
   if (theme) mergeThemes(newTheme, theme);
 
   React.useEffect(() => {
-    addFonts();
+    try {
+      addFonts();
+    } catch (ex) {
+      console.error(
+        'Failed to add theme fonts. Please add them manually by referencing https://github.com/draekien/draekien-ui#manually-adding-theme-fonts',
+        ex
+      );
+    }
   }, []);
 
   return <ThemeUiProvider theme={newTheme}>{children}</ThemeUiProvider>;
