@@ -1,12 +1,12 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 
-export const datePickerCss: SxStyleProp = {
+export const datePickerCss: ThemeUIStyleObject = {
   display: 'inline-block',
   padding: '1.5rem',
   width: '17rem',
 };
 
-export const datePickerHeaderCss: SxStyleProp = {
+export const datePickerHeaderCss: ThemeUIStyleObject = {
   alignItems: 'center',
   display: 'flex',
   flexDirection: 'row',
@@ -14,13 +14,13 @@ export const datePickerHeaderCss: SxStyleProp = {
   justifyContent: 'space-between',
 };
 
-export const datePickerLabelCss: SxStyleProp = {
+export const datePickerLabelCss: ThemeUIStyleObject = {
   color: 'p-300',
   display: 'inline-block',
   textAlign: 'center',
 };
 
-export const datePickerWeekdayWrapperCss: SxStyleProp = {
+export const datePickerWeekdayWrapperCss: ThemeUIStyleObject = {
   color: 'b-400',
   display: 'flex',
   justifyContent: 'space-around',
@@ -28,12 +28,12 @@ export const datePickerWeekdayWrapperCss: SxStyleProp = {
   textAlign: 'center',
 };
 
-export const datePickerWeekdayCss: SxStyleProp = {
+export const datePickerWeekdayCss: ThemeUIStyleObject = {
   display: 'inline-block',
   width: '2rem',
 };
 
-export const datePickerDayWrapperCss: SxStyleProp = {
+export const datePickerDayWrapperCss: ThemeUIStyleObject = {
   display: 'flex',
   flexWrap: 'wrap',
   justifyContent: 'space-around',
@@ -47,7 +47,9 @@ type DatePickerDayCssProps = {
   isAnotherMonth?: boolean;
 };
 
-export const datePickerDayCss = (props: DatePickerDayCssProps): SxStyleProp => {
+export const datePickerDayCss = (
+  props: DatePickerDayCssProps
+): ThemeUIStyleObject => {
   const css: any = {
     border: '0',
     display: 'inline-block',

@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { colors } from '../theme/colors';
 
 export type TextCssProps = {
@@ -9,7 +9,7 @@ export type TextCssProps = {
   truncate: boolean;
 };
 
-export const textCss = (props: TextCssProps): SxStyleProp => {
+export const textCss = (props: TextCssProps): ThemeUIStyleObject => {
   const css: any = {
     color: props.color,
     display: props.fullWidth ? 'block' : 'inline-block',

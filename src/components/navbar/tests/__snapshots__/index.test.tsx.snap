@@ -4,16 +4,16 @@ exports[`Navbar component should match snaptshot 1`] = `
 <div>
   <div>
     <nav
-      class="css-15n5hai-Navbar"
+      class="css-8lvt6e-Navbar"
     >
       <div
-        class="css-1ck46fg-Navbar"
+        class="css-1sdsjsc-Navbar"
       >
         <a
           href="/"
         />
         <div
-          class="css-eow14e"
+          class="css-1vlz94w"
         />
       </div>
     </nav>

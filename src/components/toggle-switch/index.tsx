@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { Flex, jsx, Label } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Flex, Label } from 'theme-ui';
 import Switch from 'react-switch';
 import React, { SyntheticEvent } from 'react';
 import * as styles from './index.styles';

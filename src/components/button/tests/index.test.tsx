@@ -1,7 +1,7 @@
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { fireEvent, getByText, render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import { jsx } from 'theme-ui';
+
 import Button from '..';
 import Icon from '../../icon';
 

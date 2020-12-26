@@ -3,18 +3,18 @@
 exports[`Banner component should match snapshot 1`] = `
 <div>
   <div
-    class="css-11xijmt-Banner"
+    class="css-1qxp57m-Banner"
   >
     <i
-      class="material-icons css-sypd70-Banner"
+      class="material-icons css-1q3mgzl-Banner"
     >
       info
     </i>
     <div
-      class="css-4j6z3q-Banner"
+      class="css-hu5ugq-Banner"
     >
       <div
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         banner
       </div>
@@ -26,18 +26,18 @@ exports[`Banner component should match snapshot 1`] = `
 exports[`Banner component should match snapshot when all props are populated 1`] = `
 <div>
   <div
-    class="css-wmtu15-Banner"
+    class="css-1uzbnv-Banner"
   >
     <i
-      class="material-icons css-jozr6w-Banner"
+      class="material-icons css-1vuensh-Banner"
     >
       accessibility
     </i>
     <div
-      class="css-4j6z3q-Banner"
+      class="css-hu5ugq-Banner"
     >
       <div
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         banner
       </div>

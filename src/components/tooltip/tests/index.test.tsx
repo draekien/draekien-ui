@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+
 import { act, fireEvent, render } from '@testing-library/react';
 import { options } from '../../../constants/fireEventOptions';
 import Tooltip from '..';

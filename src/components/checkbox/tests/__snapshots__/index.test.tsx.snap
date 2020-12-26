@@ -3,47 +3,47 @@
 exports[`Checkbox component should match snapshot 1`] = `
 <div>
   <div
-    class="css-hfz0wm-InputWrapper"
+    class="css-1yiveqa-InputWrapper"
   >
     <label
-      class="css-7ojqvb-InputWrapper"
+      class="css-1xx1j7c-InputWrapper"
       for="checkbox"
     >
       <div
-        class="css-3vy6se-Text"
+        class="css-1x18leo-Text"
       >
         checkbox
       </div>
     </label>
     <div
-      class="css-1977fki-Checkbox"
+      class="css-1m929op-Checkbox"
     >
       <label
-        class="css-lhofcl-Checkbox"
+        class="css-1r1kjdt-Checkbox"
         for="checkbox"
       >
         test checkbox
       </label>
       <div
-        class="css-8qt76p-Checkbox"
+        class="css-gt5dbg-Checkbox"
       >
         <div
-          class="css-1mrog33-Checkbox"
+          class="css-1858fu1-Checkbox"
         />
       </div>
       <input
-        class="css-1bi88cn-Checkbox"
+        class="css-1yxs860-Checkbox"
         id="checkbox"
         readonly=""
         type="checkbox"
       />
     </div>
     <label
-      class="css-7ojqvb-InputWrapper"
+      class="css-1xx1j7c-InputWrapper"
       for="checkbox"
     >
       <div
-        class="css-3vy6se-Text"
+        class="css-1x18leo-Text"
       >
         helpText
       </div>

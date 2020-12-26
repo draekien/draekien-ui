@@ -3,42 +3,42 @@
 exports[`Textbox component should match snapshot 1`] = `
 <div>
   <div
-    class="css-hfz0wm-InputWrapper"
+    class="css-1yiveqa-InputWrapper"
   >
     <label
-      class="css-7ojqvb-InputWrapper"
+      class="css-1xx1j7c-InputWrapper"
       for="test"
     >
       <div
-        class="css-3vy6se-Text"
+        class="css-1x18leo-Text"
       >
         test
       </div>
     </label>
     <div
-      class="css-1mngvxn"
+      class="css-u4w0n1"
     >
       <input
-        class="css-i8bo21"
+        class="css-165plsn"
         id="test"
         value=""
       />
       <span
-        class="css-1fkmtnz"
+        class="css-1k8g5nq"
       >
         <i
-          class="material-icons  css-96rp51-Icon"
+          class="material-icons  css-14lartn-Icon"
         >
           info
         </i>
       </span>
     </div>
     <label
-      class="css-7ojqvb-InputWrapper"
+      class="css-1xx1j7c-InputWrapper"
       for="test"
     >
       <div
-        class="css-3vy6se-Text"
+        class="css-1x18leo-Text"
       >
         test
       </div>
@@ -50,42 +50,42 @@ exports[`Textbox component should match snapshot 1`] = `
 exports[`Textbox component should match snapshot when active and fullwidth 1`] = `
 <div>
   <div
-    class="css-14kpdgk-InputWrapper"
+    class="css-tv7s4a-InputWrapper"
   >
     <label
-      class="css-7ojqvb-InputWrapper"
+      class="css-1xx1j7c-InputWrapper"
       for="test"
     >
       <div
-        class="css-3vy6se-Text"
+        class="css-1x18leo-Text"
       >
         test
       </div>
     </label>
     <div
-      class="css-1mngvxn"
+      class="css-u4w0n1"
     >
       <input
-        class="css-h11rbr"
+        class="css-1f58qlc"
         id="test"
         value=""
       />
       <span
-        class="css-1fkmtnz"
+        class="css-1k8g5nq"
       >
         <i
-          class="material-icons  css-96rp51-Icon"
+          class="material-icons  css-14lartn-Icon"
         >
           info
         </i>
       </span>
     </div>
     <label
-      class="css-7ojqvb-InputWrapper"
+      class="css-1xx1j7c-InputWrapper"
       for="test"
     >
       <div
-        class="css-3vy6se-Text"
+        class="css-1x18leo-Text"
       >
         test
       </div>

@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { IconSize } from '.';
 import { colors } from '../theme/colors';
 
@@ -7,7 +7,7 @@ export type IconCssProps = {
   color?: keyof typeof colors;
 };
 
-export const iconCss = (props: IconCssProps): SxStyleProp => {
+export const iconCss = (props: IconCssProps): ThemeUIStyleObject => {
   const css: any = {
     verticalAlign: 'middle',
     color: props.color || 'inherit',

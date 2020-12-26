@@ -3,10 +3,10 @@
 exports[`Card component should match snapshot 1`] = `
 <div>
   <div
-    class="css-1nty2if-Card"
+    class="css-15tes2-Card"
   >
     <div
-      class="css-1khe26x"
+      class="css-8e25xx"
     >
       Card
     </div>
@@ -17,10 +17,10 @@ exports[`Card component should match snapshot 1`] = `
 exports[`Card component should render with bottom accent 1`] = `
 <div>
   <div
-    class="css-1nty2if-Card"
+    class="css-15tes2-Card"
   >
     <div
-      class="css-1khe26x"
+      class="css-8e25xx"
     >
       content
     </div>
@@ -31,10 +31,10 @@ exports[`Card component should render with bottom accent 1`] = `
 exports[`Card component should render with left accent 1`] = `
 <div>
   <div
-    class="css-fv127j-Card"
+    class="css-1t98pyd-Card"
   >
     <div
-      class="css-1khe26x"
+      class="css-8e25xx"
     >
       content
     </div>
@@ -45,10 +45,10 @@ exports[`Card component should render with left accent 1`] = `
 exports[`Card component should render with right accent 1`] = `
 <div>
   <div
-    class="css-1nty2if-Card"
+    class="css-15tes2-Card"
   >
     <div
-      class="css-1khe26x"
+      class="css-8e25xx"
     >
       content
     </div>
@@ -59,10 +59,10 @@ exports[`Card component should render with right accent 1`] = `
 exports[`Card component should render with top accent 1`] = `
 <div>
   <div
-    class="css-qiyxeb-Card"
+    class="css-15az4k1-Card"
   >
     <div
-      class="css-1khe26x"
+      class="css-8e25xx"
     >
       content
     </div>

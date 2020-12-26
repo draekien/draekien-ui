@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { AccentPosition, CardSize } from '.';
 import { colors } from '../theme/colors';
 
@@ -21,7 +21,9 @@ const clickTransform = {
   boxShadow: 'md',
 };
 
-export const cardContainerCss = (props: CardContainerCssProps): SxStyleProp => {
+export const cardContainerCss = (
+  props: CardContainerCssProps
+): ThemeUIStyleObject => {
   const css: any = {
     flexDirection: 'column',
     justifyContent: 'center',
@@ -73,6 +75,6 @@ export const cardContainerCss = (props: CardContainerCssProps): SxStyleProp => {
   return css;
 };
 
-export const childrenContainerCss: SxStyleProp = {
+export const childrenContainerCss: ThemeUIStyleObject = {
   p: 'sm',
 };

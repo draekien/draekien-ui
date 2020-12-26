@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx, Text as ThemeUiText } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Text as ThemeUiText } from 'theme-ui';
 import React from 'react';
 import { colors } from '../theme/colors';
 import { text } from '../theme/typography';

@@ -3,10 +3,10 @@
 exports[`Avatar component should match snapshot 1`] = `
 <div>
   <div
-    class="css-1tvgq5r-Avatar"
+    class="css-2m6vxv-Avatar"
   >
     <img
-      class="css-xrh3x4-Avatar"
+      class="css-nx3sfz-Avatar"
       src="https://avatars.dicebear.com/api/jdenticon/default.svg"
     />
   </div>

@@ -1,13 +1,13 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { DateInputProps } from '.';
 
-export const dateInputCss = (props: DateInputProps): SxStyleProp => ({
+export const dateInputCss = (props: DateInputProps): ThemeUIStyleObject => ({
   display: 'inline-block',
   width: props.fullWidth ? '100%' : 'auto',
   position: 'relative',
 });
 
-export const datePickerWrapper = (alignRight: boolean): SxStyleProp => ({
+export const datePickerWrapper = (alignRight: boolean): ThemeUIStyleObject => ({
   position: 'absolute',
   marginTop: '0.25rem',
   left: alignRight ? 'auto' : '0',

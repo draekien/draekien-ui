@@ -3,24 +3,24 @@
 exports[`InputWrapper component should match snapshot 1`] = `
 <div>
   <div
-    class="css-hfz0wm-InputWrapper"
+    class="css-1yiveqa-InputWrapper"
   >
     <label
-      class="css-7ojqvb-InputWrapper"
+      class="css-1xx1j7c-InputWrapper"
       for="test"
     >
       <div
-        class="css-3vy6se-Text"
+        class="css-1x18leo-Text"
       >
         test
       </div>
     </label>
     <label
-      class="css-7ojqvb-InputWrapper"
+      class="css-1xx1j7c-InputWrapper"
       for="test"
     >
       <div
-        class="css-3vy6se-Text"
+        class="css-1x18leo-Text"
       >
         test
       </div>

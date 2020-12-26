@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { Box, jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Box } from 'theme-ui';
 import * as React from 'react';
 import { ValidationColor } from '../../utils/iconMapper.utils';
 import { bulletCss } from './index.styles';

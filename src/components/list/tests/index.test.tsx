@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+
 import { render } from '@testing-library/react';
 import List, { ListItemProps } from '..';
 import Button from '../../button';

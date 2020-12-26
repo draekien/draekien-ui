@@ -3,16 +3,16 @@
 exports[`Spinner component should match snapshot when bars 1`] = `
 <div>
   <div
-    class="css-rwn62h-Spinner"
+    class="css-hrragb-Spinner"
   >
     <div
-      class="css-6618cs"
+      class="css-5vuwcy"
     />
     <div
-      class="css-6618cs"
+      class="css-5vuwcy"
     />
     <div
-      class="css-6618cs"
+      class="css-5vuwcy"
     />
   </div>
 </div>
@@ -21,7 +21,7 @@ exports[`Spinner component should match snapshot when bars 1`] = `
 exports[`Spinner component should match snapshot when default 1`] = `
 <div>
   <svg
-    class="css-1nj7dvp-Spinner"
+    class="css-k0sy7g-Spinner"
     fill="none"
     height="48"
     role="img"
@@ -54,16 +54,16 @@ exports[`Spinner component should match snapshot when default 1`] = `
 exports[`Spinner component should match snapshot when dots 1`] = `
 <div>
   <div
-    class="css-rwn62h-Spinner"
+    class="css-hrragb-Spinner"
   >
     <div
-      class="css-le8skg"
+      class="css-ug31l5"
     />
     <div
-      class="css-le8skg"
+      class="css-ug31l5"
     />
     <div
-      class="css-le8skg"
+      class="css-ug31l5"
     />
   </div>
 </div>
@@ -72,19 +72,19 @@ exports[`Spinner component should match snapshot when dots 1`] = `
 exports[`Spinner component should match snapshot when full size and not circle 1`] = `
 <div>
   <div
-    class="css-1rt62m3-Spinner"
+    class="css-1v4x0y5-Spinner"
   >
     <div
-      class="css-rwn62h-Spinner"
+      class="css-hrragb-Spinner"
     >
       <div
-        class="css-12n5ctp"
+        class="css-1ilw9uo"
       />
       <div
-        class="css-12n5ctp"
+        class="css-1ilw9uo"
       />
       <div
-        class="css-12n5ctp"
+        class="css-1ilw9uo"
       />
     </div>
   </div>
@@ -94,10 +94,10 @@ exports[`Spinner component should match snapshot when full size and not circle 1
 exports[`Spinner component should match snapshot with custom prop values 1`] = `
 <div>
   <div
-    class="css-1rt62m3-Spinner"
+    class="css-1v4x0y5-Spinner"
   >
     <svg
-      class="css-1ojhecn-Spinner"
+      class="css-37qp24-Spinner"
       fill="none"
       height="48"
       role="img"

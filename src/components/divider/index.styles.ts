@@ -1,9 +1,9 @@
 import { alpha } from '@theme-ui/color';
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { DividerProps } from '.';
 import { colors } from '../theme/colors';
 
-export const dividerCss = (props: DividerProps): SxStyleProp => {
+export const dividerCss = (props: DividerProps): ThemeUIStyleObject => {
   const css: any = {
     border: '1px solid',
     borderColor: props.color,

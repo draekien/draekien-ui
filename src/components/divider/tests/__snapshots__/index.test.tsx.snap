@@ -3,7 +3,7 @@
 exports[`Divider component Divider should change color 1`] = `
 <div>
   <div
-    class="css-rafpqp-Divider"
+    class="css-320vg8-Divider"
   />
 </div>
 `;
@@ -11,7 +11,7 @@ exports[`Divider component Divider should change color 1`] = `
 exports[`Divider component gradient divider should match snapshot 1`] = `
 <div>
   <div
-    class="css-1h3r1of-Divider"
+    class="css-9kbgnh-Divider"
   />
 </div>
 `;
@@ -19,7 +19,7 @@ exports[`Divider component gradient divider should match snapshot 1`] = `
 exports[`Divider component solid divider should match snapshot 1`] = `
 <div>
   <div
-    class="css-1g2mpip-Divider"
+    class="css-1agykh8-Divider"
   />
 </div>
 `;

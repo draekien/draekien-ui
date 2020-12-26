@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+
 import { render } from '@testing-library/react';
 import Divider from '..';
 

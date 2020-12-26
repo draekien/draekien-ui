@@ -4,25 +4,25 @@ exports[`DateInput component should match snapshot 1`] = `
 <div>
   <div>
     <div
-      class="css-6q34h3-DateInput"
+      class="css-113h4u2-DateInput"
     >
       <div
-        class="css-hfz0wm-InputWrapper"
+        class="css-1yiveqa-InputWrapper"
       >
         <div
-          class="css-1mngvxn"
+          class="css-u4w0n1"
         >
           <input
-            class="css-1u99oui"
+            class="css-1jb71dr"
             id="datepicker"
             placeholder="DD / MM / YYYY"
             value="01 / 11 / 2020"
           />
           <div
-            class="css-1xauu8w-TextboxTail"
+            class="css-kp0dcq-TextboxTail"
           >
             <i
-              class="material-icons  css-9vbooj-Icon"
+              class="material-icons  css-1rkkon9-Icon"
             >
               date_range
             </i>

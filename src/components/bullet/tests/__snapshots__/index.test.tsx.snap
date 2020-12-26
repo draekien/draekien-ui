@@ -3,7 +3,7 @@
 exports[`Bullet component should match snapshot 1`] = `
 <div>
   <div
-    class="css-19na3e0-Bullet"
+    class="css-1srap2r-Bullet"
   >
     bullet
   </div>
@@ -13,7 +13,7 @@ exports[`Bullet component should match snapshot 1`] = `
 exports[`Bullet component should match snapshot with defaults 1`] = `
 <div>
   <div
-    class="css-17bfpm0-Bullet"
+    class="css-1cpe24t-Bullet"
   >
     bullet
   </div>

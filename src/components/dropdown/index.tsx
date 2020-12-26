@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+
 import * as React from 'react';
 import OutsideClickHandler from 'react-outside-click-handler';
 import Button from '../button';

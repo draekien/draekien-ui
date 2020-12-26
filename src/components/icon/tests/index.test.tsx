@@ -1,6 +1,6 @@
-/** @jsx jsx */
+/** @jsxImportSource theme-ui */
 import { render } from '@testing-library/react';
-import { jsx } from 'theme-ui';
+
 import Icon from '..';
 import { iconCss } from '../index.styles';
 
