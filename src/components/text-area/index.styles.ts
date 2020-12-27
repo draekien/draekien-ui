@@ -1,7 +1,9 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { TextAreaProps } from '.';
 
-export const textareaWrapperCss = (props: TextAreaProps): SxStyleProp => {
+export const textareaWrapperCss = (
+  props: TextAreaProps
+): ThemeUIStyleObject => {
   const css: any = {};
 
   if (props.fullWidth) {
@@ -15,7 +17,7 @@ export const textareaWrapperCss = (props: TextAreaProps): SxStyleProp => {
   return css;
 };
 
-export const textareaCss = (props: TextAreaProps): SxStyleProp => {
+export const textareaCss = (props: TextAreaProps): ThemeUIStyleObject => {
   const css: any = {
     padding: '0.6875rem 0.5rem',
     color: 'text-dark',

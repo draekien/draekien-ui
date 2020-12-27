@@ -1,23 +1,23 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 
 type CheckboxLabelProps = {
   checked?: boolean;
   disabled?: boolean;
 };
 
-export const checkboxWrapperCss: SxStyleProp = {
+export const checkboxWrapperCss: ThemeUIStyleObject = {
   position: 'relative',
   lineHeight: '1.125rem',
   alignItems: 'center',
 };
 
-export const checkboxInputCss: SxStyleProp = {
+export const checkboxInputCss: ThemeUIStyleObject = {
   visibility: 'hidden',
   width: 0,
   height: 0,
 };
 
-export const checkboxOuterCss: SxStyleProp = {
+export const checkboxOuterCss: ThemeUIStyleObject = {
   position: 'absolute',
   left: 0,
   top: 0,
@@ -26,7 +26,7 @@ export const checkboxOuterCss: SxStyleProp = {
   pointerEvents: 'none',
 };
 
-export const checkboxCss = (props: CheckboxLabelProps): SxStyleProp => {
+export const checkboxCss = (props: CheckboxLabelProps): ThemeUIStyleObject => {
   const css: any = {
     cursor: 'pointer',
     boxSizing: 'border-box',
@@ -74,7 +74,7 @@ export const checkboxCss = (props: CheckboxLabelProps): SxStyleProp => {
   return css;
 };
 
-export const checkboxLabelCss = (children?: boolean): SxStyleProp => {
+export const checkboxLabelCss = (children?: boolean): ThemeUIStyleObject => {
   const css: any = {
     cursor: 'pointer',
   };

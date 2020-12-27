@@ -1,8 +1,8 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 
 export const outsideClickWrapper = (
   minWidth?: number | string | number[] | string[]
-): SxStyleProp => ({
+): ThemeUIStyleObject => ({
   display: 'inline-block',
   minWidth: minWidth || 'auto',
   '>div': {
@@ -10,7 +10,7 @@ export const outsideClickWrapper = (
   },
 });
 
-export const contentWrapper = (hasSelection?: boolean): SxStyleProp => {
+export const contentWrapper = (hasSelection?: boolean): ThemeUIStyleObject => {
   const css: any = {
     display: 'inline-block',
     position: 'relative',
@@ -38,7 +38,7 @@ interface ChildrenWrapperCssProps {
 
 export const childrenWrapperCss = (
   props: ChildrenWrapperCssProps
-): SxStyleProp => {
+): ThemeUIStyleObject => {
   const css: any = {
     backgroundColor: 'b-000',
     borderRadius: 'md',
@@ -71,7 +71,7 @@ interface CaretCssProps {
   margin: number;
 }
 
-export const caretCss = (props: CaretCssProps): SxStyleProp => {
+export const caretCss = (props: CaretCssProps): ThemeUIStyleObject => {
   const css: any = {
     display: 'inline-block',
     width: 0,

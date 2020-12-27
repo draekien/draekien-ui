@@ -3,20 +3,20 @@
 exports[`DatePicker component should match snapshot 1`] = `
 <div>
   <div
-    class="css-1ffeio2-DatePicker"
+    class="css-4izroe-DatePicker"
   >
     <div
-      class="css-1irkkch-DatePicker"
+      class="css-1713ndw-DatePicker"
     >
       <button
-        class="css-r4utam-Button"
+        class="css-1ib0qi8-Button"
         type="button"
       >
         <span
-          class="css-1ar16h4"
+          class="css-1geq0g0"
         >
           <i
-            class="material-icons  css-1ike9wb-Icon"
+            class="material-icons  css-18og482-Icon"
           >
             chevron_left
           </i>
@@ -24,20 +24,20 @@ exports[`DatePicker component should match snapshot 1`] = `
         <span />
       </button>
       <span
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         December 2020
       </span>
       <button
-        class="css-r4utam-Button"
+        class="css-1ib0qi8-Button"
         type="button"
       >
         <span />
         <span
-          class="css-1ar16h4"
+          class="css-1geq0g0"
         >
           <i
-            class="material-icons  css-1ike9wb-Icon"
+            class="material-icons  css-18og482-Icon"
           >
             chevron_right
           </i>
@@ -45,219 +45,219 @@ exports[`DatePicker component should match snapshot 1`] = `
       </button>
     </div>
     <div
-      class="css-o64vi5-DatePicker"
+      class="css-14rxwwq-DatePicker"
     >
       <span
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         S
       </span>
       <span
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         M
       </span>
       <span
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         T
       </span>
       <span
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         W
       </span>
       <span
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         T
       </span>
       <span
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         F
       </span>
       <span
-        class="css-eydsp4-Text"
+        class="css-1s3pmdg-Text"
       >
         S
       </span>
     </div>
     <div
-      class="css-1t85os0-DatePicker"
+      class="css-4i4yi4-DatePicker"
     >
       <span
-        class="css-7r7jbe-Day"
+        class="css-v17zje-Day"
       >
         29
       </span>
       <span
-        class="css-7r7jbe-Day"
+        class="css-v17zje-Day"
       >
         30
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         1
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         2
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         3
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         4
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         5
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         6
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         7
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         8
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         9
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         10
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         11
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         12
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         13
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         14
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         15
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         16
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         17
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         18
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         19
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         20
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         21
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         22
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         23
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         24
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         25
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         26
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         27
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         28
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         29
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         30
       </span>
       <span
-        class="css-2hjx6u-Day"
+        class="css-1t8ynhk-Day"
       >
         31
       </span>
       <span
-        class="css-7r7jbe-Day"
+        class="css-v17zje-Day"
       >
         1
       </span>
       <span
-        class="css-7r7jbe-Day"
+        class="css-v17zje-Day"
       >
         2
       </span>

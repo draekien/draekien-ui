@@ -1,14 +1,14 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { TextBoxProps } from '.';
 
-export const textboxWrapperCss: SxStyleProp = {
+export const textboxWrapperCss: ThemeUIStyleObject = {
   position: 'relative',
   display: 'inline-flex',
   width: '100%',
   alignItems: 'center',
 };
 
-export const inputLeftIconCss: SxStyleProp = {
+export const inputLeftIconCss: ThemeUIStyleObject = {
   position: 'absolute',
   left: 'xs',
   color: 'b-300',
@@ -19,7 +19,7 @@ interface InputCssProps extends TextBoxProps {
   withStatus?: boolean;
 }
 
-export const inputCss = (props: InputCssProps): SxStyleProp => {
+export const inputCss = (props: InputCssProps): ThemeUIStyleObject => {
   const css: any = {
     height: props.size === 'small' ? '2rem' : '2.5rem',
     p: '0 1rem 0 0.5rem',
@@ -72,7 +72,7 @@ export const inputCss = (props: InputCssProps): SxStyleProp => {
   return css;
 };
 
-export const textboxTailCss = (props: TextBoxProps): SxStyleProp => {
+export const textboxTailCss = (props: TextBoxProps): ThemeUIStyleObject => {
   const css: any = {
     display: 'inline',
     position: 'absolute',

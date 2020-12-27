@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { colors } from '../theme/colors';
 
 export type NavbarWrapperCssProps = {
@@ -7,7 +7,9 @@ export type NavbarWrapperCssProps = {
   isMobile: boolean;
 };
 
-export const navbarWrapperCss = (props: NavbarWrapperCssProps): SxStyleProp => {
+export const navbarWrapperCss = (
+  props: NavbarWrapperCssProps
+): ThemeUIStyleObject => {
   const css: any = {
     height: props.isMobile ? '4rem' : '100%',
     width: '100%',
@@ -31,19 +33,19 @@ export const navbarWrapperCss = (props: NavbarWrapperCssProps): SxStyleProp => {
   return css;
 };
 
-export const navbarDesktopWrapperCss: SxStyleProp = {
+export const navbarDesktopWrapperCss: ThemeUIStyleObject = {
   p: 'sm',
   alignItems: 'center',
   justifyContent: 'space-between',
 };
 
-export const navbarMobileMenuChildrenWrapperCss: SxStyleProp = {
+export const navbarMobileMenuChildrenWrapperCss: ThemeUIStyleObject = {
   width: '100%',
   height: '100%',
   px: 'sm',
 };
 
-export const navbarChildrenWrapperCss: SxStyleProp = {
+export const navbarChildrenWrapperCss: ThemeUIStyleObject = {
   flex: 1,
   textAlign: 'right',
 };

@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { BannerVariant } from '.';
 
 export type BannerContainerCssProps = {
@@ -9,7 +9,7 @@ export type BannerContainerCssProps = {
 
 export const bannerContainerCss = (
   props: BannerContainerCssProps
-): SxStyleProp => {
+): ThemeUIStyleObject => {
   const css: any = {
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -35,17 +35,17 @@ export const bannerContainerCss = (
   return css;
 };
 
-export const bannerIconCss: SxStyleProp = {
+export const bannerIconCss: ThemeUIStyleObject = {
   mx: 'sm',
 };
 
-export const bannerMessageCss: SxStyleProp = {
+export const bannerMessageCss: ThemeUIStyleObject = {
   px: 'sm',
   flex: 1,
   alignItems: 'center',
 };
 
-export const bannerCloseIconCss: SxStyleProp = {
+export const bannerCloseIconCss: ThemeUIStyleObject = {
   cursor: 'pointer',
   mr: 'sm',
 };

@@ -3,7 +3,7 @@
 exports[`Badge component should match snapshot 1`] = `
 <div>
   <div
-    class="css-vfn11l-Badge"
+    class="css-opfat8-Badge"
   >
     1
   </div>

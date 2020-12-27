@@ -1,11 +1,13 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 
 export type AvatarSize = 'sm' | 'md' | 'lg' | string | number;
 export type AvatarCssProps = {
   size: AvatarSize;
 };
 
-export const avatarContainerCss = (props: AvatarCssProps): SxStyleProp => {
+export const avatarContainerCss = (
+  props: AvatarCssProps
+): ThemeUIStyleObject => {
   const { size } = props;
 
   const css: any = {
@@ -38,7 +40,7 @@ export const avatarContainerCss = (props: AvatarCssProps): SxStyleProp => {
   return css;
 };
 
-export const avatarCss: SxStyleProp = {
+export const avatarCss: ThemeUIStyleObject = {
   height: '100%',
   width: '100%',
 };

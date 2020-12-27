@@ -3,7 +3,7 @@
 exports[`DraekienUi component should match snapshot 1`] = `
 <div>
   <div
-    class="css-p3n47d"
+    class="css-a1kn4l"
     id="draekien_ui_toast_container"
   />
   Test
@@ -13,7 +13,7 @@ exports[`DraekienUi component should match snapshot 1`] = `
 exports[`DraekienUi component should match snapshot when offset is set 1`] = `
 <div>
   <div
-    class="css-17f8062"
+    class="css-1ukdsf"
     id="draekien_ui_toast_container"
   />
   Test

@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { Flex, jsx, Spinner as ThemeUiSpinner } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Flex, Spinner as ThemeUiSpinner } from 'theme-ui';
 import React from 'react';
 import { colors } from '../theme/colors';
 import * as styles from './index.styles';

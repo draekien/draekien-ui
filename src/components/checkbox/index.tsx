@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { Box, Flex, Input, jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Box, Flex, Input } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import InputWrapper, { InputChildrenProps } from '../input-wrapper';

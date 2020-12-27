@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { alpha } from '@theme-ui/color';
 
 export type ButtonVariant =
@@ -75,7 +75,7 @@ const getColors = (variant: ButtonVariant) => {
   };
 };
 
-export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
+export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
   const css: any = {
     height: '2rem',
     py: 'xs',
@@ -188,7 +188,7 @@ export const buttonCss = (props: ButtonCssProps): SxStyleProp => {
   return css;
 };
 
-export const linkButtonCss = (active: boolean): SxStyleProp => {
+export const linkButtonCss = (active: boolean): ThemeUIStyleObject => {
   const css: any = {
     cursor: 'pointer',
     variant: 'text.subtitle',
@@ -240,7 +240,7 @@ export const linkButtonCss = (active: boolean): SxStyleProp => {
 export const iconWrapperCss = (
   position: 'left' | 'right',
   hasText: boolean
-): SxStyleProp => {
+): ThemeUIStyleObject => {
   const css: any = {
     display: 'inline-flex',
     textDecoration: 'none',

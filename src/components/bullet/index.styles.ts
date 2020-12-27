@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { ValidationColor } from '../../utils/iconMapper.utils';
 
 export type BulletCssProps = {
@@ -7,7 +7,7 @@ export type BulletCssProps = {
   invert: boolean;
 };
 
-export const bulletCss = (props: BulletCssProps): SxStyleProp => {
+export const bulletCss = (props: BulletCssProps): ThemeUIStyleObject => {
   const css: any = {
     borderRadius: 'sm',
     display: props.fullWidth ? 'flex' : 'inline-flex',

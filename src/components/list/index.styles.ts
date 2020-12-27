@@ -1,10 +1,10 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 
-export const listWrapperCss: SxStyleProp = {
+export const listWrapperCss: ThemeUIStyleObject = {
   flexDirection: 'column',
 };
 
-export const labelCss: SxStyleProp = {
+export const labelCss: ThemeUIStyleObject = {
   ml: 'sm',
 };
 
@@ -16,7 +16,7 @@ export const listCss = {
 export const listItemCss = (
   disabled: boolean,
   focused: boolean
-): SxStyleProp => {
+): ThemeUIStyleObject => {
   const css: any = {
     backgroundColor: 'b-000',
     color: disabled ? 'b-200' : 'b-400',

@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { ValidationColor } from '../../utils/iconMapper.utils';
 import { ToastContainerProps } from './container';
@@ -28,7 +28,9 @@ export type ToastCssProps = {
   position?: 'left' | 'right' | 'none';
 };
 
-export const toastContainerCss = (props: ToastContainerProps): SxStyleProp => ({
+export const toastContainerCss = (
+  props: ToastContainerProps
+): ThemeUIStyleObject => ({
   position: 'fixed',
   top: props.offsetTop || 0,
   right: 0,
@@ -37,7 +39,7 @@ export const toastContainerCss = (props: ToastContainerProps): SxStyleProp => ({
   pointerEvents: 'none',
 });
 
-export const toastWrapperCss = (props: ToastCssProps): SxStyleProp => {
+export const toastWrapperCss = (props: ToastCssProps): ThemeUIStyleObject => {
   const css: any = {
     backgroundColor: `${props.alertType}-000`,
     borderLeft: '3px solid',
@@ -84,27 +86,27 @@ export const toastWrapperTransitionCss: any = {
   },
 };
 
-export const toastIconCss: SxStyleProp = {
+export const toastIconCss: ThemeUIStyleObject = {
   mx: 'sm',
   my: '1.375rem',
   position: 'absolute',
 };
 
-export const toastTitleCss = (props: ToastCssProps): SxStyleProp => ({
+export const toastTitleCss = (props: ToastCssProps): ThemeUIStyleObject => ({
   color: `${props.alertType}-400`,
   minHeight: '2rem',
   p: '1rem 2.5rem 0 3.5rem',
   variant: 'text.surtitle',
 });
 
-export const toastMessageCss: SxStyleProp = {
+export const toastMessageCss: ThemeUIStyleObject = {
   minHeight: '2rem',
   p: '0 2.5rem 1rem 3.5rem',
   variant: 'text.small',
   color: 'text-dark',
 };
 
-export const toastCloseIconCss: SxStyleProp = {
+export const toastCloseIconCss: ThemeUIStyleObject = {
   position: 'absolute',
   right: '0.75rem',
   top: '0.74rem',

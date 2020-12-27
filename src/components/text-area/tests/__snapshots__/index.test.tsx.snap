@@ -3,34 +3,34 @@
 exports[`TextArea component should match snapshot 1`] = `
 <div>
   <div
-    class="css-qtnzvd-TextArea"
+    class="css-3j7u2z-TextArea"
   >
     <div
-      class="css-hfz0wm-InputWrapper"
+      class="css-1yiveqa-InputWrapper"
     >
       <label
-        class="css-7ojqvb-InputWrapper"
+        class="css-1xx1j7c-InputWrapper"
         for="area"
       >
         <div
-          class="css-3vy6se-Text"
+          class="css-1x18leo-Text"
         >
           textarea
         </div>
       </label>
       <textarea
-        class="css-f3eo0h-TextArea"
+        class="css-8atl91-TextArea"
         id="area"
         placeholder="placeholder"
         rows="1"
         style="height: 6.5rem; min-height: 6.5rem; max-height: 6.5rem; overflow-x: hidden; word-wrap: break-word;"
       />
       <label
-        class="css-7ojqvb-InputWrapper"
+        class="css-1xx1j7c-InputWrapper"
         for="area"
       >
         <div
-          class="css-3vy6se-Text"
+          class="css-1x18leo-Text"
         >
           helpText
         </div>

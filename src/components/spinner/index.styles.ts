@@ -1,8 +1,8 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { SpinnerProps } from '.';
 
-export const overlayCss: SxStyleProp = {
+export const overlayCss: ThemeUIStyleObject = {
   position: 'fixed',
   top: 0,
   right: 0,
@@ -14,7 +14,7 @@ export const overlayCss: SxStyleProp = {
   justifyContent: 'center',
 };
 
-export const spinnerCss: SxStyleProp = {
+export const spinnerCss: ThemeUIStyleObject = {
   display: 'inline-flex',
   '> div:nth-of-type(1)': {
     animationDelay: '0',
@@ -41,7 +41,7 @@ const loadingBars = keyframes`
   transform: scale(1);
 }`;
 
-export const spinnerBarCss = (props: SpinnerProps): SxStyleProp => {
+export const spinnerBarCss = (props: SpinnerProps): ThemeUIStyleObject => {
   const css: any = {
     animation: `${loadingBars} 1s ease-in-out infinite`,
     backgroundColor: 'primary',
@@ -80,7 +80,7 @@ const loadingDots = keyframes`
   transform: translateY(0);
 }`;
 
-export const spinnerDotCss = (props: SpinnerProps): SxStyleProp => {
+export const spinnerDotCss = (props: SpinnerProps): ThemeUIStyleObject => {
   const css: any = {
     animation: `${loadingDots} 1s ease-in-out infinite`,
     borderRadius: '50%',
@@ -107,7 +107,7 @@ export const spinnerDotCss = (props: SpinnerProps): SxStyleProp => {
   return css;
 };
 
-export const spinnerCircleCss = (props: SpinnerProps): SxStyleProp => {
+export const spinnerCircleCss = (props: SpinnerProps): ThemeUIStyleObject => {
   const css: any = {
     color: props.color ?? 'primary',
     stroke: 4,

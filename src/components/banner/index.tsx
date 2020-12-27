@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { Flex, jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Flex } from 'theme-ui';
 import * as React from 'react';
 import {
   ValidationColor,

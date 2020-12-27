@@ -3,7 +3,7 @@
 exports[`Tooltip component renders correctly when not hovered 1`] = `
 <div>
   <div
-    class="css-19lyc05-Tooltip"
+    class="css-h0bkxn-Tooltip"
     tabindex="1"
   >
     <div

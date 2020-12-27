@@ -1,7 +1,9 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { InputWrapperProps } from '.';
 
-export const inputWrapperCss = (props: InputWrapperProps): SxStyleProp => {
+export const inputWrapperCss = (
+  props: InputWrapperProps
+): ThemeUIStyleObject => {
   const { fullWidth } = props;
   return {
     display: fullWidth ? 'block' : 'inline-block',
@@ -9,7 +11,7 @@ export const inputWrapperCss = (props: InputWrapperProps): SxStyleProp => {
   };
 };
 
-export const helpTextCss: SxStyleProp = {
+export const helpTextCss: ThemeUIStyleObject = {
   mt: 'xs',
 };
 

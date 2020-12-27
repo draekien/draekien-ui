@@ -3,34 +3,34 @@
 exports[`List component should match snapshot 1`] = `
 <div>
   <div
-    class="css-zkr0k6-List"
+    class="css-wi38yi-List"
   >
     <ul
-      class="css-1roqklx-List"
+      class="css-6tzczf-List"
     >
       <li
-        class="css-50zunu"
+        class="css-aa4yut"
       >
         <div
-          class="css-eydsp4-Text"
+          class="css-1s3pmdg-Text"
         >
           one
         </div>
       </li>
       <li
-        class="css-50zunu"
+        class="css-aa4yut"
       >
         <div
-          class="css-eydsp4-Text"
+          class="css-1s3pmdg-Text"
         >
           two
         </div>
       </li>
       <li
-        class="css-50zunu"
+        class="css-aa4yut"
       >
         <div
-          class="css-eydsp4-Text"
+          class="css-1s3pmdg-Text"
         >
           three
         </div>
@@ -43,21 +43,21 @@ exports[`List component should match snapshot 1`] = `
 exports[`List component should match snapshot with custom props 1`] = `
 <div>
   <div
-    class="css-zkr0k6-List"
+    class="css-wi38yi-List"
   >
     <div
-      class="css-3vy6se-Text"
+      class="css-1x18leo-Text"
     >
       test
     </div>
     <ol
-      class="css-1roqklx-List"
+      class="css-6tzczf-List"
     >
       <li
-        class="css-1ub0xpm"
+        class="css-1uq5q45"
       >
         <button
-          class="css-c3dhtb-Button"
+          class="css-wdf1tq-Button"
           type="button"
         >
           <span>
@@ -66,10 +66,10 @@ exports[`List component should match snapshot with custom props 1`] = `
         </button>
       </li>
       <li
-        class="css-50zunu"
+        class="css-aa4yut"
       >
         <button
-          class="css-c3dhtb-Button"
+          class="css-wdf1tq-Button"
           type="button"
         >
           <span>
@@ -78,10 +78,10 @@ exports[`List component should match snapshot with custom props 1`] = `
         </button>
       </li>
       <li
-        class="css-50zunu"
+        class="css-aa4yut"
       >
         <button
-          class="css-c3dhtb-Button"
+          class="css-wdf1tq-Button"
           type="button"
         >
           <span>

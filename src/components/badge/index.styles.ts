@@ -1,4 +1,4 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { colors } from '../theme/colors';
 
 export type BadgePosition = {
@@ -11,7 +11,7 @@ export type BadgePosition = {
 export const badgeCss = (
   color?: keyof typeof colors | string,
   position?: BadgePosition
-): SxStyleProp => ({
+): ThemeUIStyleObject => ({
   position: 'absolute',
   borderRadius: 'max',
   height: '1rem',

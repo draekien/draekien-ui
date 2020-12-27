@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+
 import { fireEvent, render } from '@testing-library/react';
 import Navbar from '..';
 import { BrowserRouter } from 'react-router-dom';

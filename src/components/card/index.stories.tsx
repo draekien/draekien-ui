@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { Box, Flex, jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Box, Flex } from 'theme-ui';
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 import Card, { CardProps } from '.';

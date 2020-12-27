@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx, Button as ThemeUiButton } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Button as ThemeUiButton } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import Icon from '../icon';

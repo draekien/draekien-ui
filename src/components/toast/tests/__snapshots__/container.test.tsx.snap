@@ -3,55 +3,55 @@
 exports[`ToastContainer component should match snapshot 1`] = `
 <div>
   <div
-    class="css-xuneqf"
+    class="css-mw92no"
     id="draekien_ui_toast_container"
   >
     <div
-      class="css-1vixhij"
+      class="css-wwl213"
       style="height: 0px;"
     >
       <i
-        class="material-icons css-1mkw5fx-Icon"
+        class="material-icons css-148htax-Icon"
       >
         check_circle
       </i>
       <div
-        class="css-18u318"
+        class="css-d3ud5j"
       >
         Toast 1 Title
       </div>
       <div
-        class="css-1jhfx10"
+        class="css-1o9fee3"
       >
         Toast 1 Message
       </div>
       <i
-        class="material-icons css-1w1snbv-Icon"
+        class="material-icons css-b6hqi9-Icon"
       >
         close
       </i>
     </div>
     <div
-      class="css-1vixhij"
+      class="css-wwl213"
       style="height: 0px;"
     >
       <i
-        class="material-icons css-1mkw5fx-Icon"
+        class="material-icons css-148htax-Icon"
       >
         check_circle
       </i>
       <div
-        class="css-18u318"
+        class="css-d3ud5j"
       >
         Toast 2 Title
       </div>
       <div
-        class="css-1jhfx10"
+        class="css-1o9fee3"
       >
         Toast 2 Message
       </div>
       <i
-        class="material-icons css-1w1snbv-Icon"
+        class="material-icons css-b6hqi9-Icon"
       >
         close
       </i>

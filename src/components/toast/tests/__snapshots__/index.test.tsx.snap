@@ -3,26 +3,26 @@
 exports[`Toast component should match snapshot 1`] = `
 <div>
   <div
-    class="css-1vixhij"
+    class="css-wwl213"
     style="height: 0px;"
   >
     <i
-      class="material-icons css-1mkw5fx-Icon"
+      class="material-icons css-148htax-Icon"
     >
       check_circle
     </i>
     <div
-      class="css-18u318"
+      class="css-d3ud5j"
     >
       test
     </div>
     <div
-      class="css-1jhfx10"
+      class="css-1o9fee3"
     >
       test
     </div>
     <i
-      class="material-icons css-1w1snbv-Icon"
+      class="material-icons css-b6hqi9-Icon"
     >
       close
     </i>
@@ -33,26 +33,26 @@ exports[`Toast component should match snapshot 1`] = `
 exports[`Toast component should match snapshot when information 1`] = `
 <div>
   <div
-    class="css-1ock57z"
+    class="css-1f0v0hv"
     style="height: 0px;"
   >
     <i
-      class="material-icons css-ry93ki-Icon"
+      class="material-icons css-150jhr4-Icon"
     >
       info
     </i>
     <div
-      class="css-1fzghdf"
+      class="css-klbf7x"
     >
       test
     </div>
     <div
-      class="css-1jhfx10"
+      class="css-1o9fee3"
     >
       test
     </div>
     <i
-      class="material-icons css-1w1snbv-Icon"
+      class="material-icons css-b6hqi9-Icon"
     >
       close
     </i>

@@ -1,16 +1,16 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 
-export const toggleSwitchWrapperCss: SxStyleProp = {
+export const toggleSwitchWrapperCss: ThemeUIStyleObject = {
   alignItems: 'center',
 };
 
-export const checkboxInputCss: SxStyleProp = {
+export const checkboxInputCss: ThemeUIStyleObject = {
   visibility: 'hidden',
   width: 0,
   height: 0,
 };
 
-export const toggleSwitchLabelCss: SxStyleProp = {
+export const toggleSwitchLabelCss: ThemeUIStyleObject = {
   cursor: 'pointer',
   px: 'sm',
 };

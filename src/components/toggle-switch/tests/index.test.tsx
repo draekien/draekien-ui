@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+
 import { fireEvent, getByText, render } from '@testing-library/react';
 import { ToggleSwitch } from '..';
 

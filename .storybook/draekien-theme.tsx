@@ -1,6 +1,5 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { jsx, useColorMode } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { useColorMode } from 'theme-ui';
 import * as React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { create } from '@storybook/theming';

@@ -1,16 +1,16 @@
-import { SxStyleProp } from 'theme-ui';
+import { ThemeUIStyleObject } from 'theme-ui';
 import { TooltipDirection } from '.';
 
 interface TooltipProps {
   tooltipDirection?: TooltipDirection | null;
 }
 
-export const tooltipWrapperCss: SxStyleProp = {
+export const tooltipWrapperCss: ThemeUIStyleObject = {
   display: 'inline-block',
   position: 'relative',
 };
 
-export const tooltipCss = (props: TooltipProps): SxStyleProp => {
+export const tooltipCss = (props: TooltipProps): ThemeUIStyleObject => {
   const css: any = {
     position: 'absolute',
     padding: '0.375rem 0.5rem',
@@ -59,7 +59,7 @@ export const tooltipCss = (props: TooltipProps): SxStyleProp => {
   return css;
 };
 
-export const tooltipArrowCss = (props: TooltipProps): SxStyleProp => {
+export const tooltipArrowCss = (props: TooltipProps): ThemeUIStyleObject => {
   const css: any = {
     position: 'absolute',
     width: '0',

@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { Box, jsx, Label } from 'theme-ui';
+/** @jsxImportSource theme-ui */
+import { Box, Label } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import Text from '../text';

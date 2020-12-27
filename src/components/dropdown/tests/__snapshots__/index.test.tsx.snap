@@ -16,26 +16,26 @@ Object {
 exports[`Dropdown component should match snapshot 1`] = `
 <div>
   <div
-    class="css-54kz1u-Dropdown"
+    class="css-l3v2wu-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1t9wcl0-Dropdown"
+        class="css-s2scu3-Dropdown"
       >
         <button
-          class="css-r4utam-Button"
+          class="css-1ib0qi8-Button"
           type="button"
         >
           <span>
             dropdown
           </span>
           <span
-            class="css-15ou4n0"
+            class="css-bq4wcj"
           >
             <i
-              class="material-icons  css-1ike9wb-Icon"
+              class="material-icons  css-18og482-Icon"
             >
               expand_more
             </i>
@@ -50,26 +50,26 @@ exports[`Dropdown component should match snapshot 1`] = `
 exports[`Dropdown component should match snapshot when hasSelection is true and position is top right 1`] = `
 <div>
   <div
-    class="css-54kz1u-Dropdown"
+    class="css-l3v2wu-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-ustnei-Dropdown"
+        class="css-165ucqk-Dropdown"
       >
         <button
-          class="css-r4utam-Button"
+          class="css-1ib0qi8-Button"
           type="button"
         >
           <span>
             dropdown
           </span>
           <span
-            class="css-15ou4n0"
+            class="css-bq4wcj"
           >
             <i
-              class="material-icons  css-1ike9wb-Icon"
+              class="material-icons  css-18og482-Icon"
             >
               expand_more
             </i>
@@ -84,33 +84,33 @@ exports[`Dropdown component should match snapshot when hasSelection is true and 
 exports[`Dropdown component should match snapshot when isOpen is true 1`] = `
 <div>
   <div
-    class="css-54kz1u-Dropdown"
+    class="css-l3v2wu-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1t9wcl0-Dropdown"
+        class="css-s2scu3-Dropdown"
       >
         <button
-          class="css-bjik70-Button"
+          class="css-j3gfq5-Button"
           type="button"
         >
           <span>
             dropdown
           </span>
           <span
-            class="css-15ou4n0"
+            class="css-bq4wcj"
           >
             <i
-              class="material-icons  css-1ike9wb-Icon"
+              class="material-icons  css-18og482-Icon"
             >
               expand_less
             </i>
           </span>
         </button>
         <div
-          class="css-vrrfns-Dropdown"
+          class="css-1ker5np-Dropdown"
         >
           <div>
             Item 
@@ -150,26 +150,26 @@ exports[`Dropdown component should match snapshot when isOpen is true 1`] = `
 exports[`Dropdown component should match snapshot when maxHeight is set 1`] = `
 <div>
   <div
-    class="css-54kz1u-Dropdown"
+    class="css-l3v2wu-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1t9wcl0-Dropdown"
+        class="css-s2scu3-Dropdown"
       >
         <button
-          class="css-r4utam-Button"
+          class="css-1ib0qi8-Button"
           type="button"
         >
           <span>
             dropdown
           </span>
           <span
-            class="css-15ou4n0"
+            class="css-bq4wcj"
           >
             <i
-              class="material-icons  css-1ike9wb-Icon"
+              class="material-icons  css-18og482-Icon"
             >
               expand_more
             </i>
@@ -184,26 +184,26 @@ exports[`Dropdown component should match snapshot when maxHeight is set 1`] = `
 exports[`Dropdown component should match snapshot when variant is primary and position is bottom right 1`] = `
 <div>
   <div
-    class="css-54kz1u-Dropdown"
+    class="css-l3v2wu-Dropdown"
   >
     <div
       style="display: inline-block;"
     >
       <div
-        class="css-1t9wcl0-Dropdown"
+        class="css-s2scu3-Dropdown"
       >
         <button
-          class="css-1xxmigb-Button"
+          class="css-6uk6p-Button"
           type="button"
         >
           <span>
             dropdown
           </span>
           <span
-            class="css-15ou4n0"
+            class="css-bq4wcj"
           >
             <i
-              class="material-icons  css-1ike9wb-Icon"
+              class="material-icons  css-18og482-Icon"
             >
               expand_more
             </i>
