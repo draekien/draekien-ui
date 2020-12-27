@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Text as ThemeUiText } from 'theme-ui';
+import { Text as ThemeUiText, ThemeUIStyleObject } from 'theme-ui';
 import React from 'react';
 import { colors } from '../theme/colors';
 import { text } from '../theme/typography';
@@ -34,6 +34,8 @@ export type TextProps = {
   truncate?: boolean;
   /** the margin */
   margin?: string | string[];
+  /** custom styling */
+  sx?: ThemeUIStyleObject;
 };
 
 export const Text: React.FC<TextProps> = (props) => {
@@ -46,12 +48,16 @@ export const Text: React.FC<TextProps> = (props) => {
     variant = 'medium',
     truncate = false,
     margin,
+    sx,
   } = props;
   return (
     <ThemeUiText
       as={as}
       variant={variant}
-      sx={styles.textCss({ color, fullWidth, align, truncate, margin })}
+      sx={{
+        ...styles.textCss({ color, fullWidth, align, truncate, margin }),
+        ...sx,
+      }}
     >
       {children}
     </ThemeUiText>
