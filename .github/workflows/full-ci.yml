@@ -37,6 +37,4 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Publish Storybook
-        env:
-          DISABLE_NEW_JSX_TRANSFORM: true
         run: npm run release-chromatic -- --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --exit-zero-on-changes --auto-accept-changes
