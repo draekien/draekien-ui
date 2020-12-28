@@ -40,7 +40,7 @@ export type TextProps = {
 
 export const Text: React.FC<TextProps> = (props) => {
   const {
-    as,
+    as = 'div',
     children,
     color = 'text',
     fullWidth = false,
