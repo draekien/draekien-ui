@@ -1,3 +1,5 @@
+import { ThemeUIStyleObject } from 'theme-ui';
+
 export const fontWeights = {
   body: 400,
   medium: 600,
@@ -31,7 +33,7 @@ export const lineHeights = {
   caption: '0.75rem',
 };
 
-export const text = {
+export const text: Record<string, ThemeUIStyleObject> = {
   hero: {
     fontSize: 'hero',
     fontWeight: 'heading',

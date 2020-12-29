@@ -119,6 +119,7 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
           <ThemeUiButton
             sx={styles.linkButtonCss(!!isActive)}
             type="button"
+            variant="text"
             {...rest}
           >
             <ButtonContent />
@@ -136,6 +137,7 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
         <ThemeUiButton
           sx={styles.linkButtonCss(!!isActive)}
           type="button"
+          variant="text"
           {...rest}
         >
           <ButtonContent />

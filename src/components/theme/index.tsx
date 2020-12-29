@@ -39,7 +39,7 @@ const addFonts = () => {
 };
 
 export const ThemeProvider = ({ theme, children }: ThemeProviderProps) => {
-  const newTheme = JSON.parse(JSON.stringify(DraekienTheme()));
+  const newTheme = JSON.parse(JSON.stringify(DraekienTheme));
 
   if (theme) mergeThemes(newTheme, theme);
 
