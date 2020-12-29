@@ -87,14 +87,19 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
     textAlign: 'center',
     textTransform: 'none',
     transition: 'all 300ms',
+    display: 'inline-flex !important',
     alignItems: 'center',
-    display: 'inline-flex',
     justifyContent: 'center',
     textDecoration: 'none',
   };
 
   if (props.variant === 'text') {
     css.p = 0;
+  }
+
+  if (props.variant === 'outline') {
+    css.border = '0.1rem solid';
+    css.borderColor = 'primary';
   }
 
   if (props.fullWidth) {
@@ -115,20 +120,29 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
     css.backgroundColor = colors.background;
     css.borderColor = colors.border;
     css.color = colors.color;
+    css.span = {
+      color: colors.color,
+    };
     css[':hover'] = {
       backgroundColor: colors.hoverBackground,
       borderColor: colors.hoverBorder,
-      color: colors.hoverColor,
+      span: {
+        color: colors.hoverColor,
+      },
     };
     css[':active'] = {
       backgroundColor: colors.activeBackground,
       borderColor: colors.activeBorder,
-      color: colors.activeColor,
+      span: {
+        color: colors.activeColor,
+      },
     };
     if (props.active) {
       css.backgroundColor = colors.activeBackground;
       css.borderColor = colors.activeBorder;
-      css.color = colors.activeColor;
+      css.span = {
+        color: colors.activeColor,
+      };
     }
   }
 
@@ -202,6 +216,9 @@ export const linkButtonCss = (active: boolean): ThemeUIStyleObject => {
     height: 'auto',
     width: 'auto',
     padding: 0,
+    span: {
+      color: 'primary',
+    },
     ':hover': {
       span: {
         transition: 'all 300ms',

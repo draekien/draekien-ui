@@ -7,6 +7,7 @@ import { transitions } from './transitions';
 import { fontSizes, fontWeights, lineHeights, text } from './typography';
 import { zIndices } from './zindices';
 import { breakpoints } from './breakpoints';
+import { Theme } from 'theme-ui';
 
 export type ThemeType = Partial<{
   colors:
@@ -21,21 +22,19 @@ export type ThemeType = Partial<{
   zIndices: Partial<typeof zIndices>;
 }>;
 
-export const DraekienTheme = () => {
-  return {
-    useCustomProperties: false,
-    useBorderBox: true,
-    colors,
-    fontSizes,
-    fontWeights,
-    lineHeights,
-    radii,
-    shadows,
-    space,
-    styles,
-    text,
-    transitions,
-    zIndices,
-    breakpoints,
-  };
+export const DraekienTheme: Theme = {
+  useCustomProperties: false,
+  useBorderBox: true,
+  colors,
+  fontSizes,
+  fontWeights,
+  lineHeights,
+  radii,
+  shadows,
+  space,
+  styles,
+  text,
+  transitions,
+  zIndices,
+  breakpoints,
 };

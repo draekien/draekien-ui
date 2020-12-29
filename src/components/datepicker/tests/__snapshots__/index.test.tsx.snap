@@ -9,7 +9,7 @@ exports[`DatePicker component should match snapshot 1`] = `
       class="css-1713ndw-DatePicker"
     >
       <button
-        class="css-1ib0qi8-Button"
+        class="css-1favqwf-Button"
         type="button"
       >
         <span
@@ -29,7 +29,7 @@ exports[`DatePicker component should match snapshot 1`] = `
         December 2020
       </span>
       <button
-        class="css-1ib0qi8-Button"
+        class="css-1favqwf-Button"
         type="button"
       >
         <span />
