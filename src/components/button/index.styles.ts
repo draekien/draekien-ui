@@ -87,8 +87,8 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
     textAlign: 'center',
     textTransform: 'none',
     transition: 'all 300ms',
+    display: 'inline-flex !important',
     alignItems: 'center',
-    display: 'inline-flex',
     justifyContent: 'center',
     textDecoration: 'none',
   };

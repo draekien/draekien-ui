@@ -1,4 +1,5 @@
 /** @jsxImportSource theme-ui */
+import * as React from 'react';
 import { Story, Meta } from '@storybook/react';
 import { Banner, BannerProps } from '.';
 

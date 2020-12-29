@@ -57,7 +57,7 @@ exports[`List component should match snapshot with custom props 1`] = `
         class="css-1uq5q45"
       >
         <button
-          class="css-wdf1tq-Button"
+          class="css-4c5pwl-Button"
           type="button"
         >
           <span>
@@ -69,7 +69,7 @@ exports[`List component should match snapshot with custom props 1`] = `
         class="css-aa4yut"
       >
         <button
-          class="css-wdf1tq-Button"
+          class="css-4c5pwl-Button"
           type="button"
         >
           <span>
@@ -81,7 +81,7 @@ exports[`List component should match snapshot with custom props 1`] = `
         class="css-aa4yut"
       >
         <button
-          class="css-wdf1tq-Button"
+          class="css-4c5pwl-Button"
           type="button"
         >
           <span>

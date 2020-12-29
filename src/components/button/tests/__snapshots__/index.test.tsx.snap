@@ -3,7 +3,7 @@
 exports[`Button component should match snapshot 1`] = `
 <div>
   <button
-    class="css-1x0or6n-Button"
+    class="css-1u3gxik-Button"
     type="button"
   >
     <span>
@@ -16,7 +16,7 @@ exports[`Button component should match snapshot 1`] = `
 exports[`Button component should match snapshot when active 1`] = `
 <div>
   <button
-    class="css-vgvcgi-Button"
+    class="css-10ymqyb-Button"
     type="button"
   >
     <span>
@@ -29,7 +29,7 @@ exports[`Button component should match snapshot when active 1`] = `
 exports[`Button component should match snapshot when disabled 1`] = `
 <div>
   <button
-    class="css-1b75b7x-Button"
+    class="css-1pu5igg-Button"
     disabled=""
     type="button"
   >
@@ -43,7 +43,7 @@ exports[`Button component should match snapshot when disabled 1`] = `
 exports[`Button component should match snapshot when full width 1`] = `
 <div>
   <button
-    class="css-wdf1tq-Button"
+    class="css-4c5pwl-Button"
     type="button"
   >
     <span>
@@ -92,7 +92,7 @@ exports[`Button component should match snapshot when href prop is defined and is
 exports[`Button component should match snapshot when icon is not string 1`] = `
 <div>
   <button
-    class="css-6uk6p-Button"
+    class="css-2531nh-Button"
     type="button"
   >
     <span>
@@ -105,7 +105,7 @@ exports[`Button component should match snapshot when icon is not string 1`] = `
 exports[`Button component should match snapshot when icon is provided 1`] = `
 <div>
   <button
-    class="css-6uk6p-Button"
+    class="css-2531nh-Button"
     type="button"
   >
     <span>
@@ -118,7 +118,7 @@ exports[`Button component should match snapshot when icon is provided 1`] = `
 exports[`Button component should match snapshot when icon is provided 2`] = `
 <div>
   <button
-    class="css-1sytz8c-Button"
+    class="css-1s1kabi-Button"
     type="button"
   >
     <span
@@ -138,7 +138,7 @@ exports[`Button component should match snapshot when icon is provided 2`] = `
 exports[`Button component should match snapshot when icon is provided and renderPosition left 1`] = `
 <div>
   <button
-    class="css-6uk6p-Button"
+    class="css-2531nh-Button"
     type="button"
   >
     <span
@@ -160,7 +160,7 @@ exports[`Button component should match snapshot when icon is provided and render
 exports[`Button component should match snapshot when icon is provided and renderPosition right 1`] = `
 <div>
   <button
-    class="css-6uk6p-Button"
+    class="css-2531nh-Button"
     type="button"
   >
     <span>
@@ -182,7 +182,7 @@ exports[`Button component should match snapshot when icon is provided and render
 exports[`Button component should match snapshot when isCircle and size is sm 1`] = `
 <div>
   <button
-    class="css-1efvhu8-Button"
+    class="css-w800dg-Button"
     type="button"
   >
     <span>
@@ -195,7 +195,7 @@ exports[`Button component should match snapshot when isCircle and size is sm 1`]
 exports[`Button component should match snapshot when isCircle is true 1`] = `
 <div>
   <button
-    class="css-1sytz8c-Button"
+    class="css-1s1kabi-Button"
     type="button"
   >
     <span />
@@ -206,7 +206,7 @@ exports[`Button component should match snapshot when isCircle is true 1`] = `
 exports[`Button component should match snapshot when isIcon and size is large 1`] = `
 <div>
   <button
-    class="css-se9twx-Button"
+    class="css-13bwrj-Button"
     type="button"
   >
     <span />
@@ -217,7 +217,7 @@ exports[`Button component should match snapshot when isIcon and size is large 1`
 exports[`Button component should match snapshot when loading 1`] = `
 <div>
   <button
-    class="css-1b75b7x-Button"
+    class="css-1pu5igg-Button"
     disabled=""
     type="button"
   >
@@ -261,7 +261,7 @@ exports[`Button component should match snapshot when loading 1`] = `
 exports[`Button component should match snapshot when loading and showChildrenWhenLoading 1`] = `
 <div>
   <button
-    class="css-1b75b7x-Button"
+    class="css-1pu5igg-Button"
     disabled=""
     type="button"
   >
@@ -326,7 +326,7 @@ exports[`Button component should match snapshot when openLinkInNewTab is true 1`
 exports[`Button component should match snapshot when size is sm 1`] = `
 <div>
   <button
-    class="css-5cug14-Button"
+    class="css-mq88mp-Button"
     type="button"
   >
     <span>
@@ -339,7 +339,7 @@ exports[`Button component should match snapshot when size is sm 1`] = `
 exports[`Button component should match snapshot when variant is outline 1`] = `
 <div>
   <button
-    class="css-81jx7h-Button"
+    class="css-1j0dmu9-Button"
     type="button"
   >
     <span>
@@ -352,7 +352,7 @@ exports[`Button component should match snapshot when variant is outline 1`] = `
 exports[`Button component should match snapshot when variant is secondary 1`] = `
 <div>
   <button
-    class="css-760c5g-Button"
+    class="css-1n78i88-Button"
     type="button"
   >
     <span>
@@ -365,7 +365,7 @@ exports[`Button component should match snapshot when variant is secondary 1`] = 
 exports[`Button component should match snapshot when variant is text 1`] = `
 <div>
   <button
-    class="css-760c5g-Button"
+    class="css-1n78i88-Button"
     type="button"
   >
     <span>
