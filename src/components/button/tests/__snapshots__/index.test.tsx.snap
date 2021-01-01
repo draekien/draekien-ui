@@ -339,7 +339,7 @@ exports[`Button component should match snapshot when size is sm 1`] = `
 exports[`Button component should match snapshot when variant is outline 1`] = `
 <div>
   <button
-    class="css-ri6216-Button"
+    class="css-110hny0-Button"
     type="button"
   >
     <span>

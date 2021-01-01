@@ -25,7 +25,7 @@ exports[`Dropdown component should match snapshot 1`] = `
         class="css-s2scu3-Dropdown"
       >
         <button
-          class="css-1favqwf-Button"
+          class="css-1o7kupi-Button"
           type="button"
         >
           <span>
@@ -59,7 +59,7 @@ exports[`Dropdown component should match snapshot when hasSelection is true and 
         class="css-165ucqk-Dropdown"
       >
         <button
-          class="css-1favqwf-Button"
+          class="css-1o7kupi-Button"
           type="button"
         >
           <span>
@@ -93,7 +93,7 @@ exports[`Dropdown component should match snapshot when isOpen is true 1`] = `
         class="css-s2scu3-Dropdown"
       >
         <button
-          class="css-4q1q5o-Button"
+          class="css-meddcl-Button"
           type="button"
         >
           <span>
@@ -159,7 +159,7 @@ exports[`Dropdown component should match snapshot when maxHeight is set 1`] = `
         class="css-s2scu3-Dropdown"
       >
         <button
-          class="css-1favqwf-Button"
+          class="css-1o7kupi-Button"
           type="button"
         >
           <span>
