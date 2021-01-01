@@ -51,7 +51,7 @@ export const inputCss = (props: InputCssProps): ThemeUIStyleObject => {
       borderColor: 'b-200',
       '+ i, + span, + div > i': {
         transition: 'all 300ms',
-        color: 'p-400',
+        color: 'b-200',
       },
     },
     '::placeholder': {
@@ -84,12 +84,6 @@ export const textboxTailCss = (props: TextBoxProps): ThemeUIStyleObject => {
       userSelect: 'none',
       background: '0',
       border: '0',
-      ':hover': {
-        color: 'b-400',
-      },
-      ':active': {
-        color: 'b-500',
-      },
     },
   };
 

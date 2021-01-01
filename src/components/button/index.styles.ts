@@ -1,5 +1,6 @@
 import { ThemeUIStyleObject } from 'theme-ui';
 import { alpha } from '@theme-ui/color';
+import { colors as themeColors } from '../theme/colors';
 
 export type ButtonVariant =
   | 'primary'
@@ -93,15 +94,6 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
     textDecoration: 'none',
   };
 
-  if (props.variant === 'text') {
-    css.p = 0;
-  }
-
-  if (props.variant === 'outline') {
-    css.border = '0.1rem solid';
-    css.borderColor = 'primary';
-  }
-
   if (props.fullWidth) {
     css.width = '100%';
     css.display = 'flex';
@@ -137,6 +129,17 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
         color: colors.activeColor,
       },
     };
+
+    if (props.variant === 'text') {
+      css.p = '0 !important';
+    }
+
+    if (props.variant === 'outline') {
+      css.border = '0.1rem solid !important';
+      css.borderColor = 'primary';
+      css.color = `${themeColors.primary} !important`;
+    }
+
     if (props.active) {
       css.backgroundColor = colors.activeBackground;
       css.borderColor = colors.activeBorder;

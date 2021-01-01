@@ -20,8 +20,11 @@ describe('DateInput component', () => {
 
   test('onchange function is correctly called', () => {
     const fn = jest.fn();
+    const date = new Date();
+    const nextDateInSeconds = new Date().setDate(new Date().getDate() + 1);
+    const nextDate = new Date(nextDateInSeconds).getDate();
     const { container } = render(
-      <DateInput id="datepicker" selectedDate={new Date()} onChange={fn} />
+      <DateInput id="datepicker" selectedDate={date} onChange={fn} />
     );
 
     fireEvent(
@@ -30,7 +33,7 @@ describe('DateInput component', () => {
     );
 
     fireEvent(
-      getAllByText(container as HTMLElement, '1')[0],
+      getAllByText(container as HTMLElement, `${nextDate}`)[0],
       new MouseEvent('click', { bubbles: true, cancelable: true })
     );
 

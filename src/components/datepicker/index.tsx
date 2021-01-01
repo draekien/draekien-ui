@@ -217,7 +217,7 @@ export const DatePicker: React.FC<DatePickerProps> = ({
           as="span"
           sx={styles.datePickerLabelCss}
           variant="subtitle"
-          color="text-dark"
+          color="primary"
         >
           {utils.getMonthLabel(activeMonth)}
         </Text>

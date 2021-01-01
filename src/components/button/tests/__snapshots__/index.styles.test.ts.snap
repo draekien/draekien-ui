@@ -131,7 +131,7 @@ Object {
   "display": "flex",
   "height": "2rem",
   "justifyContent": "center",
-  "p": 0,
+  "p": "0 !important",
   "px": "md",
   "py": "xs",
   "span": Object {
