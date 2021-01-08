@@ -19,7 +19,7 @@ exports[`Checkbox component should match snapshot 1`] = `
       class="css-1m929op-Checkbox"
     >
       <label
-        class="css-1r1kjdt-Checkbox"
+        class="css-1sgokkt-Checkbox"
         for="checkbox"
       >
         test checkbox
@@ -32,7 +32,7 @@ exports[`Checkbox component should match snapshot 1`] = `
         />
       </div>
       <input
-        class="css-1yxs860-Checkbox"
+        class="css-ksrhgv-Checkbox"
         id="checkbox"
         readonly=""
         type="checkbox"

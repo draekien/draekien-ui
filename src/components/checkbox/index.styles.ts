@@ -13,8 +13,8 @@ export const checkboxWrapperCss: ThemeUIStyleObject = {
 
 export const checkboxInputCss: ThemeUIStyleObject = {
   visibility: 'hidden',
-  width: 0,
-  height: 0,
+  width: '0 !important',
+  height: '0 !important',
 };
 
 export const checkboxOuterCss: ThemeUIStyleObject = {
@@ -79,8 +79,10 @@ export const checkboxLabelCss = (children?: boolean): ThemeUIStyleObject => {
     cursor: 'pointer',
   };
 
-  if (children) css.paddingLeft = '1.625rem';
-  else {
+  if (children) {
+    css.paddingLeft = '1.625rem';
+    css.width = '100%';
+  } else {
     css.minWidth = '1.125rem';
     css.minHeight = '1.125rem';
   }
