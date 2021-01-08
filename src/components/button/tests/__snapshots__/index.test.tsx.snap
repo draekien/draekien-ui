@@ -336,6 +336,19 @@ exports[`Button component should match snapshot when size is sm 1`] = `
 </div>
 `;
 
+exports[`Button component should match snapshot when variant is feature 1`] = `
+<div>
+  <button
+    class="css-ufdeiy-Button"
+    type="button"
+  >
+    <span>
+      feature
+    </span>
+  </button>
+</div>
+`;
+
 exports[`Button component should match snapshot when variant is outline 1`] = `
 <div>
   <button

@@ -44,3 +44,9 @@ ExternalLink.args = {
   children: 'External',
   href: 'https://www.google.com.au',
 };
+
+export const Feature = Template.bind({});
+Feature.args = {
+  children: 'Feature',
+  variant: 'feature',
+};
