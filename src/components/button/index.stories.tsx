@@ -15,6 +15,30 @@ Basic.args = {
   children: 'Button',
 };
 
+export const Secondary = Template.bind({});
+Secondary.args = {
+  children: 'Secondary',
+  variant: 'secondary',
+};
+
+export const Outline = Template.bind({});
+Outline.args = {
+  children: 'Outline',
+  variant: 'outline',
+};
+
+export const Text = Template.bind({});
+Text.args = {
+  children: 'Text',
+  variant: 'text',
+};
+
+export const Gradient = Template.bind({});
+Gradient.args = {
+  children: 'Gradient',
+  variant: 'gradient',
+};
+
 export const ExternalLink = Template.bind({});
 ExternalLink.args = {
   children: 'External',
