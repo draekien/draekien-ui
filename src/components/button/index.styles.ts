@@ -1,13 +1,14 @@
 import { ThemeUIStyleObject } from 'theme-ui';
 import { alpha } from '@theme-ui/color';
-import { colors as themeColors } from '../theme/colors';
+import { colors, colors as themeColors } from '../theme/colors';
 
 export type ButtonVariant =
   | 'primary'
   | 'secondary'
   | 'outline'
   | 'text'
-  | 'gradient';
+  | 'gradient'
+  | 'feature';
 export type ButtonSize = 'sm' | 'md' | 'lg';
 export type ButtonCssProps = {
   variant: ButtonVariant;
@@ -161,10 +162,10 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
     css.backgroundColor = 'primary';
   }
 
-  if (props.variant === 'gradient') {
+  if (props.variant === 'gradient' || props.variant === 'feature') {
     css.backgroundImage = (t: any) =>
-      `linear-gradient(90deg, ${alpha('primary', 1)(t)}, ${alpha(
-        'secondary',
+      `linear-gradient(90deg, ${alpha(colors.primary, 1)(t)}, ${alpha(
+        colors.secondary,
         1
       )(t)})`;
     css.position = 'relative';
@@ -178,8 +179,8 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
       bottom: 0,
       left: 0,
       backgroundImage: (t: any) =>
-        `linear-gradient(-90deg, ${alpha('primary', 1)(t)}, ${alpha(
-          'secondary',
+        `linear-gradient(-90deg, ${alpha(colors.primary, 1)(t)}, ${alpha(
+          colors.secondary,
           1
         )(t)})`,
       transition: 'opacity 0.25s ease-in-out',
@@ -189,6 +190,22 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
     css[':hover::before'] = {
       opacity: 1,
     };
+
+    if (props.variant === 'feature') {
+      css.fontWeight = 'normal';
+      css.letterSpacing = '0.3rem';
+      css.textTransform = 'uppercase';
+
+      if (props.size === 'md') {
+        css.pl = '2rem !important';
+        css.pr = '2rem !important';
+      }
+
+      if (props.size === 'lg') {
+        css.pl = '4rem !important';
+        css.pr = '4rem !important';
+      }
+    }
   }
 
   if (props.disabled) {

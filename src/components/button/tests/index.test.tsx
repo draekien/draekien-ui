@@ -30,6 +30,12 @@ describe('Button component', () => {
     expect(component.container).toMatchSnapshot();
   });
 
+  test('should match snapshot when variant is feature', () => {
+    const { container } = render(<Button variant="feature">feature</Button>);
+
+    expect(container).toMatchSnapshot();
+  });
+
   test('should match snapshot when icon is provided', () => {
     const component = render(<Button icon="accessibility">test</Button>);
 

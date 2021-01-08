@@ -16,7 +16,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@theme-ui/color": "0.3.4",
+    "@theme-ui/color": "0.6.0-alpha.4",
     "jest-coverage-badges": "1.1.2",
     "react": "^17.0.1",
     "react-autosize-textarea": "^7.1.0",
