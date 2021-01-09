@@ -1,4 +1,6 @@
+import { alpha } from '@theme-ui/color';
 import { ThemeUIStyleObject } from 'theme-ui';
+import { colors } from '../theme/colors';
 
 export const datePickerCss: ThemeUIStyleObject = {
   display: 'inline-block',
@@ -70,17 +72,17 @@ export const datePickerDayCss = (
   }
 
   if (props.isSelected) {
-    css.backgroundColor = 'p-300';
+    css.backgroundColor = (t: any) => `${alpha(colors['p-300'], 0.5)(t)}`;
     css.color = 'white';
   } else if (props.isWithinSelectedRange || props.isWithinHoverRange) {
-    css.backgroundColor = 'p-100';
+    css.backgroundColor = (t: any) => `${alpha(colors['p-100'], 0.25)(t)}`;
     css.color = 'b-600';
   } else if (props.isDisabled) {
-    css.backgroundColor = 'b-200';
+    css.backgroundColor = (t: any) => `${alpha(colors['b-200'], 0.25)(t)}`;
     css.color = 'b-300';
   } else {
-    css.backgroundColor = 'p-000';
-    css.color = props.isAnotherMonth ? 'b-300' : 'b-600';
+    css.backgroundColor = (t: any) => `${alpha(colors['p-000'], 0.25)(t)}`;
+    css.color = props.isAnotherMonth ? 'b-100' : 'b-600';
   }
 
   return css;

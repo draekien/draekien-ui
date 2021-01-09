@@ -9,6 +9,7 @@ import Icon from '../icon';
 import Textbox, { TextBoxProps } from '../textbox';
 import * as utils from '../../utils/dateinput.utils';
 import * as styles from './index.styles';
+import Card from '../card';
 
 export interface DateInputProps extends Omit<TextBoxProps, 'onChange'> {
   /** event handler to be called when a change event is triggered */
@@ -145,15 +146,17 @@ export const DateInput: React.FC<DateInputProps> = (props) => {
           )}
         </ReactInputMask>
         {datePickerOpen && (
-          <Box sx={styles.datePickerWrapper(datePickerPosition === 'right')}>
-            <DatePicker
-              initialMonth={initialMonth}
-              onChange={handleDatePickerChange}
-              mode="single"
-              selectedDates={chosenDate ? [chosenDate] : undefined}
-              weekStartDay={weekStartDay}
-            />
-          </Box>
+          <div sx={styles.datePickerWrapper(datePickerPosition === 'right')}>
+            <Card fullWidth frosted gradient>
+              <DatePicker
+                initialMonth={initialMonth}
+                onChange={handleDatePickerChange}
+                mode="single"
+                selectedDates={chosenDate ? [chosenDate] : undefined}
+                weekStartDay={weekStartDay}
+              />
+            </Card>
+          </div>
         )}
       </Box>
     </OutsideClickHandler>

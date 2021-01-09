@@ -10,9 +10,10 @@ export const dateInputCss = (props: DateInputProps): ThemeUIStyleObject => ({
 export const datePickerWrapper = (alignRight: boolean): ThemeUIStyleObject => ({
   position: 'absolute',
   marginTop: '0.25rem',
+  padding: 0,
   left: alignRight ? 'auto' : '0',
   right: alignRight ? '0' : 'auto',
-  boxShadow: 'md',
+  // boxShadow: 'md',
   zIndex: 'dropdown',
-  backgroundColor: 'p-000',
+  // backgroundColor: 'p-000',
 });
