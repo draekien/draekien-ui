@@ -5,7 +5,7 @@ import * as styles from './index.styles';
 import { colors } from '../theme/colors';
 
 export type CardSize = 'small' | 'medium' | 'large';
-export type AccentPosition = 'top' | 'right' | 'bottom' | 'left';
+export type AccentPosition = 'top' | 'left';
 export type CardProps = {
   /** background color for the card
    * @default 'p-000'
@@ -33,10 +33,12 @@ export type CardProps = {
   cardFooter?: React.ReactNode;
   /** event handler for when card is clicked */
   onClick?: (e: React.SyntheticEvent) => void;
+  frosted?: boolean;
 };
 
 export const Card: React.FC<CardProps> = (props) => {
   const {
+    frosted,
     backgroundColor = 'p-000',
     accentPosition,
     accentColor = 'p-400',
@@ -69,6 +71,7 @@ export const Card: React.FC<CardProps> = (props) => {
         backgroundColor,
         fullWidth,
         size,
+        frosted,
       })}
       onClick={handleClick}
     >

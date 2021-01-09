@@ -94,3 +94,25 @@ WithAccent.args = {
   onClick: undefined,
   accentPosition: 'left',
 };
+
+export const Frosted = () => (
+  <Box
+    sx={{
+      height: 300,
+      width: 600,
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundImage:
+        'url("https://www.geeklawblog.com/wp-content/uploads/sites/528/2018/12/liprofile-656x369.png")',
+    }}
+  >
+    <Card frosted>
+      <Text color="text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+        expedita sint suscipit adipisci velit modi in vero ut facilis! Eum odio
+        eaque magni nobis, voluptatibus enim ducimus dolorem sapiente? Nam.
+      </Text>
+    </Card>
+  </Box>
+);

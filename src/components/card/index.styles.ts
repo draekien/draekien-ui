@@ -1,6 +1,7 @@
 import { ThemeUIStyleObject } from 'theme-ui';
 import { AccentPosition, CardSize } from '.';
 import { colors } from '../theme/colors';
+import { alpha } from '@theme-ui/color';
 
 export type CardContainerCssProps = {
   fullWidth?: boolean;
@@ -9,6 +10,7 @@ export type CardContainerCssProps = {
   hasClickHandler: boolean;
   backgroundColor?: keyof typeof colors;
   size?: CardSize;
+  frosted?: boolean;
 };
 
 const slideUpTransform = {
@@ -70,6 +72,12 @@ export const cardContainerCss = (
   if (props.accentPosition === 'top') {
     css.borderTop = '5px solid';
     css.borderTopColor = props.accentColor;
+  }
+
+  if (props.frosted) {
+    css.backdropFilter = 'blur(10px)';
+    css.backgroundColor = (t: any) =>
+      `${alpha(props.backgroundColor || 'white', 0.25)(t)}`;
   }
 
   return css;

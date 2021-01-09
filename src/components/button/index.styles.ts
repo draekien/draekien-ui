@@ -1,6 +1,6 @@
 import { ThemeUIStyleObject } from 'theme-ui';
 import { alpha } from '@theme-ui/color';
-import { colors, colors as themeColors } from '../theme/colors';
+import { colors as themeColors } from '../theme/colors';
 
 export type ButtonVariant =
   | 'primary'
@@ -164,8 +164,8 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
 
   if (props.variant === 'gradient' || props.variant === 'feature') {
     css.backgroundImage = (t: any) =>
-      `linear-gradient(90deg, ${alpha(colors.primary, 1)(t)}, ${alpha(
-        colors.secondary,
+      `linear-gradient(90deg, ${alpha(themeColors.primary, 1)(t)}, ${alpha(
+        themeColors.secondary,
         1
       )(t)})`;
     css.position = 'relative';
@@ -179,8 +179,8 @@ export const buttonCss = (props: ButtonCssProps): ThemeUIStyleObject => {
       bottom: 0,
       left: 0,
       backgroundImage: (t: any) =>
-        `linear-gradient(-90deg, ${alpha(colors.primary, 1)(t)}, ${alpha(
-          colors.secondary,
+        `linear-gradient(-90deg, ${alpha(themeColors.primary, 1)(t)}, ${alpha(
+          themeColors.secondary,
           1
         )(t)})`,
       transition: 'opacity 0.25s ease-in-out',
