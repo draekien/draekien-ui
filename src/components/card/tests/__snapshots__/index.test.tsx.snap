@@ -14,10 +14,10 @@ exports[`Card component should match snapshot 1`] = `
 </div>
 `;
 
-exports[`Card component should render with bottom accent 1`] = `
+exports[`Card component should render with frosted and gradient flags 1`] = `
 <div>
   <div
-    class="css-15tes2-Card"
+    class="css-1788jke-Card"
   >
     <div
       class="css-8e25xx"
@@ -32,20 +32,6 @@ exports[`Card component should render with left accent 1`] = `
 <div>
   <div
     class="css-1t98pyd-Card"
-  >
-    <div
-      class="css-8e25xx"
-    >
-      content
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Card component should render with right accent 1`] = `
-<div>
-  <div
-    class="css-15tes2-Card"
   >
     <div
       class="css-8e25xx"

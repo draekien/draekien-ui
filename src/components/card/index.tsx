@@ -7,7 +7,7 @@ import { colors } from '../theme/colors';
 export type CardSize = 'small' | 'medium' | 'large';
 export type AccentPosition = 'top' | 'left';
 export type CardProps = {
-  /** background color for the card
+  /** background color for the card. Does not work with Frosted or Gradient
    * @default 'p-000'
    */
   backgroundColor?: keyof typeof colors;
@@ -33,12 +33,16 @@ export type CardProps = {
   cardFooter?: React.ReactNode;
   /** event handler for when card is clicked */
   onClick?: (e: React.SyntheticEvent) => void;
+  /** should the card render with a frosted glass effect */
   frosted?: boolean;
+  /** should the card render with a gradient background */
+  gradient?: boolean;
 };
 
 export const Card: React.FC<CardProps> = (props) => {
   const {
     frosted,
+    gradient,
     backgroundColor = 'p-000',
     accentPosition,
     accentColor = 'p-400',
@@ -72,6 +76,7 @@ export const Card: React.FC<CardProps> = (props) => {
         fullWidth,
         size,
         frosted,
+        gradient,
       })}
       onClick={handleClick}
     >

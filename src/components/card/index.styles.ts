@@ -11,6 +11,7 @@ export type CardContainerCssProps = {
   backgroundColor?: keyof typeof colors;
   size?: CardSize;
   frosted?: boolean;
+  gradient?: boolean;
 };
 
 const slideUpTransform = {
@@ -75,9 +76,16 @@ export const cardContainerCss = (
   }
 
   if (props.frosted) {
-    css.backdropFilter = 'blur(10px)';
-    css.backgroundColor = (t: any) =>
-      `${alpha(props.backgroundColor || 'white', 0.25)(t)}`;
+    css.backdropFilter = 'blur(7.5px)';
+    css.backgroundColor = (t: any) => `${alpha('white', 0.35)(t)}`;
+  }
+
+  if (props.gradient) {
+    css.backgroundImage = (t: any) =>
+      `linear-gradient(80deg, ${alpha(
+        colors.primary,
+        props.frosted ? 0.35 : 1
+      )(t)}, ${alpha(colors.secondary, props.frosted ? 0.35 : 1)(t)})`;
   }
 
   return css;

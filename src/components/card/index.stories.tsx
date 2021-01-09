@@ -78,6 +78,13 @@ Clickable.args = {
   onClick: (e: React.SyntheticEvent) => console.log(e.target),
 };
 
+export const Gradient = Template.bind({});
+Gradient.args = {
+  children: <CardContent />,
+  onClick: undefined,
+  gradient: true,
+};
+
 export const WithHeaderAndFooter = Template.bind({});
 WithHeaderAndFooter.args = {
   cardHeader: (
@@ -108,6 +115,28 @@ export const Frosted = () => (
     }}
   >
     <Card frosted>
+      <Text color="text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+        expedita sint suscipit adipisci velit modi in vero ut facilis! Eum odio
+        eaque magni nobis, voluptatibus enim ducimus dolorem sapiente? Nam.
+      </Text>
+    </Card>
+  </Box>
+);
+
+export const FrostedWithGradient = () => (
+  <Box
+    sx={{
+      height: 300,
+      width: 600,
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundImage:
+        'url("https://www.geeklawblog.com/wp-content/uploads/sites/528/2018/12/liprofile-656x369.png")',
+    }}
+  >
+    <Card frosted gradient>
       <Text color="text-white">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
         expedita sint suscipit adipisci velit modi in vero ut facilis! Eum odio

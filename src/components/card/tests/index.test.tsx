@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import * as React from 'react';
 import { fireEvent, render } from '@testing-library/react';
 import Card, { AccentPosition } from '..';
@@ -64,7 +65,17 @@ describe('Card component', () => {
     expect(container.textContent).toContain('footer');
   });
 
-  ['top', 'right', 'bottom', 'left'].forEach((position) => {
+  test('should render with frosted and gradient flags', () => {
+    const { container } = render(
+      <Card frosted gradient>
+        content
+      </Card>
+    );
+
+    expect(container).toMatchSnapshot();
+  });
+
+  ['top', 'left'].forEach((position) => {
     test(`should render with ${position} accent`, () => {
       const { container } = render(
         <Card accentPosition={position as AccentPosition}>content</Card>
