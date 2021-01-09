@@ -57,7 +57,7 @@ This project deploys a storybook to Chromatic. Click [here](https://master--5fa7
 
 In your react app, run `npm install --save draekien-ui`
 
-To consume DraekienUi, you must import the `DraekienUi` comonent and wrap your code in this component.
+To consume DraekienUi, you must import the `DraekienUi` component and wrap your code in this component.
 
 > in your `index.tsx`
 
