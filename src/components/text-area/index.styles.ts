@@ -1,4 +1,5 @@
 import { ThemeUIStyleObject } from 'theme-ui';
+import { alpha } from '@theme-ui/color';
 import { TextAreaProps } from '.';
 
 export const textareaWrapperCss = (
@@ -23,6 +24,8 @@ export const textareaCss = (props: TextAreaProps): ThemeUIStyleObject => {
     color: 'text-dark',
     border: '2px solid',
     borderColor: 'b-100',
+    backgroundColor: (t: any) => `${alpha('white', 0.75)(t)}`,
+    backdropFilter: 'blur(5px)',
     borderRadius: 'md',
     fontFamily: 'Montserrat, sans-serif',
     variant: 'text.medium',
@@ -41,7 +44,7 @@ export const textareaCss = (props: TextAreaProps): ThemeUIStyleObject => {
       borderColor: 'b-200',
     },
     '::placeholder': {
-      color: 'b-000',
+      color: 'b-200',
     },
   };
 

@@ -19,7 +19,7 @@ exports[`Textbox component should match snapshot 1`] = `
       class="css-u4w0n1"
     >
       <input
-        class="css-1jei866"
+        class="css-1nla3n"
         id="test"
         value=""
       />
@@ -66,7 +66,7 @@ exports[`Textbox component should match snapshot when active and fullwidth 1`] =
       class="css-u4w0n1"
     >
       <input
-        class="css-20cah9"
+        class="css-mlg3lw"
         id="test"
         value=""
       />

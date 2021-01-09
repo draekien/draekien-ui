@@ -1,3 +1,4 @@
+import { alpha } from '@theme-ui/color';
 import { ThemeUIStyleObject } from 'theme-ui';
 import { TextBoxProps } from '.';
 
@@ -27,7 +28,8 @@ export const inputCss = (props: InputCssProps): ThemeUIStyleObject => {
     border: '2px solid',
     borderColor: 'b-100',
     borderRadius: 'md',
-    backgroundColor: 'white',
+    backgroundColor: (t: any) => `${alpha('white', 0.75)(t)}`,
+    backdropFilter: 'blur(5px)',
     fontFamily: 'Montserrat, sans-serif',
     variant: 'text.medium',
     width: '100%',
