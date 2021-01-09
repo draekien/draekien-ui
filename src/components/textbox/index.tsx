@@ -12,6 +12,7 @@ export interface TextBoxProps
   icon?: string;
   size?: 'small' | 'medium' | 'large';
   active?: boolean;
+  hover?: boolean;
   addon?: React.ReactNode;
 }
 
@@ -25,6 +26,7 @@ export const Textbox = React.forwardRef(
       icon,
       fullWidth,
       active,
+      hover,
       size,
       variant,
       addon,
@@ -54,6 +56,7 @@ export const Textbox = React.forwardRef(
               variant,
               size,
               active,
+              hover,
               ...props,
             })}
             value={value}
