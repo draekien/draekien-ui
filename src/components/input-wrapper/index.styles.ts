@@ -12,7 +12,8 @@ export const inputWrapperCss = (
 };
 
 export const helpTextCss: ThemeUIStyleObject = {
-  mt: 'xs',
+  display: 'block',
+  my: 'xs',
 };
 
 export const labelCss = {

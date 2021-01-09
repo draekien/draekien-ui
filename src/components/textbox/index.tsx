@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Input } from 'theme-ui';
+import { Box } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import InputWrapper, { InputChildrenProps } from '../input-wrapper';
@@ -45,7 +45,7 @@ export const Textbox = React.forwardRef(
         variant={variant}
       >
         <Box sx={styles.textboxWrapperCss}>
-          <Input
+          <input
             id={id}
             ref={ref}
             sx={styles.inputCss({

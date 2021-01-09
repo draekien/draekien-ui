@@ -24,7 +24,7 @@ export const inputCss = (props: InputCssProps): ThemeUIStyleObject => {
     height: props.size === 'small' ? '2rem' : '2.5rem',
     p: '0 1rem 0 0.5rem',
     color: 'b-600',
-    border: '1px solid',
+    border: '2px solid',
     borderColor: 'b-100',
     borderRadius: 'md',
     backgroundColor: 'white',

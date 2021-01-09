@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Label } from 'theme-ui';
+import { Box } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import Text from '../text';
@@ -29,20 +29,20 @@ export const InputWrapper: React.FC<InputWrapperProps> = (props) => {
   return (
     <Box sx={styles.inputWrapperCss(props)}>
       {label && (
-        <Label sx={styles.helpTextCss} htmlFor={id}>
+        <label sx={styles.helpTextCss} htmlFor={id}>
           <Text variant="surtitle">{label}</Text>
-        </Label>
+        </label>
       )}
       {children}
       {helpText && (
-        <Label sx={styles.helpTextCss} htmlFor={id}>
+        <label sx={styles.helpTextCss} htmlFor={id}>
           <Text
             variant="caption"
             color={(variant as keyof typeof colors) || 'text'}
           >
             {helpText}
           </Text>
-        </Label>
+        </label>
       )}
     </Box>
   );

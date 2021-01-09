@@ -13,7 +13,7 @@ exports[`DateInput component should match snapshot 1`] = `
           class="css-u4w0n1"
         >
           <input
-            class="css-ept9wb"
+            class="css-p4odd6"
             id="datepicker"
             placeholder="DD / MM / YYYY"
             value="01 / 11 / 2020"
