@@ -13,8 +13,8 @@ export const checkboxWrapperCss: ThemeUIStyleObject = {
 
 export const checkboxInputCss: ThemeUIStyleObject = {
   visibility: 'hidden',
-  width: '0 !important',
-  height: '0 !important',
+  width: 0,
+  height: 0,
 };
 
 export const checkboxOuterCss: ThemeUIStyleObject = {

@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { Box, Flex, Input } from 'theme-ui';
+import { Box, Flex } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import InputWrapper, { InputChildrenProps } from '../input-wrapper';
@@ -48,7 +48,7 @@ export const Checkbox: React.FC<CheckboxProps> = (props) => {
         <Flex sx={styles.checkboxOuterCss}>
           <Box sx={styles.checkboxCss({ checked: isChecked, disabled })} />
         </Flex>
-        <Input
+        <input
           sx={styles.checkboxInputCss}
           id={id}
           type="checkbox"

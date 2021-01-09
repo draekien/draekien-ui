@@ -21,7 +21,7 @@ export const textareaCss = (props: TextAreaProps): ThemeUIStyleObject => {
   const css: any = {
     padding: '0.6875rem 0.5rem',
     color: 'text-dark',
-    border: '1px solid',
+    border: '2px solid',
     borderColor: 'b-100',
     borderRadius: 'md',
     fontFamily: 'Montserrat, sans-serif',
