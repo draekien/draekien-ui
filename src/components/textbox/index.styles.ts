@@ -62,6 +62,13 @@ export const inputCss = (props: InputCssProps): ThemeUIStyleObject => {
   if (props.withIcon) css.pl = 'lg';
   if (props.withStatus) css.pr = 'lg';
   if (props.variant) css.borderColor = props.variant;
+  if (props.hover) {
+    css.borderColor = 'b-200';
+    css['+ i, + span, + div > i'] = {
+      transition: 'all 300ms',
+      color: 'b-200',
+    };
+  }
   if (props.active) {
     css.borderColor = 'p-300';
     css['+ i, + span, + div > i'] = {

@@ -47,6 +47,7 @@ export const DateInput: React.FC<DateInputProps> = (props) => {
     ...rest
   } = props;
 
+  const [addonHover, setAddonHover] = React.useState(false);
   const [datePickerOpen, setDatePickerOpen] = React.useState(false);
   const [inputVal, setInputVal] = React.useState(
     selectedDate ? utils.getMaskedDateString(selectedDate) : value
@@ -131,11 +132,15 @@ export const DateInput: React.FC<DateInputProps> = (props) => {
                     () => !disabled && setDatePickerOpen(!datePickerOpen)
                     // eslint-disable-next-line react/jsx-curly-newline
                   }
+                  onMouseEnter={() => !disabled && setAddonHover(true)}
+                  onMouseLeave={() => !disabled && setAddonHover(false)}
                   name="date_range"
-                  color="b-200"
+                  color="b-100"
                 />
               }
               placeholder={utils.inputMask}
+              active={datePickerOpen}
+              hover={addonHover}
             />
           )}
         </ReactInputMask>

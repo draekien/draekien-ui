@@ -22,7 +22,7 @@ exports[`DateInput component should match snapshot 1`] = `
             class="css-for0eg-TextboxTail"
           >
             <i
-              class="material-icons  css-1rkkon9-Icon"
+              class="material-icons  css-1tdpy2z-Icon"
             >
               date_range
             </i>
