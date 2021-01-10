@@ -1,5 +1,5 @@
 import { ThemeUIStyleObject } from 'theme-ui';
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { ValidationColor } from '../../utils/iconMapper.utils';
 import { ToastContainerProps } from './container';
 
