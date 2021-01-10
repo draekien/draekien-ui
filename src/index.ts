@@ -1,5 +1,6 @@
 import { ThemeProvider, ThemeProviderProps } from './components/theme';
 
+// components
 export * from './components/avatar';
 export * from './components/badge';
 export * from './components/banner';
@@ -29,5 +30,9 @@ export * from './components/toast/provider';
 export * from './components/toggle-switch';
 export * from './components/tooltip';
 
+// custom hooks
+export * from './hooks/useViewport';
+
+// theme provider
 export { ThemeProvider };
 export type { ThemeProviderProps };
