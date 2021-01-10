@@ -31,6 +31,10 @@ export const navbarWrapperCss = (
     css.borderColor = 'primary';
   }
 
+  if (!props.isMobile) {
+    css.justifyContent = 'center';
+  }
+
   return css;
 };
 
