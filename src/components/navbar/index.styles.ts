@@ -11,7 +11,7 @@ export const navbarWrapperCss = (
   props: NavbarWrapperCssProps
 ): ThemeUIStyleObject => {
   const css: any = {
-    height: props.isMobile ? '4rem' : '100%',
+    height: '4rem',
     width: '100%',
     flexDirection: 'column',
     overflow: 'hidden',
@@ -23,6 +23,7 @@ export const navbarWrapperCss = (
     top: 0,
     left: 0,
     right: 0,
+    zIndex: 'topMenu',
   };
 
   if (props.isOpen) {
@@ -33,10 +34,21 @@ export const navbarWrapperCss = (
   return css;
 };
 
-export const navbarDesktopWrapperCss: ThemeUIStyleObject = {
-  p: 'sm',
-  alignItems: 'center',
-  justifyContent: 'space-between',
+export const navbarDesktopWrapperCss = (
+  props: NavbarWrapperCssProps
+): ThemeUIStyleObject => {
+  const css: any = {
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  };
+
+  if (props.isMobile) {
+    css.p = 'sm';
+  } else {
+    css.px = 'sm';
+  }
+
+  return css;
 };
 
 export const navbarMobileMenuChildrenWrapperCss: ThemeUIStyleObject = {

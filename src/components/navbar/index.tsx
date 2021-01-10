@@ -75,7 +75,13 @@ export const Navbar: React.FC<NavbarProps> = ({
         as="nav"
         sx={styles.navbarWrapperCss({ backgroundColor, isOpen, isMobile })}
       >
-        <Flex sx={styles.navbarDesktopWrapperCss}>
+        <Flex
+          sx={styles.navbarDesktopWrapperCss({
+            backgroundColor,
+            isOpen,
+            isMobile,
+          })}
+        >
           <Link to="/">{logo}</Link>
           {conditionalDesktopMenu()}
           {conditionalMobileMenuBtn()}
