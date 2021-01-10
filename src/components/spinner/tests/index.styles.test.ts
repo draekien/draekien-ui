@@ -1,6 +1,6 @@
 import {
   spinnerBarCss,
-  spinnerCircleCss,
+  spinnerCircleWrapperCss,
   spinnerDotCss,
 } from '../index.styles';
 
@@ -39,17 +39,17 @@ describe('Spinner Dot Css', () => {
 describe('Spinner Circle Css', () => {
   test('should match snapshot', () => {
     expect(
-      spinnerCircleCss({ size: 'medium', color: 'primary' })
+      spinnerCircleWrapperCss({ size: 'medium', color: 'primary' })
     ).toMatchSnapshot();
   });
 
   test('should match snapshot', () => {
     expect(
-      spinnerCircleCss({ size: 'small', color: 'secondary' })
+      spinnerCircleWrapperCss({ size: 'small', color: 'secondary' })
     ).toMatchSnapshot();
   });
 
   test('should match snapshot', () => {
-    expect(spinnerCircleCss({ size: 'large' })).toMatchSnapshot();
+    expect(spinnerCircleWrapperCss({ size: 'large' })).toMatchSnapshot();
   });
 });

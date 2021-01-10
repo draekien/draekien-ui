@@ -74,7 +74,7 @@ Object {
   "color": "primary",
   "display": "inline-flex",
   "height": "1.5rem",
-  "stroke": 4,
+  "overflow": "visible",
   "width": "1.5rem",
 }
 `;
@@ -84,7 +84,7 @@ Object {
   "color": "secondary",
   "display": "inline-flex",
   "height": "1rem",
-  "stroke": 4,
+  "overflow": "visible",
   "width": "1rem",
 }
 `;
@@ -94,7 +94,7 @@ Object {
   "color": "primary",
   "display": "inline-flex",
   "height": "2rem",
-  "stroke": 4,
+  "overflow": "visible",
   "width": "2rem",
 }
 `;

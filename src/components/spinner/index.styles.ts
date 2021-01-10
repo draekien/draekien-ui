@@ -1,5 +1,5 @@
 import { ThemeUIStyleObject } from 'theme-ui';
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { SpinnerProps } from '.';
 
 export const overlayCss: ThemeUIStyleObject = {
@@ -107,11 +107,27 @@ export const spinnerDotCss = (props: SpinnerProps): ThemeUIStyleObject => {
   return css;
 };
 
-export const spinnerCircleCss = (props: SpinnerProps): ThemeUIStyleObject => {
+const spin = keyframes({
+  from: {
+    transform: 'rotate(0deg)',
+  },
+  to: {
+    transform: 'rotate(360deg)',
+  },
+});
+
+export const spinnerCircleCss: ThemeUIStyleObject = {
+  animation: `${spin} 1s linear infinite`,
+  transformOrigin: '50% 50%',
+};
+
+export const spinnerCircleWrapperCss = (
+  props: SpinnerProps
+): ThemeUIStyleObject => {
   const css: any = {
     color: props.color ?? 'primary',
-    stroke: 4,
     display: 'inline-flex',
+    overflow: 'visible',
   };
 
   if (props.size === 'small') {

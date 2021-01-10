@@ -21,14 +21,11 @@ exports[`Spinner component should match snapshot when bars 1`] = `
 exports[`Spinner component should match snapshot when default 1`] = `
 <div>
   <svg
-    class="css-k0sy7g-Spinner"
+    class="css-cdso7f-Spinner"
     fill="none"
-    height="48"
     role="img"
-    stroke="currentcolor"
-    stroke-width="4"
+    stroke="currentColor"
     viewBox="0 0 32 32"
-    width="48"
   >
     <title>
       Loading...
@@ -38,14 +35,16 @@ exports[`Spinner component should match snapshot when default 1`] = `
       cy="16"
       opacity="0.125"
       r="12"
+      stroke-width="4"
     />
     <circle
-      class="css-wpcq6n"
+      class="css-1c39bx9-Spinner"
       cx="16"
       cy="16"
       r="12"
       stroke-dasharray="75.39822368615503"
       stroke-dashoffset="56.548667764616276"
+      stroke-width="4"
     />
   </svg>
 </div>
@@ -97,14 +96,11 @@ exports[`Spinner component should match snapshot with custom prop values 1`] = `
     class="css-1v4x0y5-Spinner"
   >
     <svg
-      class="css-37qp24-Spinner"
+      class="css-1bnas66-Spinner"
       fill="none"
-      height="48"
       role="img"
-      stroke="currentcolor"
-      stroke-width="4"
+      stroke="currentColor"
       viewBox="0 0 32 32"
-      width="48"
     >
       <title>
         Loading...
@@ -114,14 +110,16 @@ exports[`Spinner component should match snapshot with custom prop values 1`] = `
         cy="16"
         opacity="0.125"
         r="12"
+        stroke-width="4"
       />
       <circle
-        class="css-wpcq6n"
+        class="css-1c39bx9-Spinner"
         cx="16"
         cy="16"
         r="12"
         stroke-dasharray="75.39822368615503"
         stroke-dashoffset="56.548667764616276"
+        stroke-width="4"
       />
     </svg>
   </div>
