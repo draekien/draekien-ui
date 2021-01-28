@@ -41,7 +41,7 @@
 
 ## Introduction
 
-This is just a personal project to create a UI library based on Theme-UI and to learn about CI/CD and eventually deploying to NPM.
+This is just a personal project to create a UI library based on Theme-UI and to learn about CI/CD and eventually deploying to NPM, kindly supported by [JetBrains](https://www.jetbrains.com/?from=draekien-ui)
 
 ## Storybook
 
