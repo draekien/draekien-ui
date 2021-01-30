@@ -91,7 +91,7 @@
     "@typescript-eslint/eslint-plugin": "4.12.0",
     "@typescript-eslint/parser": "4.12.0",
     "babel-loader": "8.2.1",
-    "chromatic": "^5.3.0",
+    "chromatic": "5.6.1",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "7.17.0",
     "eslint-config-prettier": "^6.15.0",
