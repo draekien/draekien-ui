@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-
 import React from 'react';
 import { colors } from '../theme/colors';
 import * as styles from './index.styles';

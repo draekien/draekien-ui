@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import { Button as ThemeUiButton } from 'theme-ui';
 import * as React from 'react';
 import * as styles from './index.styles';
 import Icon from '../icon';
@@ -116,14 +115,9 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
           href={href}
           target={openLinkInNewTab ? '_blank' : undefined}
         >
-          <ThemeUiButton
-            sx={styles.linkButtonCss(!!isActive)}
-            type="button"
-            variant="text"
-            {...rest}
-          >
+          <button sx={styles.linkButtonCss(!!isActive)} type="button" {...rest}>
             <ButtonContent />
-          </ThemeUiButton>
+          </button>
         </a>
       );
     }
@@ -134,20 +128,15 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
         to={href}
         target={openLinkInNewTab ? '_blank' : undefined}
       >
-        <ThemeUiButton
-          sx={styles.linkButtonCss(!!isActive)}
-          type="button"
-          variant="text"
-          {...rest}
-        >
+        <button sx={styles.linkButtonCss(!!isActive)} type="button" {...rest}>
           <ButtonContent />
-        </ThemeUiButton>
+        </button>
       </Link>
     );
   }
 
   return (
-    <ThemeUiButton
+    <button
       sx={styles.buttonCss({
         variant,
         size,
@@ -163,7 +152,7 @@ export const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
       {...rest}
     >
       <ButtonContent />
-    </ThemeUiButton>
+    </button>
   );
 };
 
