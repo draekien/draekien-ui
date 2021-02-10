@@ -26,7 +26,7 @@ exports[`DatePicker component should match snapshot 1`] = `
       <span
         class="css-an3kxw-Text"
       >
-        January 2021
+        February 2021
       </span>
       <button
         class="css-1bserlq-Button"
@@ -86,26 +86,6 @@ exports[`DatePicker component should match snapshot 1`] = `
     <div
       class="css-4i4yi4-DatePicker"
     >
-      <span
-        class="css-1dlxmns-Day"
-      >
-        27
-      </span>
-      <span
-        class="css-1dlxmns-Day"
-      >
-        28
-      </span>
-      <span
-        class="css-1dlxmns-Day"
-      >
-        29
-      </span>
-      <span
-        class="css-1dlxmns-Day"
-      >
-        30
-      </span>
       <span
         class="css-1dlxmns-Day"
       >
@@ -250,21 +230,6 @@ exports[`DatePicker component should match snapshot 1`] = `
         class="css-1iktl8e-Day"
       >
         28
-      </span>
-      <span
-        class="css-1iktl8e-Day"
-      >
-        29
-      </span>
-      <span
-        class="css-1iktl8e-Day"
-      >
-        30
-      </span>
-      <span
-        class="css-1iktl8e-Day"
-      >
-        31
       </span>
       <span
         class="css-1dlxmns-Day"
