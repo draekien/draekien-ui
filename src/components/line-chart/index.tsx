@@ -2,38 +2,111 @@
 import * as React from 'react';
 import { colors } from '../theme/colors';
 
+/**
+ * The relationship between two points for purposes
+ * of calculating the control handles for a path
+ */
 export type PointRelationship = {
+  /** the distance between two points */
   length: number;
+  /** the angle between two points */
   angle: number;
 };
 
+/**
+ * A point along the path / line
+ */
 export type Point = {
+  /** the data point label text
+   *  @example 15
+   */
   label: string;
+  /** the x value of the point
+   *  @example 0
+   */
   x: number;
+  /** the y value of the point
+   *  @example 15
+   */
   y: number;
 };
 
+/**
+ * A collection of points that form a line
+ */
 export type Line = {
+  /** the name of the line */
   label: string;
+  /** the color of the line */
   color: keyof typeof colors;
+  /** the points the line traverses */
   points: Point[];
 };
 
+/** Properties associated with rendering the line chart */
 export interface LineChartProps {
+  /** An array of lines */
   data: Line[];
+  /** The decimal point precision for the X and Y axis labels
+   * @default 0
+   */
   precision?: number;
+  /** The chart heading
+   * @example "My Chart"
+   */
   heading?: string;
+  /** The overall label for the X axis
+   * @example "Duration (ms)"
+   */
   xLabel?: string;
+  /** The overall label for the Y axis
+   * @example "Number of Cats"
+   */
   yLabel?: string;
+  /** The total height of the line chart
+   * @example 500
+   */
   height: any | number | bigint;
+  /** The total width of the line chart
+   * @example 1000
+   */
   width: any | number | bigint;
+  /** An override to the automatic fontSize calculation in pixels
+   * @example 16
+   */
   fontSize?: number;
+  /**
+   * The number of horizontal guides there are.
+   * This determines how many labels are rendered on the X axis.
+   * @default 5
+   */
   horizontalGuides?: number;
+  /**
+   * The number of vertical guides there are.
+   * This determines how many labels are rendered on the Y axis.
+   * @default 5
+   */
   verticalGuides?: number;
+  /**
+   * The value that determines now smooth the path is. Recommended to leave at the default value
+   * @default 0.2
+   */
   smoothing?: number;
+  /** Should the horizontal guide lines be rendered on the chart
+   * @default false
+   */
   renderHorizontalGuides?: boolean;
+  /** Should the vertical guide lines be rendered on the chart
+   * @default false
+   */
   renderVerticalGuides?: boolean;
+  /** The chart's background color
+   * @example 'primary'
+   */
   backgroundColor?: keyof typeof colors;
+  /** The chart's text color, recommended for when a backgroundColor has been set.
+   * @example 'text-dark'
+   */
   color?: keyof typeof colors;
 }
 
