@@ -9,12 +9,178 @@ exports[`LineChart component should match snapshot 1`] = `
     width="1000"
   >
     <text
-      class="css-10c8ua8"
+      class="css-8u84p"
       x="424"
       y="32"
     >
       heading
     </text>
+    <polyline
+      class="css-bnonog-Axis"
+      points="76,424 924, 424"
+    />
+    <polyline
+      class="css-bnonog-Axis"
+      points="76,76 76,424"
+    />
+    <text
+      class="css-yq7umj"
+      x="65.33333333333333"
+      y="456"
+    >
+      0
+    </text>
+    <text
+      class="css-yq7umj"
+      x="234.93333333333337"
+      y="456"
+    >
+      60
+    </text>
+    <text
+      class="css-yq7umj"
+      x="404.53333333333336"
+      y="456"
+    >
+      120
+    </text>
+    <text
+      class="css-yq7umj"
+      x="574.1333333333333"
+      y="456"
+    >
+      180
+    </text>
+    <text
+      class="css-yq7umj"
+      x="743.7333333333335"
+      y="456"
+    >
+      240
+    </text>
+    <text
+      class="css-yq7umj"
+      x="913.3333333333334"
+      y="456"
+    >
+      300
+    </text>
+    <text
+      class="css-yq7umj"
+      x="44"
+      y="432"
+    >
+      0
+    </text>
+    <text
+      class="css-yq7umj"
+      x="44"
+      y="362.4"
+    >
+      9
+    </text>
+    <text
+      class="css-yq7umj"
+      x="44"
+      y="292.79999999999995"
+    >
+      18
+    </text>
+    <text
+      class="css-yq7umj"
+      x="44"
+      y="223.20000000000002"
+    >
+      27
+    </text>
+    <text
+      class="css-yq7umj"
+      x="44"
+      y="153.59999999999997"
+    >
+      36
+    </text>
+    <text
+      class="css-yq7umj"
+      x="44"
+      y="84"
+    >
+      45
+    </text>
+    <text
+      class="css-yq7umj"
+      x="424"
+      y="488"
+    >
+      x
+    </text>
+    <text
+      class="css-k8vd39"
+      x="174"
+      y="-16"
+    >
+      y
+    </text>
+    <polyline
+      class="css-n1xesh"
+      points="245.60000000000002, 76 245.60000000000002,424"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="415.20000000000005, 76 415.20000000000005,424"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="584.8, 76 584.8,424"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="754.4000000000001, 76 754.4000000000001,424"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="924, 76 924,424"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="76,354.4 924,354.4"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="76,284.79999999999995 924,284.79999999999995"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="76,215.20000000000002 924,215.20000000000002"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="76,145.59999999999997 924,145.59999999999997"
+    />
+    <polyline
+      class="css-n1xesh"
+      points="76,76 924,76"
+    />
+    <path
+      class="css-iw1788"
+      d="M 76,346.6666666666667 C 81.65333333333334,300.26666666666665 81.65333333333334,145.60000000000002 104.26666666666667,114.66666666666669 C 126.88,83.73333333333335 160.8,137.86666666666667 189.06666666666666,192 C 217.33333333333334,246.13333333333333 217.33333333333337,408.5333333333333 245.60000000000002,385.3333333333333 C 273.8666666666667,362.1333333333333 296.47999999999996,83.73333333333333 330.4,76 C 364.32,68.26666666666668 381.28000000000003,346.6666666666667 415.20000000000005,346.6666666666667 C 449.12000000000006,346.6666666666667 454.77333333333337,76 500,76 C 545.2266666666667,76 613.0666666666666,292.53333333333336 641.3333333333333,346.6666666666667"
+    />
+    <path
+      class="css-1ghacou"
+      d="M 76,346.6666666666667 C 81.65333333333334,300.26666666666665 81.65333333333334,145.60000000000002 104.26666666666667,114.66666666666669 C 126.88,83.73333333333335 160.8,137.86666666666667 189.06666666666666,192 C 217.33333333333334,246.13333333333333 217.33333333333337,408.5333333333333 245.60000000000002,385.3333333333333 C 273.8666666666667,362.1333333333333 296.47999999999996,83.73333333333333 330.4,76 C 364.32,68.26666666666668 381.28000000000003,346.6666666666667 415.20000000000005,346.6666666666667 C 449.12000000000006,346.6666666666667 398.24,76.00000000000001 500,76 C 601.76,76 839.2,292.53333333333336 924,346.6666666666667"
+    />
+  </svg>
+</div>
+`;
+
+exports[`LineChart component should match snapshot 2`] = `
+<div>
+  <svg
+    class="css-1vw6xwk-LineChart"
+    height="500"
+    viewBox="0 0 1000 500"
+    width="1000"
+  >
     <polyline
       class="css-294cuv-Axis"
       points="76,424 924, 424"
@@ -107,58 +273,44 @@ exports[`LineChart component should match snapshot 1`] = `
     >
       45
     </text>
-    <text
-      class="css-978cyv"
-      x="424"
-      y="488"
-    >
-      x
-    </text>
-    <text
-      class="css-id1a5h"
-      x="174"
-      y="-16"
-    >
-      y
-    </text>
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="245.60000000000002, 76 245.60000000000002,424"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="415.20000000000005, 76 415.20000000000005,424"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="584.8, 76 584.8,424"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="754.4000000000001, 76 754.4000000000001,424"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="924, 76 924,424"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="76,354.4 924,354.4"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="76,284.79999999999995 924,284.79999999999995"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="76,215.20000000000002 924,215.20000000000002"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="76,145.59999999999997 924,145.59999999999997"
     />
     <polyline
-      class="css-n1xesh"
+      class="css-ziu7vm"
       points="76,76 924,76"
     />
     <path

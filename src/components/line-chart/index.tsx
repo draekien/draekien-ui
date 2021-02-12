@@ -33,7 +33,8 @@ export interface LineChartProps {
   smoothing?: number;
   renderHorizontalGuides?: boolean;
   renderVerticalGuides?: boolean;
-  background?: keyof typeof colors;
+  backgroundColor?: keyof typeof colors;
+  color?: keyof typeof colors;
 }
 
 export const LineChart: React.FC<LineChartProps> = ({
@@ -128,7 +129,7 @@ export const LineChart: React.FC<LineChartProps> = ({
 
   const Axis = (props: { points: string }) => (
     <polyline
-      sx={{ stroke: 'text', fill: 'none', strokeWidth: '1px' }}
+      sx={{ stroke: rest.color ?? 'text', fill: 'none', strokeWidth: '1px' }}
       points={props.points}
     />
   );
@@ -149,7 +150,11 @@ export const LineChart: React.FC<LineChartProps> = ({
     const x = chartWidth / 2;
     const y = fontSize * 2;
     return (
-      <text x={x} y={y} sx={{ fill: 'text', fontSize, fontWeight: 'bold' }}>
+      <text
+        x={x}
+        y={y}
+        sx={{ fill: rest.color ?? 'text', fontSize, fontWeight: 'bold' }}
+      >
         {heading}
       </text>
     );
@@ -159,7 +164,7 @@ export const LineChart: React.FC<LineChartProps> = ({
     const x = chartWidth / 2;
     const y = height - padding + fontSize * 4;
     return (
-      <text x={x} y={y} sx={{ fill: 'text', fontSize }}>
+      <text x={x} y={y} sx={{ fill: rest.color ?? 'text', fontSize }}>
         {xLabel}
       </text>
     );
@@ -172,7 +177,11 @@ export const LineChart: React.FC<LineChartProps> = ({
       <text
         x={x}
         y={y}
-        sx={{ fill: 'text', fontSize, transform: 'rotate(90deg)' }}
+        sx={{
+          fill: rest.color ?? 'text',
+          fontSize,
+          transform: 'rotate(90deg)',
+        }}
       >
         {yLabel}
       </text>
@@ -188,7 +197,12 @@ export const LineChart: React.FC<LineChartProps> = ({
       const x = chartWidth * ratio + padding - fontSize / 1.5;
 
       return (
-        <text key={index} x={x} y={y} sx={{ fill: 'text', fontSize }}>
+        <text
+          key={index}
+          x={x}
+          y={y}
+          sx={{ fill: rest.color ?? 'text', fontSize }}
+        >
           {parseFloat((maxXFromData * (index / parts)).toString()).toFixed(
             precision
           )}
@@ -208,7 +222,12 @@ export const LineChart: React.FC<LineChartProps> = ({
         chartHeight - chartHeight * ratio + padding + fontSize / 2;
 
       return (
-        <text key={index} x={x} y={yCoordinate} sx={{ fill: 'text', fontSize }}>
+        <text
+          key={index}
+          x={x}
+          y={yCoordinate}
+          sx={{ fill: rest.color ?? 'text', fontSize }}
+        >
           {parseFloat((maxYFromData * (index / parts)).toString()).toFixed(
             precision
           )}
@@ -276,8 +295,8 @@ export const LineChart: React.FC<LineChartProps> = ({
       width={width}
       sx={{
         borderRadius: 'lg',
-        backgroundColor: rest.background,
-        boxShadow: rest.background ? 'md' : 'none',
+        backgroundColor: rest.backgroundColor,
+        boxShadow: rest.backgroundColor ? 'md' : 'none',
       }}
     >
       {heading && chartHeading()}

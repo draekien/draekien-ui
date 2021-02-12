@@ -50,11 +50,25 @@ describe('LineChart component', () => {
         heading="heading"
         xLabel="x"
         yLabel="y"
-        background="p-000"
+        backgroundColor="p-000"
+        color="text-dark"
         horizontalGuides={5}
         verticalGuides={5}
         renderHorizontalGuides
         renderVerticalGuides
+      />
+    );
+
+    expect(container).toMatchSnapshot();
+  });
+
+  test('should match snapshot', () => {
+    const { container } = render(
+      <LineChart
+        height={props.height}
+        width={props.width}
+        fontSize={props.fontSize}
+        data={props.data}
       />
     );
 
