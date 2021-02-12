@@ -46,4 +46,8 @@ Basic.args = {
   width: 1000,
   precision: 0,
   fontSize: 16,
+  heading: 'Chart Heading',
+  xLabel: 'X Axis Label',
+  yLabel: 'Y Axis Label',
+  background: 'p-000',
 };

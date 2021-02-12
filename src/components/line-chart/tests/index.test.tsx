@@ -47,6 +47,14 @@ describe('LineChart component', () => {
         width={props.width}
         fontSize={props.fontSize}
         data={props.data}
+        heading="heading"
+        xLabel="x"
+        yLabel="y"
+        background="p-000"
+        horizontalGuides={5}
+        verticalGuides={5}
+        renderHorizontalGuides
+        renderVerticalGuides
       />
     );
 

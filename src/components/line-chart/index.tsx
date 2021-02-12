@@ -33,12 +33,16 @@ export interface LineChartProps {
   smoothing?: number;
   renderHorizontalGuides?: boolean;
   renderVerticalGuides?: boolean;
+  background?: keyof typeof colors;
 }
 
 export const LineChart: React.FC<LineChartProps> = ({
   data,
   height,
   width,
+  heading,
+  xLabel,
+  yLabel,
   horizontalGuides = 5,
   verticalGuides = 5,
   smoothing = 0.2,
@@ -59,7 +63,7 @@ export const LineChart: React.FC<LineChartProps> = ({
   const digits =
     parseFloat(maxYFromData.toString()).toFixed(precision).length + 1;
 
-  const padding = (fontSize + digits) * 3;
+  const padding = (fontSize + digits) * 4;
   const chartWidth = width - padding * 2;
   const chartHeight = height - padding * 2;
 
@@ -141,8 +145,42 @@ export const LineChart: React.FC<LineChartProps> = ({
     <Axis points={`${padding},${padding} ${padding},${height - padding}`} />
   );
 
-  const labelXAxis = () => {
-    const y = height - padding + fontSize * 3;
+  const chartHeading = () => {
+    const x = chartWidth / 2;
+    const y = fontSize * 2;
+    return (
+      <text x={x} y={y} sx={{ fill: 'text', fontSize, fontWeight: 'bold' }}>
+        {heading}
+      </text>
+    );
+  };
+
+  const xAxisHeading = () => {
+    const x = chartWidth / 2;
+    const y = height - padding + fontSize * 4;
+    return (
+      <text x={x} y={y} sx={{ fill: 'text', fontSize }}>
+        {xLabel}
+      </text>
+    );
+  };
+
+  const yAxisHeading = () => {
+    const x = chartHeight / 2;
+    const y = 0 - fontSize;
+    return (
+      <text
+        x={x}
+        y={y}
+        sx={{ fill: 'text', fontSize, transform: 'rotate(90deg)' }}
+      >
+        {yLabel}
+      </text>
+    );
+  };
+
+  const labelXAxisWithValues = () => {
+    const y = height - padding + fontSize * 2;
 
     const parts = verticalGuides;
     return new Array(parts + 1).fill(0).map((_, index) => {
@@ -159,11 +197,11 @@ export const LineChart: React.FC<LineChartProps> = ({
     });
   };
 
-  const labelYAxis = () => {
+  const labelYAxisWithValues = () => {
     const parts = horizontalGuides;
 
     return new Array(parts + 1).fill(0).map((_, index) => {
-      const x = padding - fontSize * 2.5;
+      const x = padding - fontSize * 2;
       const ratio = index / horizontalGuides;
 
       const yCoordinate =
@@ -232,11 +270,23 @@ export const LineChart: React.FC<LineChartProps> = ({
   };
 
   return (
-    <svg viewBox={`0 0 ${width} ${height}`} height={height} width={width}>
+    <svg
+      viewBox={`0 0 ${width} ${height}`}
+      height={height}
+      width={width}
+      sx={{
+        borderRadius: 'lg',
+        backgroundColor: rest.background,
+        boxShadow: rest.background ? 'md' : 'none',
+      }}
+    >
+      {heading && chartHeading()}
       <XAxis />
       <YAxis />
-      {labelXAxis()}
-      {labelYAxis()}
+      {labelXAxisWithValues()}
+      {labelYAxisWithValues()}
+      {xLabel && xAxisHeading()}
+      {yLabel && yAxisHeading()}
       {verticalGuides && drawVerticalGuides()}
       {horizontalGuides && drawHorizontalGuides()}
       {data.map((line) => svgPath(line, bezier))}
