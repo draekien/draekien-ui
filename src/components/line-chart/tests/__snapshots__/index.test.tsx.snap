@@ -107,6 +107,50 @@ exports[`LineChart component should match snapshot 1`] = `
     >
       45
     </text>
+    <line
+      class="css-7pojla"
+      x1="816"
+      x2="848"
+      y1="80.26666666666667"
+      y2="80.26666666666667"
+    />
+    <text
+      class="css-15rnvft"
+      x="864"
+      y="85.6"
+    >
+      <title>
+        test
+      </title>
+      <tspan
+        dy="0"
+        x="864"
+      >
+        test
+      </tspan>
+    </text>
+    <line
+      class="css-10g0mmt"
+      x1="816"
+      x2="848"
+      y1="101.26666666666667"
+      y2="101.26666666666667"
+    />
+    <text
+      class="css-15rnvft"
+      x="864"
+      y="106.6"
+    >
+      <title>
+        test2
+      </title>
+      <tspan
+        dy="0"
+        x="864"
+      >
+        test2
+      </tspan>
+    </text>
     <text
       class="css-yq7umj"
       x="424"
@@ -272,6 +316,50 @@ exports[`LineChart component should match snapshot 2`] = `
       y="84"
     >
       45
+    </text>
+    <line
+      class="css-7pojla"
+      x1="816"
+      x2="848"
+      y1="80.26666666666667"
+      y2="80.26666666666667"
+    />
+    <text
+      class="css-1kcoig6"
+      x="864"
+      y="85.6"
+    >
+      <title>
+        test
+      </title>
+      <tspan
+        dy="0"
+        x="864"
+      >
+        test
+      </tspan>
+    </text>
+    <line
+      class="css-10g0mmt"
+      x1="816"
+      x2="848"
+      y1="101.26666666666667"
+      y2="101.26666666666667"
+    />
+    <text
+      class="css-1kcoig6"
+      x="864"
+      y="106.6"
+    >
+      <title>
+        test2
+      </title>
+      <tspan
+        dy="0"
+        x="864"
+      >
+        test2
+      </tspan>
     </text>
     <polyline
       class="css-ziu7vm"

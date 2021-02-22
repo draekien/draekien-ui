@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import * as React from 'react';
 import { colors } from '../theme/colors';
+import { wrapLabel } from '../../utils/svgTextWrapper.util';
 
 /**
  * The relationship between two points for purposes
@@ -136,6 +137,59 @@ export const LineChart: React.FC<LineChartProps> = ({
 
   const digits =
     parseFloat(maxYFromData.toString()).toFixed(precision).length + 1;
+
+  const renderLegend = () => {
+    const legendList = data.map((line, index) => {
+      const wrappedLegendLabel = wrapLabel(
+        line.label,
+        width - (chartWidth + fontSize * 4),
+        true
+      );
+      return (
+        <React.Fragment key={index}>
+          <line
+            sx={{
+              stroke: line.color,
+              strokeWidth: '4px',
+              fill: 'none',
+            }}
+            x1={chartWidth - fontSize * 2}
+            x2={chartWidth}
+            y1={
+              chartHeight / 5 + fontSize / 1.5 + (fontSize + 5 * index) * index
+            }
+            y2={
+              chartHeight / 5 + fontSize / 1.5 + (fontSize + 5 * index) * index
+            }
+          />
+          <text
+            sx={{
+              fill: rest.color ?? 'text',
+              fontSize,
+              fontWeight: 'normal',
+              maxWidth: `${width - chartWidth}px`,
+              wordWrap: 'break-word',
+            }}
+            x={chartWidth + fontSize}
+            y={chartHeight / 5 + fontSize + (fontSize + 5 * index) * index}
+          >
+            <title>{line.label}</title>
+            {wrappedLegendLabel.map((word, index) => (
+              <tspan
+                x={chartWidth + fontSize}
+                dy={index === 0 ? 0 : 14}
+                key={index}
+              >
+                {word}
+              </tspan>
+            ))}
+          </text>
+        </React.Fragment>
+      );
+    });
+
+    return legendList;
+  };
 
   const padding = (fontSize + digits) * 4;
   const chartWidth = width - padding * 2;
@@ -377,6 +431,7 @@ export const LineChart: React.FC<LineChartProps> = ({
       <YAxis />
       {labelXAxisWithValues()}
       {labelYAxisWithValues()}
+      {renderLegend()}
       {xLabel && xAxisHeading()}
       {yLabel && yAxisHeading()}
       {verticalGuides && drawVerticalGuides()}
