@@ -195,7 +195,7 @@ export const LineChart: React.FC<LineChartProps> = ({
   const chartWidth = width - padding * 2;
   const chartHeight = height - padding * 2;
 
-  const svgPath = (line: Line, command: Function) => {
+  const svgPath = (key: number, line: Line, command: Function) => {
     const points = line.points.map((point) => {
       const x = (point.x / maxXFromData) * chartWidth + padding;
       const y = chartHeight - (point.y / maxYFromData) * chartHeight + padding;
@@ -211,6 +211,7 @@ export const LineChart: React.FC<LineChartProps> = ({
 
     return (
       <path
+        key={key}
         d={d}
         sx={{
           stroke: line.color,
@@ -436,7 +437,7 @@ export const LineChart: React.FC<LineChartProps> = ({
       {yLabel && yAxisHeading()}
       {verticalGuides && drawVerticalGuides()}
       {horizontalGuides && drawHorizontalGuides()}
-      {data.map((line) => svgPath(line, bezier))}
+      {data.map((line, index) => svgPath(index, line, bezier))}
     </svg>
   );
 };
