@@ -3,7 +3,7 @@
 exports[`Skeleton component should match snapshot 1`] = `
 <div>
   <div
-    class="css-1bkbd36-Skeleton"
+    class="css-erzze6-Skeleton"
   />
 </div>
 `;
