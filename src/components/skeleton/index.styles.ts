@@ -29,7 +29,7 @@ export const skeletonCss = (props: SkeletonCssProps): ThemeUIStyleObject => {
     borderRadius: props.borderRadius ?? 'md',
     position: 'relative',
     overflow: 'hidden',
-    backgroundColor: props.backgroundColor ?? 'background',
+    backgroundColor: props.backgroundColor ?? 'b-100',
     '::before': {
       content: '""',
       display: 'block',

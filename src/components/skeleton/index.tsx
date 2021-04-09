@@ -21,7 +21,7 @@ export interface SkeletonProps {
    */
   color?: keyof typeof colors;
   /** The color of the background
-   * @default 'background'
+   * @default 'b-100'
    */
   backgroundColor?: keyof typeof colors;
   /** The border radius
