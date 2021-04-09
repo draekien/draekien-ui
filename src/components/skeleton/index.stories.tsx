@@ -18,3 +18,11 @@ CustomSize.args = {
   color: 'p-300',
   backgroundColor: 'primary',
 };
+
+export const ExampleSkeletonGroup = () => (
+  <div style={{ display: 'flex', flexDirection: 'column', opacity: 0.25 }}>
+    <Skeleton width="5rem" />
+    <Skeleton width="11rem" />
+    <Skeleton width="10rem" />
+  </div>
+);

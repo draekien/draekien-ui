@@ -25,6 +25,7 @@ export const skeletonCss = (props: SkeletonCssProps): ThemeUIStyleObject => {
   const css: ThemeUIStyleObject = {
     height: props.height ?? '1rem',
     width: props.width ?? '10rem',
+    my: 'xxs',
     boxShadow: props.boxShadow ?? 'md',
     borderRadius: props.borderRadius ?? 'md',
     position: 'relative',

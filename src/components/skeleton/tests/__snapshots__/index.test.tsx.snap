@@ -3,7 +3,7 @@
 exports[`Skeleton component should match snapshot 1`] = `
 <div>
   <div
-    class="css-erzze6-Skeleton"
+    class="css-1hkki4g-Skeleton"
   />
 </div>
 `;
@@ -11,7 +11,7 @@ exports[`Skeleton component should match snapshot 1`] = `
 exports[`Skeleton component should match snapshot with custom props 1`] = `
 <div>
   <div
-    class="css-1gjv3gb-Skeleton"
+    class="css-1gn4cze-Skeleton"
   />
 </div>
 `;
