@@ -26,6 +26,11 @@ const addFonts = () => {
       'https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp',
   };
 
+  const preconnect = document.createElement('link');
+  preconnect.rel = 'preconnect';
+  preconnect.href = 'https://fonts.gstatic.com';
+  document.head.appendChild(preconnect);
+
   Object.keys(fonts).forEach((key) => {
     const linkExists = document.getElementById(key);
     if (!linkExists) {
@@ -33,6 +38,7 @@ const addFonts = () => {
       link.id = key;
       link.rel = 'stylesheet';
       link.href = fonts[key];
+      link.crossOrigin = 'anonymous';
       document.head.appendChild(link);
     }
   });
