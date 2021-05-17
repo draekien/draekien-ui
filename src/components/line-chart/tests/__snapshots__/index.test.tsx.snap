@@ -126,7 +126,7 @@ exports[`LineChart component should match snapshot 1`] = `
         dy="0"
         x="864"
       >
-        test
+        t...
       </tspan>
     </text>
     <line
@@ -148,7 +148,7 @@ exports[`LineChart component should match snapshot 1`] = `
         dy="0"
         x="864"
       >
-        test2
+        t...
       </tspan>
     </text>
     <text
@@ -336,7 +336,7 @@ exports[`LineChart component should match snapshot 2`] = `
         dy="0"
         x="864"
       >
-        test
+        t...
       </tspan>
     </text>
     <line
@@ -358,7 +358,7 @@ exports[`LineChart component should match snapshot 2`] = `
         dy="0"
         x="864"
       >
-        test2
+        t...
       </tspan>
     </text>
     <polyline
